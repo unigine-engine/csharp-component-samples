@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>47e9e0c806670d87f13d6d3aa0bc9b51b6ce1c7c</guid>
+	<type>component</type>
+	<hash>0869f036</hash>
+	<runtimes>
+		<runtime id="47e9e0c806670d87f13d6d3aa0bc9b51b6ce1c7c" name="ClusterSample.cs" link="0"/>
+		<runtime id="c02b0b3e3e273985a354dd20eff8edffd8cda352" name="ClusterSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

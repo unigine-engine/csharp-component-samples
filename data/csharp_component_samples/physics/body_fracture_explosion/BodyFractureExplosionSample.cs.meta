@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>5b2ced1bedeacc7153dd99f627e4e024f60f3490</guid>
+	<type>component</type>
+	<hash>1b57ffa5</hash>
+	<runtimes>
+		<runtime id="5b2ced1bedeacc7153dd99f627e4e024f60f3490" name="BodyFractureExplosionSample.cs" link="0"/>
+		<runtime id="f1ef0201346f7487ef96082467dee7850d6d5d2e" name="BodyFractureExplosionSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

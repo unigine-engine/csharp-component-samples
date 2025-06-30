@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>0c565808dcac9bc76db3267af1c68391751867bc</guid>
+	<type>component</type>
+	<hash>5a2bad2a</hash>
+	<runtimes>
+		<runtime id="0c565808dcac9bc76db3267af1c68391751867bc" name="NavigationSectorVisualizer.cs" link="0"/>
+		<runtime id="095d1febeed4344e05aaaf55a742b8b05998744f" name="NavigationSectorVisualizer.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

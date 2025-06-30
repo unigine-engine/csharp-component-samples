@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>c8a2923de7d3a3b5233712775d77c151f00be7cb</guid>
+	<type>file</type>
+	<hash>898af97d</hash>
+	<runtimes>
+		<runtime id="c8a2923de7d3a3b5233712775d77c151f00be7cb" name="usc_arrays.sample" link="0"/>
+	</runtimes>
+</asset>

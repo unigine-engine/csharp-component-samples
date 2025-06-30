@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>81e1ff3d17b4af0b285108a72dfaa0f2f506ba17</guid>
+	<type>file</type>
+	<hash>c6fc3d8f</hash>
+	<runtimes>
+		<runtime id="81e1ff3d17b4af0b285108a72dfaa0f2f506ba17" name="ffp.sample" link="0"/>
+	</runtimes>
+</asset>

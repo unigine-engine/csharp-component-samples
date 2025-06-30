@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Animation Additive Blend">
+	<desc>
+		<brief>Additive blending of two animations.</brief>
+		<para>Additive blending is a technique for combining skeletal model animations, enabling smooth transitions and the seamless merging of character or object movements.</para>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+	</tags>
+</sample>

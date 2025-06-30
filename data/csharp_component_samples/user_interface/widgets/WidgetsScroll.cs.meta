@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>0cefd30e0f123f156e8b8570789f5a0fa5df8022</guid>
+	<type>component</type>
+	<hash>99d7196e</hash>
+	<runtimes>
+		<runtime id="0cefd30e0f123f156e8b8570789f5a0fa5df8022" name="WidgetsScroll.cs" link="0"/>
+		<runtime id="392801192f57f7a4df95deb30d4194768970815d" name="WidgetsScroll.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>4ae64eef82eb2f823b0028f94c153e049e9cb193</guid>
+	<type>component</type>
+	<hash>5c2d1be9</hash>
+	<runtimes>
+		<runtime id="4ae64eef82eb2f823b0028f94c153e049e9cb193" name="SimpleAnimationPlayer.cs" link="0"/>
+		<runtime id="c61fa7c14aba5e2c7bb7439b23d0243e867f7e85" name="SimpleAnimationPlayer.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

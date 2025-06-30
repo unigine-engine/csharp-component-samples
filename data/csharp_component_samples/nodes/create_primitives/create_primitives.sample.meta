@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>630cc57c802d0d494559ca000db03270418d947d</guid>
+	<type>file</type>
+	<hash>d096f8e3</hash>
+	<runtimes>
+		<runtime id="630cc57c802d0d494559ca000db03270418d947d" name="create_primitives.sample" link="0"/>
+	</runtimes>
+</asset>

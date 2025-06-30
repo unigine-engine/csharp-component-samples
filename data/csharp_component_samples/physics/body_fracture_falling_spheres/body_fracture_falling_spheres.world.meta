@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>fd54fa35e810ddd84f0865c88c1513bee4c86972</guid>
+	<type>world</type>
+	<hash>bff8b8a7</hash>
+	<runtimes>
+		<runtime id="fd54fa35e810ddd84f0865c88c1513bee4c86972" name="body_fracture_falling_spheres.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="render_settings_path"/>
+		<parameter type="string" name="script_name"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="viewports_settings"/>
+	</parameters>
+</asset>

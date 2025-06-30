@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>7f41b29950defb24b6560c33f8a4e3f6d2a88add</guid>
+	<type>component</type>
+	<hash>c3b682a</hash>
+	<runtimes>
+		<runtime id="7f41b29950defb24b6560c33f8a4e3f6d2a88add" name="Spinner.cs" link="0"/>
+		<runtime id="4a3bf23b8bc0c25e1dd84625c5fa41405f63c39f" name="Spinner.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>661951a5a87c17ed5e0fe51941b29293e730c817</guid>
+	<type>component</type>
+	<hash>523f4c7d</hash>
+	<runtimes>
+		<runtime id="661951a5a87c17ed5e0fe51941b29293e730c817" name="SpectatorController.cs" link="0"/>
+		<runtime id="4feac9fb387f583654c7454fba0ef83faa3f39dd" name="SpectatorController.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

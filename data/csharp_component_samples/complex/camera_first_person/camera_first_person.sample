@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Camera First-Person">
+	<sdk_desc>A first-person spectator-style camera with free movement.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates a first-person spectator-style camera with free movement.</brief>
+		<para>The <ui>CameraSpectator.cs</ui> component provides free-flight first-person controls by modifying the position and orientation of a <ui><link to="playerdummy_class">PlayerDummy</link></ui> node in real time. The movement and rotation are handled via the <ui>CameraControls.cs</ui> component that defines directional input.</para>
+		<para>The camera moves in six directions (forward, backward, left, right, up, down) and rotates using pitch and yaw angles. The <ui>Speed</ui> and <ui>Angular Speed</ui> parameters can be adjusted in the component properties to control the camera's movement and rotation responsiveness.</para>
+	</desc>
+	<controls>
+		<![CDATA[
+			<p><b>W</b> - Move forward</p>
+			<p><b>S</b> - Move backward</p>
+			<p><b>A</b> - Move left</p>
+			<p><b>D</b> - Move right</p>
+			<p><b>Left Shift</b> - Increase movement speed</p>
+			<p><b>Mouse Movement</b> - Rotate the camera</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Cameras</tag>
+		<tag>Input &amp; Controls</tag>
+	</tags>
+</sample>

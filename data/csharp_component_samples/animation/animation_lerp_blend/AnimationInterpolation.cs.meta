@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>81599c36c37f661de56bb0d81074fe57863587ca</guid>
+	<type>component</type>
+	<hash>0d3fb8fe</hash>
+	<runtimes>
+		<runtime id="81599c36c37f661de56bb0d81074fe57863587ca" name="AnimationInterpolation.cs" link="0"/>
+		<runtime id="4a532b80657d28df3fd9e0b23b684869dfd576b4" name="AnimationInterpolation.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

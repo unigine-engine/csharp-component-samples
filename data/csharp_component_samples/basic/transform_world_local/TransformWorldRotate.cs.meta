@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>5ad9bb03dd4ba486ade9b22d94afeda81776f4e7</guid>
+	<type>component</type>
+	<hash>cf59787b</hash>
+	<runtimes>
+		<runtime id="5ad9bb03dd4ba486ade9b22d94afeda81776f4e7" name="TransformWorldRotate.cs" link="0"/>
+		<runtime id="8b0e57758d6f0250dfcdf16f3bed7002d2506f79" name="TransformWorldRotate.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

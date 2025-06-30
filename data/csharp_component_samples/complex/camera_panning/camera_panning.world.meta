@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>e64d107f3f5263d206e5b109648386d4e9894423</guid>
+	<type>world</type>
+	<hash>1428b379</hash>
+	<runtimes>
+		<runtime id="e64d107f3f5263d206e5b109648386d4e9894423" name="camera_panning.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="render_settings_path">guid://4fc5e33351fccef656c179dda1653198982d0817</parameter>
+		<parameter type="string" name="script_name"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="viewports_settings"/>
+	</parameters>
+</asset>

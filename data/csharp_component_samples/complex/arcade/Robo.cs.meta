@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>3c888d518495667c80f68fab0de5610ed01e7515</guid>
+	<type>component</type>
+	<hash>8f620ebf</hash>
+	<runtimes>
+		<runtime id="3c888d518495667c80f68fab0de5610ed01e7515" name="Robo.cs" link="0"/>
+		<runtime id="7424e4b32ae8e2765203775d7040111821d76197" name="Robo.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

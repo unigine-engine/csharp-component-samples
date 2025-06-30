@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>68435889364af39570784b354ae9b301c16372da</guid>
+	<type>file</type>
+	<hash>9be0f5f1</hash>
+	<runtimes>
+		<runtime id="68435889364af39570784b354ae9b301c16372da" name="top_down_controller.sample" link="0"/>
+	</runtimes>
+</asset>

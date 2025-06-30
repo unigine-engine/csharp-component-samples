@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>4566034f444392dd77cac41b2a5bf14479fe4bb8</guid>
+	<type>file</type>
+	<hash>e0a1b41b</hash>
+	<runtimes>
+		<runtime id="4566034f444392dd77cac41b2a5bf14479fe4bb8" name="water_buoyancy.sample" link="0"/>
+	</runtimes>
+</asset>

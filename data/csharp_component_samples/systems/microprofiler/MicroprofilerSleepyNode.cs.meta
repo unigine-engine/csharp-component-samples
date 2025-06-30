@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>e22dbe707d2db3401fdc0aa75630ea0a81c182b6</guid>
+	<type>component</type>
+	<hash>554ab02b</hash>
+	<runtimes>
+		<runtime id="e22dbe707d2db3401fdc0aa75630ea0a81c182b6" name="MicroprofilerSleepyNode.cs" link="0"/>
+		<runtime id="24efca8e3d316e27c0870fada6cf2b5ea1511be4" name="MicroprofilerSleepyNode.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>eba69514223e7d631e3bc366aa48838d9f4ccf88</guid>
+	<type>component</type>
+	<hash>0bc9abd9</hash>
+	<runtimes>
+		<runtime id="eba69514223e7d631e3bc366aa48838d9f4ccf88" name="TransformWorldTranslate.cs" link="0"/>
+		<runtime id="57238fcedfa754d58c882030c0dbb5cf533ea8e2" name="TransformWorldTranslate.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

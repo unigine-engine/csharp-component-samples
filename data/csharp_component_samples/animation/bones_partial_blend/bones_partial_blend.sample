@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Bones Partial Blend">
+	<sdk_desc>Demonstration of partial blending between two animations using bone-specific interpolation.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates partial blending between two animations using bone-specific interpolation.</brief>
+		<para>The <ui>AnimationPartialInterpolation.cs</ui> component plays two skeletal animations simultaneously on a skinned mesh and blends them only for selected bones. The blend weight can be adjusted at runtime using the keyboard.</para>
+		<para>Use the <ui>interpolatedBones</ui> array in the <ui>Parameters</ui> window to define which bones are affected by blending. The <ui><link to="objectmeshskinned_class">ObjectMeshSkinned</link></ui> class is used to apply animation layers and interpolate transforms.</para>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+	</tags>
+</sample>

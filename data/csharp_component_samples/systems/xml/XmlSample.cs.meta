@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>005a4f3edf1271979b18717c376170dc6548fe9e</guid>
+	<type>component</type>
+	<hash>52660618</hash>
+	<runtimes>
+		<runtime id="005a4f3edf1271979b18717c376170dc6548fe9e" name="XmlSample.cs" link="0"/>
+		<runtime id="44c94e2c465fd46226bdd1babce978afdced818c" name="XmlSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

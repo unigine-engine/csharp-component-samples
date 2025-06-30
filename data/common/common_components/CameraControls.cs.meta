@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>3932051d91d7c3d8bc83f557586212caa2a063a1</guid>
+	<type>component</type>
+	<hash>5ce7cb09</hash>
+	<runtimes>
+		<runtime id="3932051d91d7c3d8bc83f557586212caa2a063a1" name="CameraControls.cs" link="0"/>
+		<runtime id="20ff288c8937ca7b34f43d9e41d10865af419e80" name="CameraControls.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

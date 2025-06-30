@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>561d588d9e7f450dd004e8121be162a2dbee0f31</guid>
+	<type>file</type>
+	<hash>252d3bd4</hash>
+	<runtimes>
+		<runtime id="561d588d9e7f450dd004e8121be162a2dbee0f31" name="animation_lerp_blend.sample" link="0"/>
+	</runtimes>
+</asset>

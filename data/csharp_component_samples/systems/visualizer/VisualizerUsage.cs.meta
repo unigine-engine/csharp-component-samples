@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>71f6187b7eeef7a039e6d9ff407a7515bc0c38b9</guid>
+	<type>component</type>
+	<hash>934b81d8</hash>
+	<runtimes>
+		<runtime id="71f6187b7eeef7a039e6d9ff407a7515bc0c38b9" name="VisualizerUsage.cs" link="0"/>
+		<runtime id="e1c2e6615a64f81d79850545bb83d4115d89f8af" name="VisualizerUsage.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

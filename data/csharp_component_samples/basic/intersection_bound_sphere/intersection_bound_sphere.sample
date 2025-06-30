@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Intersection Bound Sphere">
+	<sdk_desc>Finding an intersection between the bound sphere and geometry.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates how to find an intersection between the bound sphere and geometry.</brief>
+		<para>The <ui>BoundSphereIntersection.cs</ui> component shows how to use <ui><link to="world_class" offset="getIntersection_Vec3_Vec3_int_Object">World.GetIntersection()</link></ui> to detect static mesh objects located within a spherical volume defined in world coordinates. The sphere is highlighted using the <ui><link to="visualizer_class">Visualizer</link></ui>, and intersected object names are printed to the onscreen console overlay.</para>
+	</desc>
+	<tags>
+		<tag>Intersections</tag>
+	</tags>
+</sample>

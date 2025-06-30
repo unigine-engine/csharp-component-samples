@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>28f13c377d0d0010e1ca481d969a4fc661ad4e49</guid>
+	<type>component</type>
+	<hash>0d33967</hash>
+	<runtimes>
+		<runtime id="28f13c377d0d0010e1ca481d969a4fc661ad4e49" name="EventsAdvancedUnit.cs" link="0"/>
+		<runtime id="fbbbeabda92b13cabac199b32f43a802e6e6cbbf" name="EventsAdvancedUnit.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

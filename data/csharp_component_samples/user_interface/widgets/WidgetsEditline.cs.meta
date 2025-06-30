@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>3c36ca4ae10ab5219e5e4c0c46b197fb6d84ad1e</guid>
+	<type>component</type>
+	<hash>f0def1eb</hash>
+	<runtimes>
+		<runtime id="3c36ca4ae10ab5219e5e4c0c46b197fb6d84ad1e" name="WidgetsEditline.cs" link="0"/>
+		<runtime id="9113b1e5d2ad3a009e56e55f4c837332bee3b8e9" name="WidgetsEditline.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

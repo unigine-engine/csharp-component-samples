@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>6f25e748c885fa382fb24f8c39cfdcf484ef9239</guid>
+	<type>file</type>
+	<hash>aef69aa5</hash>
+	<runtimes>
+		<runtime id="6f25e748c885fa382fb24f8c39cfdcf484ef9239" name="navigation_sectors_demo_3d.sample" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="1.00">
+	<hbox name="mainHBox" align="top,left" padding="5">
+		<vbox name="backgroundVBox" background="1" width="275" padding="8" space="5">
+			<font size="16" outline="1">
+				<hbox align="left">
+					<label>
+						<text>Max Touches Count: </text>
+					</label>
+					<label name="maxTouchesCountLabel">
+						<text>0</text>
+					</label>
+				</hbox>
+				<hbox align="left" padding_b="16">
+					<label>
+						<text>Touches Count: </text>
+					</label>
+					<label name="touchesCountLabel">
+						<text>0</text>
+					</label>
+				</hbox>
+				<gridbox align="left" columns="3" space="5">
+					<!--TOUCH 0-->
+					<label align="left">
+						<text>Touch 0:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch0Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch0Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 1-->
+					<label align="left">
+						<text>Touch 1:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch1Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch1Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 2-->
+					<label align="left">
+						<text>Touch 2:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch2Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch2Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 3-->
+					<label align="left">
+						<text>Touch 3:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch3Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch3Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 4-->
+					<label align="left">
+						<text>Touch 4:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch4Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch4Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 5-->
+					<label align="left">
+						<text>Touch 5:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch5Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch5Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 6-->
+					<label align="left">
+						<text>Touch 6:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch6Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch6Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 7-->
+					<label align="left">
+						<text>Touch 7:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch7Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch7Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 8-->
+					<label align="left">
+						<text>Touch 8:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch8Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch8Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 9-->
+					<label align="left">
+						<text>Touch 9:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch9Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch9Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 10-->
+					<label align="left">
+						<text>Touch 10:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch10Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch10Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 11-->
+					<label align="left">
+						<text>Touch 11:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch11Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch11Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 12-->
+					<label align="left">
+						<text>Touch 12:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch12Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch12Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 13-->
+					<label align="left">
+						<text>Touch 13:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch13Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch13Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 14-->
+					<label align="left">
+						<text>Touch 14:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch14Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch14Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<!--TOUCH 15-->
+					<label align="left">
+						<text>Touch 15:</text>
+					</label>
+					<hbox width="85">
+						<label>
+							<text>x = </text>
+						</label>
+						<label name="xTouch15Label">
+							<text>0</text>
+						</label>
+					</hbox>
+					<hbox width="85">
+						<label>
+							<text>y = </text>
+						</label>
+						<label name="yTouch15Label">
+							<text>0</text>
+						</label>
+					</hbox>
+				</gridbox>
+			</font>
+		</vbox>
+	</hbox>
+	<canvas name="canvas" align="overlap,background"/>
+</ui>

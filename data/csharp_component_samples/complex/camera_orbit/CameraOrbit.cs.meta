@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>5368d407f1eb81ba063ea5d1b517a4fcf6fabc2b</guid>
+	<type>component</type>
+	<hash>c6a57ad6</hash>
+	<runtimes>
+		<runtime id="5368d407f1eb81ba063ea5d1b517a4fcf6fabc2b" name="CameraOrbit.cs" link="0"/>
+		<runtime id="0e56a38e74ddd5956a5929f0421bb48f43bf18a2" name="CameraOrbit.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>cb944cf52d8d79d0d07702ef86fc5382c836fcf9</guid>
+	<type>component</type>
+	<hash>7d6b2144</hash>
+	<runtimes>
+		<runtime id="cb944cf52d8d79d0d07702ef86fc5382c836fcf9" name="WidgetsContainers.cs" link="0"/>
+		<runtime id="04560204ebfea593d9b0edd603144b3dd3661378" name="WidgetsContainers.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

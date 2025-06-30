@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Touch Input">
+	<sdk_desc>This sample demonstrates how to add multi-touch input from the touchscreen, visualizing finger positions with dynamic circles and displaying real-time coordinates to the project.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates how to add multi-touch input from the <ui><strong><link to="input_class">touchscreen</link></strong></ui>, visualizing finger positions with dynamic circles and displaying real-time coordinates to the project using the <ui>InputTouches.cs</ui> component assigned to <strong nt="1"><link to="node_dummy">NodeDummy</link></strong>.</brief>
+	</desc>
+	<tags>
+		<tag>Input &amp; Controls</tag>
+	</tags>
+</sample>

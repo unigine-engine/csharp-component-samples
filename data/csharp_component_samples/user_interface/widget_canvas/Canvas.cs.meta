@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>49cd3deb56a35911566fe697a40d3fed920f006d</guid>
+	<type>component</type>
+	<hash>737243df</hash>
+	<runtimes>
+		<runtime id="49cd3deb56a35911566fe697a40d3fed920f006d" name="Canvas.cs" link="0"/>
+		<runtime id="2eae4a513d0b30b551ded61db2489c740c493f43" name="Canvas.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

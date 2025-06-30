@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>c95bcb57a14edd78d099dd88e54b80800afec013</guid>
+	<type>component</type>
+	<hash>7c2bcc7f</hash>
+	<runtimes>
+		<runtime id="c95bcb57a14edd78d099dd88e54b80800afec013" name="UpdatePhysicsUsageSample.cs" link="0"/>
+		<runtime id="e56cecddd17f9708f2cc09e6d846de17e4005379" name="UpdatePhysicsUsageSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

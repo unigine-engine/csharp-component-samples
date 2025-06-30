@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>2a4681110fa113d18fb55ee6535dc89cf3ae24f5</guid>
+	<type>file</type>
+	<hash>dfdf851a</hash>
+	<runtimes>
+		<runtime id="2a4681110fa113d18fb55ee6535dc89cf3ae24f5" name="first_person_controller.sample" link="0"/>
+	</runtimes>
+</asset>

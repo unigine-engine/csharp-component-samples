@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>d1d8980f0a7ba6224239ef1908150da45df3fcb3</guid>
+	<type>component</type>
+	<hash>e6c04ca1</hash>
+	<runtimes>
+		<runtime id="d1d8980f0a7ba6224239ef1908150da45df3fcb3" name="InputJoystickComponent.cs" link="0"/>
+		<runtime id="e5fd1a76585a4f5d74b90918c6cbf997f9fbca0a" name="InputJoystickComponent.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

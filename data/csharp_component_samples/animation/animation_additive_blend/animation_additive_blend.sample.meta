@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>b7dbb3af203e40ff77d442f636cf7e912220989a</guid>
+	<type>file</type>
+	<hash>2ef68e98</hash>
+	<runtimes>
+		<runtime id="b7dbb3af203e40ff77d442f636cf7e912220989a" name="animation_additive_blend.sample" link="0"/>
+	</runtimes>
+</asset>

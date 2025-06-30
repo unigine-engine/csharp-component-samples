@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>ea5e2f1f4404b1f2f03468a9894c99f4c37dfcc3</guid>
+	<type>component</type>
+	<hash>7f07022</hash>
+	<runtimes>
+		<runtime id="ea5e2f1f4404b1f2f03468a9894c99f4c37dfcc3" name="WidgetsListbox.cs" link="0"/>
+		<runtime id="0b957b466bfa19ede69bb268679472a7d6f64fda" name="WidgetsListbox.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

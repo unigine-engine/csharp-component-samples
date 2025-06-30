@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>731948a7793e5e4d13dfd14fa01887612e6f5c21</guid>
+	<type>file</type>
+	<hash>545cfc92</hash>
+	<runtimes>
+		<runtime id="731948a7793e5e4d13dfd14fa01887612e6f5c21" name="camera_first_person.sample" link="0"/>
+	</runtimes>
+</asset>

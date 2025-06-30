@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>1ee80606b3b4b0c2eb7ec7feafa7c886d3f5e500</guid>
+	<type>component</type>
+	<hash>8b064fd</hash>
+	<runtimes>
+		<runtime id="1ee80606b3b4b0c2eb7ec7feafa7c886d3f5e500" name="SampleDescriptionWindow.cs" link="0"/>
+	</runtimes>
+</asset>

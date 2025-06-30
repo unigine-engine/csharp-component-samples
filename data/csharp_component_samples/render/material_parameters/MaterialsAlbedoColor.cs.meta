@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>83528c357caa301011c9c42fb06fa3c2ab4b9039</guid>
+	<type>component</type>
+	<hash>22664c94</hash>
+	<runtimes>
+		<runtime id="83528c357caa301011c9c42fb06fa3c2ab4b9039" name="MaterialsAlbedoColor.cs" link="0"/>
+		<runtime id="204cfc442f7edad38fab22160bda727d0e5991b8" name="MaterialsAlbedoColor.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

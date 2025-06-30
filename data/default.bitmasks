@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bit_mask_names>
+	<general>
+		<name index="3">ALIGN_TOP</name>
+		<name index="1">ALIGN_LEFT</name>
+		<name index="5">ALIGN_EXPAND</name>
+		<name index="0">ALIGN_CENTER</name>
+		<name index="7">ALIGN_BACKGROUND</name>
+		<name index="2">ALIGN_RIGHT</name>
+		<name index="4">ALIGN_BOTTOM</name>
+		<name index="8">ALIGN_FIXED</name>
+		<name index="6">ALIGN_OVERLAP</name>
+	</general>
+	<intersection>
+		<name index="0">Intersection Mask 0</name>
+		<name index="1">for_ray</name>
+		<name index="2">for_teleportation</name>
+	</intersection>
+	<collision>
+		<name index="1">vr_interaction</name>
+		<name index="2">vr_grab_interaction</name>
+		<name index="3">Collision Mask 3</name>
+	</collision>
+</bit_mask_names>

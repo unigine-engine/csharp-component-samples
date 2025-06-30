@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>cbb5036a09565bc11439822ce384179bb9aee83e</guid>
+	<type>component</type>
+	<hash>209ecdd2</hash>
+	<runtimes>
+		<runtime id="cbb5036a09565bc11439822ce384179bb9aee83e" name="TransformEulerAngles.cs" link="0"/>
+		<runtime id="20cf275447d36aa388934fa6a4dc22cdb77f65c8" name="TransformEulerAngles.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

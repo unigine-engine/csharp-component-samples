@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>8de9d60482f869932c77e1d65066af3d586d2778</guid>
+	<type>component</type>
+	<hash>c1a578de</hash>
+	<runtimes>
+		<runtime id="8de9d60482f869932c77e1d65066af3d586d2778" name="BoundSphereIntersection.cs" link="0"/>
+		<runtime id="126bc4774bce576ad6179fc11f21f62c6389fb9b" name="BoundSphereIntersection.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

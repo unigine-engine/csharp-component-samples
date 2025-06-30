@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>5d23d0f5a46f2dd05ba526ef7eac27821e9cc0f9</guid>
+	<type>component</type>
+	<hash>87ccf0f6</hash>
+	<runtimes>
+		<runtime id="5d23d0f5a46f2dd05ba526ef7eac27821e9cc0f9" name="ClutterSample.cs" link="0"/>
+		<runtime id="6734288337043406c8f5fbad0718a928f0fd7a67" name="ClutterSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

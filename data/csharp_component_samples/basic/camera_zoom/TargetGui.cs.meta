@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>4a1c889901f637aa5032cf3844c1d2a6e39b1302</guid>
+	<type>component</type>
+	<hash>bef3a15</hash>
+	<runtimes>
+		<runtime id="4a1c889901f637aa5032cf3844c1d2a6e39b1302" name="TargetGui.cs" link="0"/>
+		<runtime id="89571ccf605ba9481e3600165449e4341baa6d50" name="TargetGui.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

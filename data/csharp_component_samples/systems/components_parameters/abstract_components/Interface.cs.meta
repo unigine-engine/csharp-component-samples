@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>fdc8451d9f49381e3252e0b520c92ba998f99517</guid>
+	<type>component</type>
+	<hash>9b714795</hash>
+	<runtimes>
+		<runtime id="fdc8451d9f49381e3252e0b520c92ba998f99517" name="Interface.cs" link="0"/>
+	</runtimes>
+</asset>

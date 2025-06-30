@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>81cebf69d0dbffbd854b335190616b4dcf3858f3</guid>
+	<type>file</type>
+	<hash>acb59155</hash>
+	<runtimes>
+		<runtime id="81cebf69d0dbffbd854b335190616b4dcf3858f3" name="bones_rotation.sample" link="0"/>
+	</runtimes>
+</asset>

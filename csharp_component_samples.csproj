@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+		<GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+		<GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+		<RootNamespace>UnigineApp</RootNamespace>
+		<StartupObject>UnigineApp.UnigineApp</StartupObject>
+		<WarningLevel>4</WarningLevel>
+		<OutputPath>bin</OutputPath>
+		<UseAppHost>true</UseAppHost>
+		<AppHostSourcePath Condition="&apos;$(OS)&apos; == &apos;Windows_NT&apos;">$(OutputPath)\dotnet_host_x64.exe</AppHostSourcePath>
+		<EnableDefaultItems>false</EnableDefaultItems>
+		<SkipPostBuild>false</SkipPostBuild>
+		<PlatformTarget>x64</PlatformTarget>
+		<DebugType>portable</DebugType>
+		<DOTNET_HOST_PATH Condition="&apos;$(DOTNET_HOST_PATH)&apos; == &apos;&apos;">dotnet</DOTNET_HOST_PATH>
+		<Configurations>Debug;Release;Debug-Double;Release-Double</Configurations>
+	</PropertyGroup>
+	<PropertyGroup Condition="&apos;$(Configuration)&apos;==&apos;Debug&apos;">
+		<AssemblyName>csharp_component_samples_x64d</AssemblyName>
+		<DebugSymbols>true</DebugSymbols>
+		<Optimize>false</Optimize>
+		<DefineConstants>TRACE;DEBUG</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup Condition="&apos;$(Configuration)&apos;==&apos;Debug&apos;">
+		<Reference Include="UnigineSharp_x64d">
+			<SpecificVersion>false</SpecificVersion>
+			<HintPath>bin\UnigineSharp_x64d.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	<PropertyGroup Condition="&apos;$(Configuration)&apos;==&apos;Release&apos;">
+		<AssemblyName>csharp_component_samples_x64</AssemblyName>
+		<Optimize>true</Optimize>
+		<DefineConstants>TRACE;NDEBUG;</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup Condition="&apos;$(Configuration)&apos;==&apos;Release&apos;">
+		<Reference Include="UnigineSharp_x64">
+			<SpecificVersion>false</SpecificVersion>
+			<HintPath>bin\UnigineSharp_x64.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	<PropertyGroup Condition="&apos;$(Configuration)&apos;==&apos;Debug-Double&apos;">
+		<AssemblyName>csharp_component_samples_double_x64d</AssemblyName>
+		<DebugSymbols>true</DebugSymbols>
+		<Optimize>false</Optimize>
+		<DefineConstants>TRACE;DEBUG;UNIGINE_DOUBLE;</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup Condition="&apos;$(Configuration)&apos;==&apos;Debug-Double&apos;">
+		<Reference Include="UnigineSharp_double_x64d">
+			<SpecificVersion>false</SpecificVersion>
+			<HintPath>bin\UnigineSharp_double_x64d.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	<PropertyGroup Condition="&apos;$(Configuration)&apos;==&apos;Release-Double&apos;">
+		<AssemblyName>csharp_component_samples_double_x64</AssemblyName>
+		<Optimize>true</Optimize>
+		<DefineConstants>TRACE;NDEBUG;UNIGINE_DOUBLE;</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup Condition="&apos;$(Configuration)&apos;==&apos;Release-Double&apos;">
+		<Reference Include="UnigineSharp_double_x64">
+			<SpecificVersion>false</SpecificVersion>
+			<HintPath>bin\UnigineSharp_double_x64.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="data/csharp_component_samples/systems/usc_arrays/ScriptArrays.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/robot_arm/RobotArmController.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/transform_world_local/TransformWorldRotate.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/transform_world_local/TransformWorldTranslate.cs"/>
+		<Compile Include="data/csharp_component_samples/input_controls/input_joystick/InputJoystickUI.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/ffp/FFPSample.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/arcade/LifetimeController.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsSlider.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/events_advanced/EventsAdvancedSample.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/observer_controller/ObserverController.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsLabel.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/components_parameters/abstract_components/InterfaceComponentImplementation.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsIcon.cs"/>
+		<Compile Include="data/csharp_component_samples/nodes/water_physical_buoyancy/PhysicalBuyoancy.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/intersection_mouse_ray/MouseRayIntersection.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsEdittext.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/user_interface/UserInterfaceSample.cs"/>
+		<Compile Include="data/csharp_component_samples/physics/body_fracture_shooting_gallery/BodyFractureShootingGallerySample.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/intersection_bound_box/BoundBoxIntersection.cs"/>
+		<Compile Include="data/csharp_component_samples/render/material_parameters/MaterialsAlbedoTexture.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/target_marker/WidgetsTargetMarker.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/console/ConsoleSample.cs"/>
+		<Compile Include="data/csharp_component_samples/input_controls/input_gamepad/InputGamePadComponent.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/top_down_controller/CameraTopDown.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/camera_panning/CameraPanning.cs"/>
+		<Compile Include="data/csharp_component_samples/physics/joint_events/JointCallbacks.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsCombobox.cs"/>
+		<Compile Include="data/csharp_component_samples/input_controls/input_touch/InputTouchesUI.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/microprofiler/MicroprofilerSample.cs"/>
+		<Compile Include="data/csharp_component_samples/animation/track_playback/TrackPlayback.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/camera_first_person/CameraSpectator.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsCheckbox.cs"/>
+		<Compile Include="data/csharp_component_samples/navigation/navigation_sectors_3d/PathRoute3D.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/day_night_switch/DayNightSwitcher.cs"/>
+		<Compile Include="data/csharp_component_samples/input_controls/input_joystick/InputJoystickComponent.cs"/>
+		<Compile Include="data/csharp_component_samples/navigation/navigation_obstacles_2d/ObstacleVisualizer.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsButton.cs"/>
+		<Compile Include="data/csharp_component_samples/nodes/water_buoyancy/BuoyComponent.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsTreebox.cs"/>
+		<Compile Include="data/csharp_component_samples/nodes/clutter_to_cluster/ClutterSample.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/intersection_bound_sphere/BoundSphereIntersection.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsSprite.cs"/>
+		<Compile Include="data/csharp_component_samples/nodes/water_physical_buoyancy/Buoyancy.cs"/>
+		<Compile Include="data/csharp_component_samples/physics/body_fracture_shooting_gallery/BodyFractureShootingGalleryGun.cs"/>
+		<Compile Include="data/csharp_component_samples/physics/update_physics/UpdatePhysicsUsageSample.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/robot_arm/RobotArmConnection.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/ifps_usage/IFpsMovementController.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/components_parameters/ComponentParameters.cs"/>
+		<Compile Include="data/csharp_component_samples/render/gui_to_texture/WidgetClock.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/camera_persecutor/CameraPersecutorTarget.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/images/ImagesSample.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/visualizer/VisualizerSample.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsEditline.cs"/>
+		<Compile Include="data/csharp_component_samples/navigation/navigation_mesh_2d/NavigationMeshVisualizer.cs"/>
+		<Compile Include="data/csharp_component_samples/sounds/sound_source/SoundSourceController.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/camera_zoom/ZoomController.cs"/>
+		<Compile Include="data/csharp_component_samples/physics/body_fracture_explosion/BodyFractureExplosion.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/camera_persecutor/CameraPersecutor.cs"/>
+		<Compile Include="data/csharp_component_samples/navigation/navigation_sectors_demo_3d/PathRoute3DWithTarget.cs"/>
+		<Compile Include="data/csharp_component_samples/physics/body_events/BodyCallbacks.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widget_canvas/Canvas.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widget_dialog/Dialog.cs"/>
+		<Compile Include="data/csharp_component_samples/render/material_parameters/MaterialsEmission.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/microprofiler/MicroprofilerSleepyNode.cs"/>
+		<Compile Include="data/csharp_component_samples/nodes/clutter_to_cluster/ClutterConverter.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/top_down_controller/CameraUnitSelection.cs"/>
+		<Compile Include="data/csharp_component_samples/plugins/fmod_core/FMODCoreSample.cs"/>
+		<Compile Include="data/csharp_component_samples/animation/bones_rotation/AnimationRotation.cs"/>
+		<Compile Include="data/csharp_component_samples/input_controls/input_keyboard_mouse/InputKeyboardAndMouse.cs"/>
+		<Compile Include="data/csharp_component_samples/animation/track_playback/Tracker.cs"/>
+		<Compile Include="data/csharp_component_samples/render/material_parameters/MaterialsMetalness.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widget_window/Window.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsRadioButtons.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/day_night_switch/DayNightSwitchSample.cs"/>
+		<Compile Include="data/csharp_component_samples/physics/update_physics/UpdatePhysicsUsageController.cs"/>
+		<Compile Include="data/csharp_component_samples/plugins/fmod_studio/FMODStudioSample.cs"/>
+		<Compile Include="data/csharp_component_samples/sounds/sound_reverb/SoundReverbController.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/components_parameters/abstract_components/Interface.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/intersection_ray/LaserRayIntersection.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/external_package/ExternalPackageSample.cs"/>
+		<Compile Include="data/csharp_component_samples/render/weapon_clipping/WeaponClippingSample.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/usc_variables/ScriptVariables.cs"/>
+		<Compile Include="data/csharp_component_samples/nodes/water_physical_buoyancy/Waves.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/components_abstract/Fan.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/arcade/Projectile.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/transform_world_local/TransformRotate.cs"/>
+		<Compile Include="data/csharp_component_samples/nodes/create_delete_nodes/NodeSpawner.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/top_down_controller/CameraSelection.cs"/>
+		<Compile Include="data/csharp_component_samples/nodes/cluster/ClusterSample.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/ifps_usage/IFpsMovementSample.cs"/>
+		<Compile Include="data/csharp_component_samples/navigation/navigation_mesh_demo_2d/PathRoute2DWithTarget.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/camera_zoom/TargetGui.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/components_parameters/abstract_components/AbstractComponentImplementation.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/usc_callbacks/ScriptCallback.cs"/>
+		<Compile Include="data/csharp_component_samples/sounds/sound_ambient/SoundAmbient.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/first_person_controller/FirstPersonController.cs"/>
+		<Compile Include="data/csharp_component_samples/physics/body_fracture_explosion/BodyFractureExplosionSample.cs"/>
+		<Compile Include="data/csharp_component_samples/render/gui_to_texture/WidgetNoSignal.cs"/>
+		<Compile Include="data/csharp_component_samples/render/gui_to_texture/GuiToTexture.cs"/>
+		<Compile Include="data/csharp_component_samples/render/material_parameters/MaterialsCastWorldShadow.cs"/>
+		<Compile Include="data/csharp_component_samples/nodes/water_buoyancy/BuoySample.cs"/>
+		<Compile Include="data/csharp_component_samples/nodes/create_primitives/PrimitivesSpawner.cs"/>
+		<Compile Include="data/csharp_component_samples/input_controls/input_gamepad/InputGamepadUI.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsMenu.cs"/>
+		<Compile Include="data/csharp_component_samples/input_controls/input_keyboard_mouse/InputKeyboardAndMouseUI.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/arcade/Robo.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/transform_world_local/TransformTranslate.cs"/>
+		<Compile Include="data/csharp_component_samples/render/weapon_clipping/WeaponClipping.cs"/>
+		<Compile Include="data/csharp_component_samples/animation/bones_partial_blend/AnimationPartialInterpolation.cs"/>
+		<Compile Include="data/csharp_component_samples/physics/body_fracture_falling_spheres/BodyFractureFallingSpheresSample.cs"/>
+		<Compile Include="data/csharp_component_samples/navigation/navigation_mesh_2d/PathRoute2D.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/spectator_controller/SpectatorController.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/xml/XmlSample.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/components_abstract/Toggler.cs"/>
+		<Compile Include="data/csharp_component_samples/input_controls/input_touch/InputTouches.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsSpinbox.cs"/>
+		<Compile Include="data/csharp_component_samples/animation/animation_lerp_blend/AnimationInterpolation.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/components_abstract/Toggleable.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/camera_orbit/CameraOrbit.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/components_abstract/Lamp.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/euler_angles/TransformEulerAngles.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/components_parameters/abstract_components/AbstractComponent.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/camera_zoom/ZoomSample.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/spectator_controller/SpectatorControllerSample.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/events_advanced/EventsAdvancedUnit.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/visualizer/VisualizerUsage.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widget_containers/WidgetsContainers.cs"/>
+		<Compile Include="data/csharp_component_samples/render/material_parameters/MaterialsAlbedoColor.cs"/>
+		<Compile Include="data/csharp_component_samples/animation/animation_additive_blend/AnimationAdditive.cs"/>
+		<Compile Include="data/csharp_component_samples/navigation/navigation_sectors_3d/NavigationSectorVisualizer.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/arcade/Spinner.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/top_down_controller/CameraUnitPathControl.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/day_night_switch/SunController.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/intersection_bound_frustum/BoundFrustumIntersection.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsScroll.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsListbox.cs"/>
+		<Compile Include="data/common/common_components/Movement.cs"/>
+		<Compile Include="data/common/common_components/BodyFractureSpawner.cs"/>
+		<Compile Include="data/common/menu_ui/components/MainMenu.cs"/>
+		<Compile Include="data/common/common_components/Rotator.cs"/>
+		<Compile Include="data/common/common_components/InterpreterRegistrator.cs"/>
+		<Compile Include="data/common/common_components/CameraControls.cs"/>
+		<Compile Include="data/common/utils/DefaultPlayer.cs"/>
+		<Compile Include="data/common/menu_ui/components/WorldMenu.cs"/>
+		<Compile Include="data/common/common_components/BodyFractureUnit.cs"/>
+		<Compile Include="data/common/common_components/SimpleAnimationPlayer.cs"/>
+		<Compile Include="data/common/utils/DescriptionWindowCreator.cs"/>
+		<Compile Include="data/common/menu_ui/components/SampleDescriptionWindow.cs"/>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="source/**/*.cs"/>
+	</ItemGroup>
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="&quot;$(DOTNET_HOST_PATH)&quot; &quot;$(OutputPath)cspropgen_x64d.dll&quot; -p &quot;$(OutputPath)$(AssemblyName).dll&quot; -data_path ../data/" Condition="&apos;$(Configuration)&apos;==&apos;Debug&apos; And $(SkipPostBuild)==&apos;false&apos;"/>
+		<Exec Command="&quot;$(DOTNET_HOST_PATH)&quot; &quot;$(OutputPath)cspropgen_x64.dll&quot; -p &quot;$(OutputPath)$(AssemblyName).dll&quot; -data_path ../data/" Condition="&apos;$(Configuration)&apos;==&apos;Release&apos; And $(SkipPostBuild)==&apos;false&apos;"/>
+		<Exec Command="&quot;$(DOTNET_HOST_PATH)&quot; &quot;$(OutputPath)cspropgen_double_x64d.dll&quot; -p &quot;$(OutputPath)$(AssemblyName).dll&quot; -data_path ../data/" Condition="&apos;$(Configuration)&apos;==&apos;Debug-Double&apos; And $(SkipPostBuild)==&apos;false&apos;"/>
+		<Exec Command="&quot;$(DOTNET_HOST_PATH)&quot; &quot;$(OutputPath)cspropgen_double_x64.dll&quot; -p &quot;$(OutputPath)$(AssemblyName).dll&quot; -data_path ../data/" Condition="&apos;$(Configuration)&apos;==&apos;Release-Double&apos; And $(SkipPostBuild)==&apos;false&apos;"/>
+	</Target>
+</Project>

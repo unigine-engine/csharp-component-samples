@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>f65128cdfa738d2d49394e395c306272e3fa16ae</guid>
+	<type>file</type>
+	<hash>bb9010c6</hash>
+	<runtimes>
+		<runtime id="f65128cdfa738d2d49394e395c306272e3fa16ae" name="navigation_mesh_2d.sample" link="0"/>
+	</runtimes>
+</asset>

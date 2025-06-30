@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>f778e22a0dc92b8156948eecc7f83d5b4a5f52fe</guid>
+	<type>component</type>
+	<hash>68c626eb</hash>
+	<runtimes>
+		<runtime id="f778e22a0dc92b8156948eecc7f83d5b4a5f52fe" name="WidgetsCheckbox.cs" link="0"/>
+		<runtime id="19255e459ba13ae020f430bff6e887129cd0fb49" name="WidgetsCheckbox.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

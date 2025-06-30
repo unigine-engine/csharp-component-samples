@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>c6f0d3199b7e4b58e4db98c574e165184ba645aa</guid>
+	<type>file</type>
+	<hash>675012</hash>
+	<runtimes>
+		<runtime id="c6f0d3199b7e4b58e4db98c574e165184ba645aa" name="body_events.sample" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>646dc6b4feb83e9d433a34bc9a2baf13b9b07a61</guid>
+	<type>component</type>
+	<hash>894a88f8</hash>
+	<runtimes>
+		<runtime id="646dc6b4feb83e9d433a34bc9a2baf13b9b07a61" name="WeaponClippingSample.cs" link="0"/>
+		<runtime id="1c692232a97a420aa8ff22fad0d3f4984bc0ce17" name="WeaponClippingSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

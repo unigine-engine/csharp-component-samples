@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.20.0.0">
+	<node type="ObjectParticles" id="1371876506" name="jet">
+		<variation_x>1</variation_x>
+		<clear_on_enable>0</clear_on_enable>
+		<number_per_spawn>1</number_per_spawn>
+		<spawn_rate>56.4599991</spawn_rate>
+		<emitter_enabled>1</emitter_enabled>
+		<emitter_based>1</emitter_based>
+		<life_mean>0.300000012</life_mean>
+		<life_spread>0</life_spread>
+		<surface name="particles" bake_to_env_probe="0" bake_to_gi="0" cast_env_probe_shadow="0" shadow_mode="1" physics_friction="1" physics_restitution="1" material="189bd33d3377fb78367088772a244b6a33ad03c1" lighting_mode="1"/>
+		<transform>0.99999833 -1.5646219e-07 2.6077032e-08 0.0 -1.7136335e-07 0.9999972 1.4901161e-07 0.0 -8.5681677e-08 -1.4901161e-07 0.99999374 0.0 -3.695488e-06 7.4505806e-07 -3.5762787e-07 1.0</transform>
+		<radius_modifier value="0.1555634904468269" value_min="0.1272792257047474" value_max="0.1555634904468269" mode="1"/>
+		<growth_modifier value="-0.3535533905932738" value_min="-0.3535533905932738" value_max="-0.3535533905932738" mode="1"/>
+		<velocity_modifier value="1.20000005" value_min="1" value_max="1.20000005" mode="1"/>
+		<direction_modifier value="0.100000001 0.100000001 -1" value_min="-0.100000001 -0.100000001 -1" value_max="0.100000001 0.100000001 -1" mode="1"/>
+		<physical_mass>0</physical_mass>
+	</node>
+</nodes>

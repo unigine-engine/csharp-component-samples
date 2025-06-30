@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>af702f4c7665a23b95feb25ec09d76254b1db140</guid>
+	<type>component</type>
+	<hash>108a3b62</hash>
+	<runtimes>
+		<runtime id="af702f4c7665a23b95feb25ec09d76254b1db140" name="WidgetsTargetMarker.cs" link="0"/>
+		<runtime id="af5207a29175e299b8a56b24fc09bc334ae4d3f6" name="WidgetsTargetMarker.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

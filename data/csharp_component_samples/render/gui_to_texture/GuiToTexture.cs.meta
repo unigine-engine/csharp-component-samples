@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>f55dcd5a11ad53f468a8178d8c56241a72f07191</guid>
+	<type>component</type>
+	<hash>8cbe9de9</hash>
+	<runtimes>
+		<runtime id="f55dcd5a11ad53f468a8178d8c56241a72f07191" name="GuiToTexture.cs" link="0"/>
+		<runtime id="58738de84f233d8ef90217a386f54c5fa43dd9c7" name="GuiToTexture.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

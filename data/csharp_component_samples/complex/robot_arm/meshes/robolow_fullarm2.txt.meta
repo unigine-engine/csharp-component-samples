@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>9eaab2ab8b6c31d2d01aeabf1de6e80ee3c9c8cb</guid>
+	<type>file</type>
+	<hash>2a2dde94</hash>
+	<runtimes>
+		<runtime id="9eaab2ab8b6c31d2d01aeabf1de6e80ee3c9c8cb" name="robolow_fullarm2.txt" link="0"/>
+	</runtimes>
+</asset>

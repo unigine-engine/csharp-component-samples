@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>9c85a6d775528f8e28e5dd236aca972713192260</guid>
+	<type>file</type>
+	<hash>53c9dacd</hash>
+	<runtimes>
+		<runtime id="9c85a6d775528f8e28e5dd236aca972713192260" name="sound_source.sample" link="0"/>
+	</runtimes>
+</asset>

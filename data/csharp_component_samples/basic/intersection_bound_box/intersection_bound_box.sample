@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Intersection Bound Box">
+	<sdk_desc>Finding an intersection between the bound box and geometry.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates how to find an intersection between the bound box and geometry.</brief>
+		<para>The <ui>BoundBoxIntersection.cs</ui> component shows how to use <ui><link to="world_class" offset="getIntersection_Vec3_Vec3_int_Object">World.GetIntersection()</link></ui> to detect static mesh objects located within a specified world-space axis-aligned bounding box. The box is highlighted using the <ui><link to="visualizer_class">Visualizer</link></ui>, and intersected object names are printed to the onscreen console overlay.</para>
+	</desc>
+	<tags>
+		<tag>Intersections</tag>
+	</tags>
+</sample>

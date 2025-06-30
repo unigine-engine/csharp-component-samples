@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>25e7819aeed65d0f5af826446a474d397b78a8a3</guid>
+	<type>component</type>
+	<hash>d2d4c5c8</hash>
+	<runtimes>
+		<runtime id="25e7819aeed65d0f5af826446a474d397b78a8a3" name="ScriptCallback.cs" link="0"/>
+		<runtime id="0619b8285b053d9ed75eeb42cc54c484aeb84189" name="ScriptCallback.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

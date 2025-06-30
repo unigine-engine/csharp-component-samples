@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>3f3c54c253dd652aca8e542735dddab7692babe3</guid>
+	<type>file</type>
+	<hash>01d84d1c</hash>
+	<runtimes>
+		<runtime id="3f3c54c253dd652aca8e542735dddab7692babe3" name="microprofiler.sample" link="0"/>
+	</runtimes>
+</asset>

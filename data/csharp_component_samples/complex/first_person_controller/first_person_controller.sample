@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="First-Person Controller">
+	<sdk_desc>Implementation of the first-person character controller with a physical body.</sdk_desc>
+	<desc>
+		<brief>
+			<para>This sample demonstrates implementation of the character controller using the component assigned to <ui>PlayerDummy</ui>.</para>
+			<para>Intersection is detected using shape-surface collision, and collision is detailed via the surface intersection.</para>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+		<p><b>W/A/S/D</b> - control camera movement</p>
+		<p><b>Shift</b> - accelerate</p>
+		<p><b>Space</b> - jump</p>
+		<p><b>Ctrl</b> - crouch</p>
+		<p><b>Mouse movement</b> - look around</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Cameras</tag>
+		<tag>Basic Recipes</tag>
+		<tag>Intersections</tag>
+		<tag>Physics</tag>
+	</tags>
+</sample>

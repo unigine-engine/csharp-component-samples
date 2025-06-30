@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>8acbc83d130458033f64306930872c98cd7dd4d1</guid>
+	<type>component</type>
+	<hash>c8c806b1</hash>
+	<runtimes>
+		<runtime id="8acbc83d130458033f64306930872c98cd7dd4d1" name="DescriptionWindowCreator.cs" link="0"/>
+		<runtime id="462e74d31324e6e2fb51941f826b2ec81a74eb07" name="DescriptionWindowCreator.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

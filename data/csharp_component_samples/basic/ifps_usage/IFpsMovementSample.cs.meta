@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>db6f5d3ce6472edd14b2d3c2f52ff0ba16a12361</guid>
+	<type>component</type>
+	<hash>0a318709</hash>
+	<runtimes>
+		<runtime id="db6f5d3ce6472edd14b2d3c2f52ff0ba16a12361" name="IFpsMovementSample.cs" link="0"/>
+		<runtime id="736f477ad32150586cf44810ad19da883434cf17" name="IFpsMovementSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

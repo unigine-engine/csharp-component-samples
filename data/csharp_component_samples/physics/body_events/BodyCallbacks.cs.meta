@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>6b7838f3600cb9a46525ac29145d41a906262c77</guid>
+	<type>component</type>
+	<hash>0f3cdaf3</hash>
+	<runtimes>
+		<runtime id="6b7838f3600cb9a46525ac29145d41a906262c77" name="BodyCallbacks.cs" link="0"/>
+		<runtime id="723d60191b1c46188aaf19df9e26724a53a6d73d" name="BodyCallbacks.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

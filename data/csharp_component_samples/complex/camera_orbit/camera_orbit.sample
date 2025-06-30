@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Camera Orbit">
+	<sdk_desc>An orbital camera rotating around a target.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates an orbital camera rotating around a target.</brief>
+		<para>The <ui>CameraOrbit.cs</ui> component enables orbit-style camera movement around a target object using a <ui><link to="playerdummy_class">PlayerDummy</link></ui> node. Input is handled via the <ui>CameraControls.cs</ui> component, which provides configurable input controls for camera movement and zoom.</para>
+		<para>The camera behavior can be customized using the exposed parameters: <ui>Angular Speed, Zoom Speed, Min/Max Distance</ui>, and <ui>Min/Max Vertical Angle</ui>. The <ui>Target</ui> field defines the object the camera orbits around.</para>
+	</desc>
+	<controls>
+		<![CDATA[
+				<p><b>Mouse Movement</b> - Rotate the camera</p>
+				<p><b>Mouse Wheel</b> - Zoom in and out</p>
+			]]>
+	</controls>
+	<tags>
+		<tag>Cameras</tag>
+		<tag>Input &amp; Controls</tag>
+	</tags>
+</sample>

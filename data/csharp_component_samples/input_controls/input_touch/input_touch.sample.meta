@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>bf647ad238e6d98fca88a436ab67a9fc095553cb</guid>
+	<type>file</type>
+	<hash>8e02b186</hash>
+	<runtimes>
+		<runtime id="bf647ad238e6d98fca88a436ab67a9fc095553cb" name="input_touch.sample" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>ae9ea2003b12eb14ae56b7cc6ca6a9355749ccca</guid>
+	<type>file</type>
+	<hash>7e3f4e56</hash>
+	<runtimes>
+		<runtime id="ae9ea2003b12eb14ae56b7cc6ca6a9355749ccca" name="camera_zoom.sample" link="0"/>
+	</runtimes>
+</asset>

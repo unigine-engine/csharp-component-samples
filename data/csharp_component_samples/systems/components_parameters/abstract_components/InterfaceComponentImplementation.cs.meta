@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>a05316a10c65db25a401dbb9465c840dccbd863b</guid>
+	<type>component</type>
+	<hash>f1e44de7</hash>
+	<runtimes>
+		<runtime id="a05316a10c65db25a401dbb9465c840dccbd863b" name="InterfaceComponentImplementation.cs" link="0"/>
+		<runtime id="3ae25d97a71237e98e1e42efe9611bc8a3afd961" name="InterfaceComponentImplementation.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

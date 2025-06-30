@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>882032ca8307e453c0e12418debf861674788b3e</guid>
+	<type>component</type>
+	<hash>e7ebbc8b</hash>
+	<runtimes>
+		<runtime id="882032ca8307e453c0e12418debf861674788b3e" name="InterpreterRegistrator.cs" link="0"/>
+	</runtimes>
+</asset>

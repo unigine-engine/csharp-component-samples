@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>72745398f5a633f7377fc4dc286031355825b8c9</guid>
+	<type>file</type>
+	<hash>1488831a</hash>
+	<runtimes>
+		<runtime id="72745398f5a633f7377fc4dc286031355825b8c9" name="widgets.sample" link="0"/>
+	</runtimes>
+</asset>

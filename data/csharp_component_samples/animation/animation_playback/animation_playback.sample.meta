@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>61df3a7964d7123a0f8f0d18d0266697bd5c3edc</guid>
+	<type>file</type>
+	<hash>2306e18b</hash>
+	<runtimes>
+		<runtime id="61df3a7964d7123a0f8f0d18d0266697bd5c3edc" name="animation_playback.sample" link="0"/>
+	</runtimes>
+</asset>

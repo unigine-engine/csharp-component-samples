@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.20.0.0">
+	<node type="NodeDummy" id="2130019320" name="world_menu">
+		<properties>
+			<property parent="fccd3384dd4529130a2a9b56e5e31abd02139cf8" guid="eddbc286df2f382dde9bbba8ea846ae7584f6b1a">
+				<parameter name="mainWorldName">csharp_component_samples</parameter>
+				<parameter name="common">
+					<parameter name="padding">20 20 20 20</parameter>
+				</parameter>
+				<parameter name="hint">
+					<parameter name="spaceX">10</parameter>
+					<parameter name="background">guid://3e2e0b9bb0ac8214d3bf6f3bca9c981b21e34ebe</parameter>
+					<parameter name="backgroundColor">1 1 1 1</parameter>
+					<parameter name="backgroundSliceScale">0.100000001</parameter>
+					<parameter name="backgroundPadding">10 10 10 10</parameter>
+					<parameter name="labelFont">guid://e9648366a1416b7f82740c46c9fc1d7af7e8b65d</parameter>
+					<parameter name="labelFontSize">16</parameter>
+					<parameter name="labelFontColor">0.156862751 0.160784319 0.180392161 1</parameter>
+					<parameter name="icon">guid://c0f8e490343ae56d15bad470f77e8f4bc25b377f</parameter>
+					<parameter name="iconColor">1 1 1 1</parameter>
+					<parameter name="iconWidth">24</parameter>
+					<parameter name="iconHeight">24</parameter>
+				</parameter>
+				<parameter name="back">
+					<parameter name="background">guid://4be0a1b39d0a9c77407e8153746c79eabf015bf6</parameter>
+					<parameter name="backgroundColor">1 1 1 1</parameter>
+					<parameter name="backgroundSliceOffsets">0.300000012 0.300000012 0.300000012 0.300000012</parameter>
+					<parameter name="backgroundSliceScale">0.100000001</parameter>
+					<parameter name="backgroundPadding">10 17 17 17</parameter>
+					<parameter name="buttonBackgroundColor">1 1 1 1</parameter>
+					<parameter name="buttonIcon">guid://b911be4618e9ec32fa251726abf378c684ff4fbd</parameter>
+					<parameter name="buttonIconColor">1 1 1 1</parameter>
+					<parameter name="buttonWidth">24</parameter>
+					<parameter name="buttonHeight">24</parameter>
+					<parameter name="buttonTintColor">0.564705908 0.564705908 0.564705908 1</parameter>
+					<parameter name="labelFont">guid://cdbfb14c7ac34eecec0fab2c8f34747acf884c8b</parameter>
+					<parameter name="labelFontSize">20</parameter>
+					<parameter name="labelFontColor">1 1 1 1</parameter>
+					<parameter name="spaceBetweenButtonAndLabel">10</parameter>
+				</parameter>
+			</property>
+		</properties>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

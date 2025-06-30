@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>2f5fa5c1f02e442c863df19b53fafa3eeff05c85</guid>
+	<type>component</type>
+	<hash>1436f37e</hash>
+	<runtimes>
+		<runtime id="2f5fa5c1f02e442c863df19b53fafa3eeff05c85" name="Rotator.cs" link="0"/>
+		<runtime id="397da4203e5508ff293d0252dd76bd894d5c2954" name="Rotator.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

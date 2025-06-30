@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Nodes Creation and Deletion">
+	<sdk_desc>Dynamic creation and deletion of node instances at runtime.</sdk_desc>
+	<desc>
+		<brief>
+			<para>This sample demonstrates how to dynamically create and delete node instances at runtime in UNIGINE.</para>
+			<para>A specified <strong nt="1">.node</strong> asset is instantiated repeatedly at timed intervals, with each new instance positioned in a grid pattern. Once a certain number of nodes are active, the oldest ones are automatically removed (first-in, first-out deletion) to maintain a fixed, memory-safe maximum count in the scene.</para>
+			<para><strong>Use Cases:</strong></para>
+			<ul>
+				<li>Object pooling and controlled instancing</li>
+				<li>Spawning projectiles, enemies, or temporary effects.</li>
+			</ul>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Objects</tag>
+		<tag>Optimization</tag>
+	</tags>
+</sample>

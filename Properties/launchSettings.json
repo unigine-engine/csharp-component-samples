@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "main": {
+      "commandName": "Project",
+      "commandLineArgs": "-data_path ../data/ -console_command \"world_load csharp_component_samples/csharp_component_samples\""
+    }
+  }
+}

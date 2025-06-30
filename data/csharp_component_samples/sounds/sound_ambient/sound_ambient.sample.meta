@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>b4ed2c5d9de6c842618254c9e2937b87745d2e7e</guid>
+	<type>file</type>
+	<hash>1bb3c01a</hash>
+	<runtimes>
+		<runtime id="b4ed2c5d9de6c842618254c9e2937b87745d2e7e" name="sound_ambient.sample" link="0"/>
+	</runtimes>
+</asset>

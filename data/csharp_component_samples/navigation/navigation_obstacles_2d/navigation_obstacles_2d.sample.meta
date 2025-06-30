@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>24ae18c7a9e7ee947a8f9413613900993f9faa10</guid>
+	<type>file</type>
+	<hash>619780da</hash>
+	<runtimes>
+		<runtime id="24ae18c7a9e7ee947a8f9413613900993f9faa10" name="navigation_obstacles_2d.sample" link="0"/>
+	</runtimes>
+</asset>

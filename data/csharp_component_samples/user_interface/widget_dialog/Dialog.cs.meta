@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>248c20ec1d4c0054dd6f1d506614eae3a17bab2a</guid>
+	<type>component</type>
+	<hash>9bee34fc</hash>
+	<runtimes>
+		<runtime id="248c20ec1d4c0054dd6f1d506614eae3a17bab2a" name="Dialog.cs" link="0"/>
+		<runtime id="b8f11faa3a1d55832158966ef902f118084e7538" name="Dialog.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

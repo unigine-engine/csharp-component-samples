@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>0591f23c5052435b67824c2c7a8b290028f8da77</guid>
+	<type>component</type>
+	<hash>0f8067c3</hash>
+	<runtimes>
+		<runtime id="0591f23c5052435b67824c2c7a8b290028f8da77" name="SunController.cs" link="0"/>
+		<runtime id="e9f7147ab66bfdcf2382a8eac3bb09a65652d53d" name="SunController.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

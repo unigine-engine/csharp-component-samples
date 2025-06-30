@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>8cfb307b276266ad0152adf9cb2cb91749ce9f09</guid>
+	<type>file</type>
+	<hash>ddd7eae2</hash>
+	<runtimes>
+		<runtime id="8cfb307b276266ad0152adf9cb2cb91749ce9f09" name="target_marker.sample" link="0"/>
+	</runtimes>
+</asset>

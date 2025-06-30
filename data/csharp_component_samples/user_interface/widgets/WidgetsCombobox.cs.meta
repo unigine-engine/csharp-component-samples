@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>4ff0c4a36dece1a63c948ccd4018c7c8dfd2c887</guid>
+	<type>component</type>
+	<hash>b7236375</hash>
+	<runtimes>
+		<runtime id="4ff0c4a36dece1a63c948ccd4018c7c8dfd2c887" name="WidgetsCombobox.cs" link="0"/>
+		<runtime id="2b37ec3ac80f0e51cacff37c2b1db8ab4d38760e" name="WidgetsCombobox.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

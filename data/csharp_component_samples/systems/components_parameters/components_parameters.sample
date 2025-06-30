@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Component Parameters">
+	<sdk_desc>Demonstrate possible variations of component parameters.</sdk_desc>
+	<desc>
+		<brief>
+			<para>The example demonstrates possible variations of component parameters.</para>
+			<para>Select the <strong nt="1">component_parameters</strong> <ui>Node Dummy</ui> in the Editor and check the parameters window.</para>
+			<para>It will contain all types of parameters.</para>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Component System</tag>
+		<tag>Programming</tag>
+		<tag>Logic</tag>
+	</tags>
+</sample>

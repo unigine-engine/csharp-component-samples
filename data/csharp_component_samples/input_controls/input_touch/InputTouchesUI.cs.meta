@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>16383b218b121a0c0de70dfb5e3fab1e19c697e5</guid>
+	<type>component</type>
+	<hash>165be71c</hash>
+	<runtimes>
+		<runtime id="16383b218b121a0c0de70dfb5e3fab1e19c697e5" name="InputTouchesUI.cs" link="0"/>
+		<runtime id="8166e8007718bb5f6f9f51324fc1fee9799abb34" name="InputTouchesUI.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

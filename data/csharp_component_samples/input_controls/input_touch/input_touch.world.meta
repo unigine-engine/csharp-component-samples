@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>bb8312b1ced26c5c29471c0b674ac1ee34bda075</guid>
+	<type>world</type>
+	<hash>eecd2e21</hash>
+	<runtimes>
+		<runtime id="bb8312b1ced26c5c29471c0b674ac1ee34bda075" name="input_touch.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="render_settings_path">guid://4fc5e33351fccef656c179dda1653198982d0817</parameter>
+		<parameter type="string" name="script_name"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="viewports_settings"/>
+	</parameters>
+</asset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>a0434875f6088f1d8297faf7a0bea1d4057f2f59</guid>
+	<type>component</type>
+	<hash>c48b69c1</hash>
+	<runtimes>
+		<runtime id="a0434875f6088f1d8297faf7a0bea1d4057f2f59" name="BodyFractureShootingGalleryGun.cs" link="0"/>
+		<runtime id="46b8b84b2dc018a78753ab7dd80b07824cfdbe4f" name="BodyFractureShootingGalleryGun.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

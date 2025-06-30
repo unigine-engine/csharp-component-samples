@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>75423dfaa2e7b5118300eb3c3a10cd6bf09503ce</guid>
+	<type>component</type>
+	<hash>0ae1b4a9</hash>
+	<runtimes>
+		<runtime id="75423dfaa2e7b5118300eb3c3a10cd6bf09503ce" name="Buoyancy.cs" link="0"/>
+		<runtime id="391587e0fb8a19bf8c5b5c12c183cc4986a66914" name="Buoyancy.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>984fecbb202b99806a349c3d3ad3da2990cab9f6</guid>
+	<type>component</type>
+	<hash>bde8a592</hash>
+	<runtimes>
+		<runtime id="984fecbb202b99806a349c3d3ad3da2990cab9f6" name="IFpsMovementController.cs" link="0"/>
+		<runtime id="151c20a121dd9f07fca828d340bb5962f855e124" name="IFpsMovementController.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

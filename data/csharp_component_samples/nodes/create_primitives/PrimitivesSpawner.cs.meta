@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>c0dea529de8cac746d9ded43e587b1c6517dde6d</guid>
+	<type>component</type>
+	<hash>261eb0e</hash>
+	<runtimes>
+		<runtime id="c0dea529de8cac746d9ded43e587b1c6517dde6d" name="PrimitivesSpawner.cs" link="0"/>
+		<runtime id="fc0ff54b594d4a2ecf680bb55e0ea99069ccefaf" name="PrimitivesSpawner.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

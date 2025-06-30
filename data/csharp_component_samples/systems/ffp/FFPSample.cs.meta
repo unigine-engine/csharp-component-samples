@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>659bbd92937ac29e622ff9b0d25f20faaf300172</guid>
+	<type>component</type>
+	<hash>d5e7edb</hash>
+	<runtimes>
+		<runtime id="659bbd92937ac29e622ff9b0d25f20faaf300172" name="FFPSample.cs" link="0"/>
+		<runtime id="3272b1603a8da87d8f3af3cef30e0951d5b1fe40" name="FFPSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

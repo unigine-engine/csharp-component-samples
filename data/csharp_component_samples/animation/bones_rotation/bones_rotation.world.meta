@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>aeddf2343348f803223fbd86e144f72d4ad06ea8</guid>
+	<type>world</type>
+	<hash>1a7f00de</hash>
+	<runtimes>
+		<runtime id="aeddf2343348f803223fbd86e144f72d4ad06ea8" name="bones_rotation.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="render_settings_path">guid://4fc5e33351fccef656c179dda1653198982d0817</parameter>
+		<parameter type="string" name="script_name"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="viewports_settings"/>
+	</parameters>
+</asset>

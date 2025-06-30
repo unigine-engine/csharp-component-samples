@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>f70e3fd96364b28994d2c9f127d9113530f52033</guid>
+	<type>component</type>
+	<hash>11443f78</hash>
+	<runtimes>
+		<runtime id="f70e3fd96364b28994d2c9f127d9113530f52033" name="AbstractComponentImplementation.cs" link="0"/>
+		<runtime id="75fc620fe6076a02782bc4674dba55bcc1e0a699" name="AbstractComponentImplementation.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

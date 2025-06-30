@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>fa1591fdc9672b38ca5c7537cc33d12aad814e81</guid>
+	<type>component</type>
+	<hash>5d9b4e16</hash>
+	<runtimes>
+		<runtime id="fa1591fdc9672b38ca5c7537cc33d12aad814e81" name="BoundFrustumIntersection.cs" link="0"/>
+		<runtime id="3be055ec0d1b585b6ce9b1fe43063145eb1df1e0" name="BoundFrustumIntersection.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

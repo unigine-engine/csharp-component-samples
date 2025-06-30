@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>a06c32c1f91114e0694c1ecbb1ae320449927b3b</guid>
+	<type>world</type>
+	<hash>db78f2a9</hash>
+	<runtimes>
+		<runtime id="a06c32c1f91114e0694c1ecbb1ae320449927b3b" name="ffp.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="render_settings_path"/>
+		<parameter type="string" name="script_name"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="viewports_settings"/>
+	</parameters>
+</asset>

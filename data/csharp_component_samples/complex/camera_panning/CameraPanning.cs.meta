@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>ff2438a1278ef98c94cb677bf101369e4aafad65</guid>
+	<type>component</type>
+	<hash>e543ef05</hash>
+	<runtimes>
+		<runtime id="ff2438a1278ef98c94cb677bf101369e4aafad65" name="CameraPanning.cs" link="0"/>
+		<runtime id="f54dff80b8b1ecdfa39fd4b2ffadac6941338ab4" name="CameraPanning.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

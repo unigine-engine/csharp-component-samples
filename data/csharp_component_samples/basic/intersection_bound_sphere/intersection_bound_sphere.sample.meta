@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>7c24459e5c2580ddcccdd096a5accb911b5d3a58</guid>
+	<type>file</type>
+	<hash>c80b3b42</hash>
+	<runtimes>
+		<runtime id="7c24459e5c2580ddcccdd096a5accb911b5d3a58" name="intersection_bound_sphere.sample" link="0"/>
+	</runtimes>
+</asset>

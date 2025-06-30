@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>762c93a56aa330c06ee4ed1f3c9057f2696fd6a9</guid>
+	<type>component</type>
+	<hash>31ed35b7</hash>
+	<runtimes>
+		<runtime id="762c93a56aa330c06ee4ed1f3c9057f2696fd6a9" name="MaterialsMetalness.cs" link="0"/>
+		<runtime id="1d252ff437419ac34b788146b4e567edf9a2a868" name="MaterialsMetalness.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

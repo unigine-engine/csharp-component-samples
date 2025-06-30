@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>08b5afc4a9e23251f8854e810c2281ca0feb1d4f</guid>
+	<type>component</type>
+	<hash>8c1e1742</hash>
+	<runtimes>
+		<runtime id="08b5afc4a9e23251f8854e810c2281ca0feb1d4f" name="MicroprofilerSample.cs" link="0"/>
+		<runtime id="0bf2c8c22c3dc582e4207a776cee495b07b0b055" name="MicroprofilerSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

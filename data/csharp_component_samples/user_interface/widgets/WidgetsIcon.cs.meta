@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>a6a5b25121ce477c1f7ffcab814dea0eb4036a15</guid>
+	<type>component</type>
+	<hash>badf2c4</hash>
+	<runtimes>
+		<runtime id="a6a5b25121ce477c1f7ffcab814dea0eb4036a15" name="WidgetsIcon.cs" link="0"/>
+		<runtime id="18ecb4706f48bd0f54eb8722968e5c1998cc96a4" name="WidgetsIcon.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>403f99ec9f2ec230f282a6aa30e0c454c6be3dcc</guid>
+	<type>file</type>
+	<hash>8263bb46</hash>
+	<runtimes>
+		<runtime id="403f99ec9f2ec230f282a6aa30e0c454c6be3dcc" name="fmod_studio.sample" link="0"/>
+	</runtimes>
+</asset>

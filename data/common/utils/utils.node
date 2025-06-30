@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.20.0.0">
+	<node type="NodeDummy" id="1190144130" name="utils">
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="NodeReference" id="2049112670" name="world_menu">
+			<reference>guid://97774334025815038092368658ab1c2daabe4fa8</reference>
+			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="NodeReference" id="566791669" name="default_player">
+			<reference>guid://8b3f24e3415378dcb29aa76aa0bedbe7c5e0cfcd</reference>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>61e108c3bd8a5098a318deeb89274c2a9da2359d</guid>
+	<type>file</type>
+	<hash>a83738a7</hash>
+	<runtimes>
+		<runtime id="61e108c3bd8a5098a318deeb89274c2a9da2359d" name="intersection_bound_frustum.sample" link="0"/>
+	</runtimes>
+</asset>

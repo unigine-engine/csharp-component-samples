@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>b11977990e51fc244093193395ec8cf6dda21fdd</guid>
+	<type>component</type>
+	<hash>51f8ecee</hash>
+	<runtimes>
+		<runtime id="b11977990e51fc244093193395ec8cf6dda21fdd" name="WidgetsSprite.cs" link="0"/>
+		<runtime id="32f19f98ae229e174f6d248a5302ca6153aee04c" name="WidgetsSprite.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

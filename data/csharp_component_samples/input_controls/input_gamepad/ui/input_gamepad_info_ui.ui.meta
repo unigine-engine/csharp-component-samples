@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>fb1728041ef1939378db03d602fb693dd6169978</guid>
+	<type>file</type>
+	<hash>f17f831</hash>
+	<runtimes>
+		<runtime id="fb1728041ef1939378db03d602fb693dd6169978" name="input_gamepad_info_ui.ui" link="0"/>
+	</runtimes>
+</asset>

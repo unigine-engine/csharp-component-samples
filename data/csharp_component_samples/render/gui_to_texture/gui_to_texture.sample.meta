@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>588973f3c847ff7afdda097ffdb5dff37c4d3e6c</guid>
+	<type>file</type>
+	<hash>e8905c</hash>
+	<runtimes>
+		<runtime id="588973f3c847ff7afdda097ffdb5dff37c4d3e6c" name="gui_to_texture.sample" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>b3e9f19202724d8cafb8c80218a2c999b22996f5</guid>
+	<type>component</type>
+	<hash>b83aedfe</hash>
+	<runtimes>
+		<runtime id="b3e9f19202724d8cafb8c80218a2c999b22996f5" name="DayNightSwitcher.cs" link="0"/>
+		<runtime id="2552d56023b38ff9364cb250207756c3868aee8b" name="DayNightSwitcher.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

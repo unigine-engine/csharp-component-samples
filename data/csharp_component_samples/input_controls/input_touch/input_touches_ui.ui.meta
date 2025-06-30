@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>a0f5badd90f27e989407f11776245b8aa93a9561</guid>
+	<type>file</type>
+	<hash>60946105</hash>
+	<runtimes>
+		<runtime id="a0f5badd90f27e989407f11776245b8aa93a9561" name="input_touches_ui.ui" link="0"/>
+	</runtimes>
+</asset>

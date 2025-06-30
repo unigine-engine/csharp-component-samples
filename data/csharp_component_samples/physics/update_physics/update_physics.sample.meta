@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>e15d35a9c5adabd572474fadb8265c805427eb70</guid>
+	<type>file</type>
+	<hash>69cfd23</hash>
+	<runtimes>
+		<runtime id="e15d35a9c5adabd572474fadb8265c805427eb70" name="update_physics.sample" link="0"/>
+	</runtimes>
+</asset>

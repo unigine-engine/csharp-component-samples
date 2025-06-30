@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>6037c1e94647a2342fc6e8039244ed8652a8672d</guid>
+	<type>component</type>
+	<hash>5c4c0db1</hash>
+	<runtimes>
+		<runtime id="6037c1e94647a2342fc6e8039244ed8652a8672d" name="WidgetsSlider.cs" link="0"/>
+		<runtime id="9b7d1ea8fa6871e7b0adc61acaba5eb108e9485c" name="WidgetsSlider.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

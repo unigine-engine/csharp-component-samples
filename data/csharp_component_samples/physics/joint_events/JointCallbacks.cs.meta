@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>d1f164fbd7546557eed05cf11daa04ee00741aff</guid>
+	<type>component</type>
+	<hash>949bc0df</hash>
+	<runtimes>
+		<runtime id="d1f164fbd7546557eed05cf11daa04ee00741aff" name="JointCallbacks.cs" link="0"/>
+		<runtime id="ec557ee1fa8be1a22fe1df67565afa155e001e85" name="JointCallbacks.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

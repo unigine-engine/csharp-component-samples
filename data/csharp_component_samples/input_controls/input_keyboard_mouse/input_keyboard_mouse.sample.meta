@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>ea6196e34ac0782b109e216ff007f30e64ed531c</guid>
+	<type>file</type>
+	<hash>1bd6b4f</hash>
+	<runtimes>
+		<runtime id="ea6196e34ac0782b109e216ff007f30e64ed531c" name="input_keyboard_mouse.sample" link="0"/>
+	</runtimes>
+</asset>

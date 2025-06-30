@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>c6d04dcd686ef075772920d9cb36e0eb25a5099f</guid>
+	<type>file</type>
+	<hash>1398fd2a</hash>
+	<runtimes>
+		<runtime id="c6d04dcd686ef075772920d9cb36e0eb25a5099f" name="widget_canvas.sample" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.20.0.0">
+	<node type="NodeDummy" id="913107962" name="default_player">
+		<properties>
+			<property parent="329841cf19529c597e1d5eecb92603dc8b4f216e" guid="7095c767d2385500e79e66645d41b38aeca470a6"/>
+		</properties>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

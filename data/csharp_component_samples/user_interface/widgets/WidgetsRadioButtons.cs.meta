@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>f694e6b76e70aa296e8182ffa0bd0c7e3f38cba6</guid>
+	<type>component</type>
+	<hash>ac0ed70b</hash>
+	<runtimes>
+		<runtime id="f694e6b76e70aa296e8182ffa0bd0c7e3f38cba6" name="WidgetsRadioButtons.cs" link="0"/>
+		<runtime id="e4bb213d04b6d5fb523bd6459d00da4eb01a4354" name="WidgetsRadioButtons.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

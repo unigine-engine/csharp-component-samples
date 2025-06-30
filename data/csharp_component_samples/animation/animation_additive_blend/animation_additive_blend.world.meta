@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>a437190af92f34e1dcdf48cc86b2edbb958087de</guid>
+	<type>world</type>
+	<hash>40e00ab1</hash>
+	<runtimes>
+		<runtime id="a437190af92f34e1dcdf48cc86b2edbb958087de" name="animation_additive_blend.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="render_settings_path">guid://4fc5e33351fccef656c179dda1653198982d0817</parameter>
+		<parameter type="string" name="script_name"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="viewports_settings"/>
+	</parameters>
+</asset>

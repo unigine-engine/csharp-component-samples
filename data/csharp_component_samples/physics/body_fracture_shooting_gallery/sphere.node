@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.20.0.0">
+	<node type="ObjectMeshStatic" id="1989087944" name="sphere">
+		<mesh_name>guid://32b0288b9450a4c75afbc72d36e76d5b93aba9c5</mesh_name>
+		<surface name="sphere" intersection="1" material="4974f8f62454869388c2ad7b718f4cd70c883b4a"/>
+		<body type="BodyRigid" id="833177296" frozen="0">
+			<shape type="ShapeSphere" id="175866345" name="ShapeSphere">
+				<radius>0.0500000082</radius>
+			</shape>
+		</body>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sample title="Body Events">
+	<sdk_desc>Demonstrating the usage of <i>Frozen, Position</i>, and <i>ContactEnter</i> events of the <i>Body</i> class via C# API.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates how to use the <ui><link to="body_class" offset="EventFrozen">Frozen</link></ui>, <ui><link to="body_class" offset="EventPosition">Position</link></ui>, and <ui><link to="body_class" offset="EventContactEnter">ContactEnter</link></ui> events of the <ui><link to="body_class">Body</link></ui> class via the C# API. These events allow responding to physical state changes, such as when a rigid body comes to rest, moves, or collides with another object or surface.</brief>
+		<para>The sample builds a pyramid of boxes by cloning a mesh and arranging it in several layers. Physics settings are adjusted to improve the stability of the stacked boxes and ensure accurate detection of movement or rest states.</para>
+		<para>Each body in the pyramid is connected to <ui><link to="body_class" offset="EventFrozen">Frozen</link></ui>, <ui><link to="body_class" offset="EventPosition">Position</link></ui>, and <ui><link to="body_class" offset="EventContactEnter">ContactEnter</link></ui> events using <ui><link to="programming_events" offset="lambda_functions">lambda</link></ui> expressions. All subscriptions are managed through an <ui><link to="eventconnections_class">EventConnections</link></ui> class instance, which keeps all connections in one place and ensures proper cleanup during shutdown. For example, the Frozen lambda changes the material of the box when it stops moving. The Position lambda changes the material whenever the position updates. The ContactEnter lambda visualizes contact points during collisions.</para>
+		<para>This approach is useful for debugging physical behaviors, providing visual feedback in simulations, or triggering logic based on changing body states.</para>
+	</desc>
+	<tags>
+		<tag>Physics</tag>
+		<tag>Systems</tag>
+		<tag>Visualizer (Visual Debug)</tag>
+	</tags>
+</sample>

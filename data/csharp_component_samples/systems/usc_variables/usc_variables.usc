@@ -1,0 +1,15 @@
+string source = "From [USC]: ";
+
+int init()
+{
+	log.message("\n\n=================Variable Sample=================\n\n");
+
+	log.message(source + "int:      %s\n",typeinfo(my_variable_int));
+	log.message(source + "float:    %s\n",typeinfo(my_variable_float));
+	log.message(source + "double:   %s\n",typeinfo(my_variable_double));
+	log.message(source + "string:   %s\n",typeinfo(my_variable_string));
+	log.message(source + "variable: %s\n",typeinfo(my_variable_vec3));
+	log.message(source + "variable: %s\n",typeinfo(my_variable_vec4));
+
+	return 1;
+}

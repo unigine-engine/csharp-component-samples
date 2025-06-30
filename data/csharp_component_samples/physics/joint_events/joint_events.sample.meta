@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>89741ef040c4fe13b20303b42ac6fd06213c3901</guid>
+	<type>file</type>
+	<hash>ad607af9</hash>
+	<runtimes>
+		<runtime id="89741ef040c4fe13b20303b42ac6fd06213c3901" name="joint_events.sample" link="0"/>
+	</runtimes>
+</asset>

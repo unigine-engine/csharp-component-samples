@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>0c0b8ed88633f6516047863f7a1d379faff63934</guid>
+	<type>file</type>
+	<hash>76486a74</hash>
+	<runtimes>
+		<runtime id="0c0b8ed88633f6516047863f7a1d379faff63934" name="body_fracture_falling_spheres.sample" link="0"/>
+	</runtimes>
+</asset>

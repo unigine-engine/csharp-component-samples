@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>70b705babfb0ead368fa6f9e0425da0e3d7c2cd3</guid>
+	<type>file</type>
+	<hash>0380bcb</hash>
+	<runtimes>
+		<runtime id="70b705babfb0ead368fa6f9e0425da0e3d7c2cd3" name="clutter_to_cluster.sample" link="0"/>
+	</runtimes>
+</asset>

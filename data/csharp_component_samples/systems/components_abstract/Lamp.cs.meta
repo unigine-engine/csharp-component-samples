@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>0432034e085a8537c63a027fa103edccfc8762f4</guid>
+	<type>component</type>
+	<hash>d7217ddc</hash>
+	<runtimes>
+		<runtime id="0432034e085a8537c63a027fa103edccfc8762f4" name="Lamp.cs" link="0"/>
+		<runtime id="6e8e87bcdefeca656e6329c53069243985a5d2f2" name="Lamp.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

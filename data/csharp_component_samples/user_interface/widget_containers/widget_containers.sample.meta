@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>d2c8becbb7c1b8c3318421f3a207233328c748e5</guid>
+	<type>file</type>
+	<hash>e2f51768</hash>
+	<runtimes>
+		<runtime id="d2c8becbb7c1b8c3318421f3a207233328c748e5" name="widget_containers.sample" link="0"/>
+	</runtimes>
+</asset>

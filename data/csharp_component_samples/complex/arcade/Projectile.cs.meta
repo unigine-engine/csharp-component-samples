@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>8c71058bf0f49d6e4f52c5f5936f9ed0b4b0e3ef</guid>
+	<type>component</type>
+	<hash>64761cb1</hash>
+	<runtimes>
+		<runtime id="8c71058bf0f49d6e4f52c5f5936f9ed0b4b0e3ef" name="Projectile.cs" link="0"/>
+		<runtime id="bfa1e43dc28cd8785f8dc1777656306a5073a4c1" name="Projectile.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

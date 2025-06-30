@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>b21342af77121042114612b9dc849cc494c50153</guid>
+	<type>component</type>
+	<hash>df465f0c</hash>
+	<runtimes>
+		<runtime id="b21342af77121042114612b9dc849cc494c50153" name="InputKeyboardAndMouseUI.cs" link="0"/>
+		<runtime id="fce2c9811dd594ec64a98b5b827448fe5239dc45" name="InputKeyboardAndMouseUI.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

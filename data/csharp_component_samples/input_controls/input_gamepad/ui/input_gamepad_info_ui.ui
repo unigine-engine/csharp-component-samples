@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="1.00">
+	<vbox name="infoVBox">
+		<hbox width="325">
+			<vbox>
+				<font size="16" outline="1">
+					<hbox align="left" space="5,0">
+						<label>
+							<text>Name:</text>
+						</label>
+						<label name="nameLabel">
+							<text></text>
+						</label>
+					</hbox>
+					<hbox align="left" space="5,0">
+						<label>
+							<text>Number:</text>
+						</label>
+						<label name="numberLabel">
+							<text></text>
+						</label>
+					</hbox>
+					<hbox align="left" space="5,0">
+						<label>
+							<text>Player Index:</text>
+						</label>
+						<label name="playerIndexLabel">
+							<text></text>
+						</label>
+					</hbox>
+					<hbox align="left" space="5,0">
+						<label>
+							<text>Device Type:</text>
+						</label>
+						<label name="deviceTypeLabel">
+							<text></text>
+						</label>
+					</hbox>
+					<hbox align="left" space="5,0">
+						<label>
+							<text>Model Type:</text>
+						</label>
+						<label name="modelTypeLabel">
+							<text></text>
+						</label>
+					</hbox>
+					<hbox align="left" space="5,0">
+						<label>
+							<text>Available:</text>
+						</label>
+						<label name="availableLabel">
+							<text></text>
+						</label>
+					</hbox>
+					<hbox align="left" space="5,0" padding_t="8">
+						<label>
+							<text>Filter:</text>
+						</label>
+						<hslider name="filterSlider" width="100" min="0" max="100">
+							<attach format="%.2f" multiplier="100">filterLabel</attach>
+						</hslider>
+						<label name="filterLabel">
+							<text>0.00</text>
+						</label>
+					</hbox>
+					<gridbox align="left" columns="2" space="5" padding_t="8" padding_l="5">
+						<label align="left">
+							<text>Last Button Down:</text>
+						</label>
+						<label name="lastButtonDownLabel" align="left">
+							<text></text>
+						</label>
+						<label align="left">
+							<text>Last Button Pressed:</text>
+						</label>
+						<label name="lastButtonPressedLabel" align="left">
+							<text></text>
+						</label>
+						<label align="left">
+							<text>Last Button Up:</text>
+						</label>
+						<label name="lastButtonUpLabel" align="left">
+							<text></text>
+						</label>
+					</gridbox>
+					<hbox align="left" padding_t="8" space="5,0">
+						<label align="top,left">
+							<text>Left Axes:</text>
+						</label>
+						<vbox padding_l="8">
+							<hbox align="left">
+								<label>
+									<text>x = </text>
+								</label>
+								<label name="leftAxesXLabel">
+									<text></text>
+								</label>
+							</hbox>
+							<hbox align="left">
+								<label>
+									<text>y = </text>
+								</label>
+								<label name="leftAxesYLabel">
+									<text></text>
+								</label>
+							</hbox>
+						</vbox>
+					</hbox>
+					<hbox align="left" padding_t="8" space="5,0">
+						<label align="top,left">
+							<text>Right Axes:</text>
+						</label>
+						<vbox padding_l="8">
+							<hbox align="left">
+								<label>
+									<text>x = </text>
+								</label>
+								<label name="rightAxesXLabel">
+									<text></text>
+								</label>
+							</hbox>
+							<hbox align="left">
+								<label>
+									<text>y = </text>
+								</label>
+								<label name="rightAxesYLabel">
+									<text></text>
+								</label>
+							</hbox>
+						</vbox>
+					</hbox>
+					<hbox align="left" padding_t="8" space="5,0">
+						<label align="top,left">
+							<text>Left Axes Last Delta:</text>
+						</label>
+						<vbox padding_l="8">
+							<hbox align="left">
+								<label>
+									<text>x = </text>
+								</label>
+								<label name="leftLastDeltaXLabel">
+									<text></text>
+								</label>
+							</hbox>
+							<hbox align="left">
+								<label>
+									<text>y = </text>
+								</label>
+								<label name="leftLastDeltaYLabel">
+									<text></text>
+								</label>
+							</hbox>
+						</vbox>
+					</hbox>
+					<hbox align="left" padding_t="8" space="5,0">
+						<label align="top,left">
+							<text>Right Axes Last Delta:</text>
+						</label>
+						<vbox padding_l="8">
+							<hbox align="left">
+								<label>
+									<text>x = </text>
+								</label>
+								<label name="rightLastDeltaXLabel">
+									<text></text>
+								</label>
+							</hbox>
+							<hbox align="left">
+								<label>
+									<text>y = </text>
+								</label>
+								<label name="rightLastDeltaYLabel">
+									<text></text>
+								</label>
+							</hbox>
+						</vbox>
+					</hbox>
+					<gridbox align="left" columns="2" space="5" padding_t="8" padding_l="5">
+						<label align="left">
+							<text>Left Trigger:</text>
+						</label>
+						<label name="leftTriggerLabel" align="left">
+							<text></text>
+						</label>
+						<label align="left">
+							<text>Right Trigger:</text>
+						</label>
+						<label name="rightTriggerLabel" align="left">
+							<text>0.0</text>
+						</label>
+					</gridbox>
+					<gridbox align="left" columns="2" space="5" padding_t="16" padding_l="5">
+						<label align="left">
+							<text>Left Trigger Last Delta:</text>
+						</label>
+						<label name="lastLeftTriggerDeltaLabel" align="left">
+							<text>0.0</text>
+						</label>
+						<label align="left">
+							<text>Right Trigger Last Delta:</text>
+						</label>
+						<label name="lastRightTriggerDeltaLabel" align="left">
+							<text>0.0</text>
+						</label>
+					</gridbox>
+					<hbox align="left" space="5,0" padding_t="8">
+						<label>
+							<text>Low Frequency:</text>
+						</label>
+						<hslider name="lowFrequencySlider" width="100" min="0" max="100" value="50">
+							<attach format="%.2f" multiplier="100">lowFrequencyLabel</attach>
+						</hslider>
+						<label name="lowFrequencyLabel">
+							<text>0.5</text>
+						</label>
+					</hbox>
+					<hbox align="left" space="5,0" padding_t="8">
+						<label>
+							<text>High Frequency:</text>
+						</label>
+						<hslider name="highFrequencySlider" width="100" min="0" max="100" value="50">
+							<attach format="%.2f" multiplier="100">highFrequencyLabel</attach>
+						</hslider>
+						<label name="highFrequencyLabel">
+							<text>0.5</text>
+						</label>
+					</hbox>
+					<hbox align="left" space="5,0" padding_t="8">
+						<label>
+							<text>Duration:</text>
+						</label>
+						<hslider name="durationSlider" width="100" min="1" max="1000" value="100">
+							<attach format="%d ms">durationLabel</attach>
+						</hslider>
+						<label name="durationLabel">
+							<text>100 ms</text>
+						</label>
+					</hbox>
+					<hbox align="left" padding_t="16">
+						<button name="vibrationButton">
+							<text>Vibrate</text>
+						</button>
+					</hbox>
+					<hbox align="left" padding_t="4">
+						<canvas name="touchpadCanvas" width="325" height="75">
+						</canvas>
+					</hbox>
+				</font>
+			</vbox>
+		</hbox>
+	</vbox>
+</ui>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>1ac529b49da887c5d08ad8ec811bcf1d069fe01e</guid>
+	<type>file</type>
+	<hash>89b34bcf</hash>
+	<runtimes>
+		<runtime id="1ac529b49da887c5d08ad8ec811bcf1d069fe01e" name="camera_persecutor.sample" link="0"/>
+	</runtimes>
+</asset>

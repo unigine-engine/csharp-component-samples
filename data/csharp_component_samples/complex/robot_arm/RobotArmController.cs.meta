@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>d96e653d0035595b163481376830970ad9c7fdbc</guid>
+	<type>component</type>
+	<hash>251dfb75</hash>
+	<runtimes>
+		<runtime id="d96e653d0035595b163481376830970ad9c7fdbc" name="RobotArmController.cs" link="0"/>
+		<runtime id="5e20f9d3c8d23de58480e7bd3ce7084517bdcc7a" name="RobotArmController.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

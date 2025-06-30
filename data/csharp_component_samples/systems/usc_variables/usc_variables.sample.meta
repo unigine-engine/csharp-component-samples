@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>59008d82b6b9bea5aee5896cd18f933ccba21cab</guid>
+	<type>file</type>
+	<hash>d2a644ea</hash>
+	<runtimes>
+		<runtime id="59008d82b6b9bea5aee5896cd18f933ccba21cab" name="usc_variables.sample" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>abb1f0eb15ea94164bb5e8f7c46f0fcfb86d1644</guid>
+	<type>file</type>
+	<hash>feb0d2dc</hash>
+	<runtimes>
+		<runtime id="abb1f0eb15ea94164bb5e8f7c46f0fcfb86d1644" name="cluster.sample" link="0"/>
+	</runtimes>
+</asset>

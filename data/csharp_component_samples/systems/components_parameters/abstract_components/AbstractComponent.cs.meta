@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>641add5643d4a061e534435ea22729e74e45b4f0</guid>
+	<type>component</type>
+	<hash>9fce4ac1</hash>
+	<runtimes>
+		<runtime id="641add5643d4a061e534435ea22729e74e45b4f0" name="AbstractComponent.cs" link="0"/>
+	</runtimes>
+</asset>

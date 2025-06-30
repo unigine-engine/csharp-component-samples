@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>836c9e7caa3467abe219590e83920d15631cfb70</guid>
+	<type>component</type>
+	<hash>fffc2309</hash>
+	<runtimes>
+		<runtime id="836c9e7caa3467abe219590e83920d15631cfb70" name="SoundSourceController.cs" link="0"/>
+		<runtime id="5f06580f304e6622e66daf19bd35cda45d1dbcb3" name="SoundSourceController.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

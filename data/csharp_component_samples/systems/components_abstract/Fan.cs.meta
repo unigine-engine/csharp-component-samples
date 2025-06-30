@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>74dada76e2b49a0ce5c69809f5a0bddcc3b777a7</guid>
+	<type>component</type>
+	<hash>299bf58c</hash>
+	<runtimes>
+		<runtime id="74dada76e2b49a0ce5c69809f5a0bddcc3b777a7" name="Fan.cs" link="0"/>
+		<runtime id="881e74a476453dee3919dabfdaf3f4bf1a0b16ed" name="Fan.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

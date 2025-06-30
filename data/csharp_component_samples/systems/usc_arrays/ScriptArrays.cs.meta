@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>0565c4f398c28e9689acfa1d2231b3ec278ba591</guid>
+	<type>component</type>
+	<hash>80b0b264</hash>
+	<runtimes>
+		<runtime id="0565c4f398c28e9689acfa1d2231b3ec278ba591" name="ScriptArrays.cs" link="0"/>
+		<runtime id="e48b0c1950f63af408657bb35c6d0aed736bedc7" name="ScriptArrays.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

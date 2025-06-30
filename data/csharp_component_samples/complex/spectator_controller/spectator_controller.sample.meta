@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>9350377241dc0643d9657d375e23f163a04c7633</guid>
+	<type>file</type>
+	<hash>518c8b26</hash>
+	<runtimes>
+		<runtime id="9350377241dc0643d9657d375e23f163a04c7633" name="spectator_controller.sample" link="0"/>
+	</runtimes>
+</asset>

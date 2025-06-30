@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>1e4a3309526a20d4e99b16230d8c0526374e5a4d</guid>
+	<type>component</type>
+	<hash>febfaee8</hash>
+	<runtimes>
+		<runtime id="1e4a3309526a20d4e99b16230d8c0526374e5a4d" name="CameraSpectator.cs" link="0"/>
+		<runtime id="14e937489e55720774e387ba153af3d19cfb9afc" name="CameraSpectator.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

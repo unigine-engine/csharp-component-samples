@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>4bae6dac46fd4c7b9fd478e63478c6ab96722c5d</guid>
+	<type>component</type>
+	<hash>05288aa</hash>
+	<runtimes>
+		<runtime id="4bae6dac46fd4c7b9fd478e63478c6ab96722c5d" name="ScriptVariables.cs" link="0"/>
+		<runtime id="acf95e6aeb518c3dfe47d9943ed37d78894211b3" name="ScriptVariables.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

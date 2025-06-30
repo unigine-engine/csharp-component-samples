@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>24b57febe891144ed5820f55657298b0f546d44f</guid>
+	<type>component</type>
+	<hash>cbea2292</hash>
+	<runtimes>
+		<runtime id="24b57febe891144ed5820f55657298b0f546d44f" name="NavigationMeshVisualizer.cs" link="0"/>
+		<runtime id="a556356231a6b559e3d89ee4a201dcf3c84afdb6" name="NavigationMeshVisualizer.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

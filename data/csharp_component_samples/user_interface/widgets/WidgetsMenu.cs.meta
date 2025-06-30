@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>d947af6ff6d01602d3f6dd79fd0768843e57da13</guid>
+	<type>component</type>
+	<hash>0b6f89fb</hash>
+	<runtimes>
+		<runtime id="d947af6ff6d01602d3f6dd79fd0768843e57da13" name="WidgetsMenu.cs" link="0"/>
+		<runtime id="b3a398566ad5f3bdb5dea1f8fe7dfcf70fbe35ea" name="WidgetsMenu.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>85fbfd2e2a9922b5cdb6d49049791eaf38e63c42</guid>
+	<type>component</type>
+	<hash>059a2778</hash>
+	<runtimes>
+		<runtime id="85fbfd2e2a9922b5cdb6d49049791eaf38e63c42" name="ClutterConverter.cs" link="0"/>
+		<runtime id="5f874774f719cc4302ac04c66068156db1e677e8" name="ClutterConverter.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

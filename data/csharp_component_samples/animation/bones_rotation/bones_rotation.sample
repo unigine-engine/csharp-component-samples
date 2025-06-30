@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Bones Rotation">
+	<sdk_desc>Controlling animation playback and directly modifying bone transforms.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates how to control animation playback and directly modify bone transforms.</brief>
+		<para>The <ui>AnimationRotation.cs</ui> component plays skeletal animations using <file_name>.anim</file_name> files and programmatically applies additional transformations to specific bones. In this example, the shooting animation is blended with the idle animation, while the turret is rotated via code by modifying the transform of a specific joint.</para>
+		<para>Animations are assigned to separate layers using the <ui><link to="objectmeshskinned_class">ObjectMeshSkinned</link></ui> class. Blending is performed between the idle animation and a dynamically selected shooting animation</para>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+	</tags>
+</sample>

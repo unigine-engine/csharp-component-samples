@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="1.00">
+	<hbox name="mainHBox" align="center">
+		<vbox name="backgroundVBox" background="1" width="400" padding="8">
+			<font size="16" outline="1">
+				<gridbox align="left" columns="2" space="8,5" padding_b="16">
+					<label align="left">
+						<text>Last Input Symbol:</text>
+					</label>
+					<label name="lastInputSymbolLabel" align="left">
+						<text></text>
+					</label>
+					<label align="left">
+						<text>Last Down Key Code:</text>
+					</label>
+					<label name="lastKeyDownLabel" align="left">
+						<text></text>
+					</label>
+					<label align="left">
+						<text>Last Pressed Key Code:</text>
+					</label>
+					<label name="lastKeyPressedLabel" align="left">
+						<text></text>
+					</label>
+					<label align="left">
+						<text>Last Up Key Code:</text>
+					</label>
+					<label name="lastKeyUpLabel" align="left">
+						<text>NONE</text>
+					</label>
+				</gridbox>
+				<gridbox align="left" columns="2" space="8,5" padding_b="16">
+					<label align="left">
+						<text>Last Mouse Button Down:</text>
+					</label>
+					<label name="lastMouseDownLabel" align="left">
+						<text></text>
+					</label>
+					<label align="left">
+						<text>Last Mouse Button Pressed:</text>
+					</label>
+					<label name="lastMousePressedLabel" align="left">
+						<text></text>
+					</label>
+					<label align="left">
+						<text>Last Mouse Button Up:</text>
+					</label>
+					<label name="lastMouseUpLabel" align="left">
+						<text></text>
+					</label>
+				</gridbox>
+				<hbox align="left" padding_b="16">
+					<label align="top,left">
+						<text>Mouse Coordinates:</text>
+					</label>
+					<vbox padding_l="8">
+						<hbox align="left">
+							<label>
+								<text>x = </text>
+							</label>
+							<label name="mouseCoordXLabel">
+								<text></text>
+							</label>
+						</hbox>
+						<hbox align="left">
+							<label>
+								<text>y = </text>
+							</label>
+							<label name="mouseCoordYLabel">
+								<text></text>
+							</label>
+						</hbox>
+					</vbox>
+				</hbox>
+				<hbox align="left" padding_b="16">
+					<label align="top,left">
+						<text>Last Mouse Coordinates Delta:</text>
+					</label>
+					<vbox padding_l="8">
+						<hbox align="left">
+							<label>
+								<text>x = </text>
+							</label>
+							<label name="lastMouseCoordDeltaXLabel">
+								<text></text>
+							</label>
+						</hbox>
+						<hbox align="left">
+							<label>
+								<text>y = </text>
+							</label>
+							<label name="lastMouseCoordDeltaYLabel">
+								<text></text>
+							</label>
+						</hbox>
+					</vbox>
+				</hbox>
+				<hbox align="left" padding_b="16">
+					<label align="top,left">
+						<text>Last Mouse Delta:</text>
+					</label>
+					<vbox padding_l="8">
+						<hbox align="left">
+							<label>
+								<text>x = </text>
+							</label>
+							<label name="lastMouseDeltaXLabel">
+								<text></text>
+							</label>
+						</hbox>
+						<hbox align="left">
+							<label>
+								<text>y = </text>
+							</label>
+							<label name="lastMouseDeltaYLabel">
+								<text></text>
+							</label>
+						</hbox>
+					</vbox>
+				</hbox>
+				<hbox align="left" padding_b="5">
+					<label>
+						<text>Last Mouse Wheel Vertical: </text>
+					</label>
+					<label name="lastWheelVerticalLabel">
+						<text></text>
+					</label>
+				</hbox>
+				<hbox align="left" padding_b="16">
+					<label>
+						<text>Last Mouse Wheel Horizontal: </text>
+					</label>
+					<label name="lastWheelHorizontalLabel">
+						<text></text>
+					</label>
+				</hbox>
+				<hbox align="left" padding_b="5">
+					<label>
+						<text>Mouse Handle: </text>
+					</label>
+					<label name="mouseHandleLabel">
+						<text></text>
+					</label>
+				</hbox>
+				<hbox align="left">
+					<label>
+						<text>Change Mouse Handle: </text>
+					</label>
+					<combobox name="mouseHandleCombobox">
+						<text>GRAB</text>
+						<text>SOFT</text>
+						<text>USER</text>
+					</combobox>
+				</hbox>
+			</font>
+		</vbox>
+	</hbox>
+</ui>

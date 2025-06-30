@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sample title="Navigation Obstacles 2D">
+	<sdk_desc>Demonstrating the use of <i>Obstacles</i> within a <i>Navigation Mesh</i> to dynamically modify valid pathfinding areas at runtime.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates how to use dynamic <strong><link to="pathfinding_obstacles">Obstacles</link></strong> in combination with a <strong><link to="navigation_mesh">Navigation Mesh</link></strong> to influence 2D pathfinding in runtime. When an obstacle overlaps the navigation mesh, it temporarily modifies the traversable area, forcing the pathfinding algorithm to recalculate a valid route around it.</brief>
+		<para>The main logic is implemented in the <strong nt="1">PathRoute2D</strong> component, which initializes a <ui><link to="pathroute_class">PathRoute</link></ui> class instance and uses <ui><link to="pathroute_class" offset="create2D_Vec3_Vec3_int_void">PathRoute.Create2D()</link></ui> to compute the path from a start node to a finish node. If the route is successfully resolved, the path is drawn on screen using <ui><link to="pathroute_class" offset="renderVisualizer_vec4_void">RenderVisualizer()</link></ui>. The radius parameter is set manually to ensure the generated path accounts for the navigation agent's size, avoiding collisions with nearby geometry.</para>
+		<para>To demonstrate dynamic behavior, several <strong>Obstacles</strong> are moved using the <strong nt="1">Rotator</strong> component, which continuously rotates them during runtime. This setup allows you to observe how the path is recalculated when obstacles shift position and alter the available navigation space.</para>
+		<para>This example is useful for prototyping interactive environments, where navigation must adapt to moving objects, barriers, or other gameplay elements affecting traversal.</para>
+	</desc>
+	<tags>
+		<tag>Navigation &amp; Pathfinding</tag>
+		<tag>Visualizer (Visual Debug)</tag>
+	</tags>
+</sample>

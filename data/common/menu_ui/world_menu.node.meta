@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>97774334025815038092368658ab1c2daabe4fa8</guid>
+	<type>node</type>
+	<hash>6dc24cbd</hash>
+	<runtimes>
+		<runtime id="97774334025815038092368658ab1c2daabe4fa8" name="world_menu.node" link="0" type="3"/>
+	</runtimes>
+</asset>

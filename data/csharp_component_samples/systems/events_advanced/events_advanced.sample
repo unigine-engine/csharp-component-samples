@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sample title="Events Advanced">
+	<sdk_desc>Advanced ways of subscribing to events in UNIGINE: using extra arguments, discarding parameters, and storing connection handles for disconnection.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates advanced ways of subscribing to events in UNIGINE: using extra arguments, discarding parameters, and storing connection handles for disconnection.</brief>
+	</desc>
+	<controls>
+		<![CDATA[<p>T - rotate around X axis</p><p>Y - rotate around Y axis</p><p>U - rotate around Z axis</p><p>I - rotate around XYZ axes at the same time</p>]]>
+	</controls>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Logic</tag>
+	</tags>
+</sample>

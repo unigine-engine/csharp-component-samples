@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>e39282e03477b6e0e6c1af391ddbb150b1430276</guid>
+	<type>component</type>
+	<hash>087737b9</hash>
+	<runtimes>
+		<runtime id="e39282e03477b6e0e6c1af391ddbb150b1430276" name="Toggler.cs" link="0"/>
+		<runtime id="725d757e1636d8f8c2c1da6f63cf62b3ae34b5a4" name="Toggler.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

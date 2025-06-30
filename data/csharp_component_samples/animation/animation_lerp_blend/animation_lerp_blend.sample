@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Animation Lerp Blend">
+	<desc>
+		<brief>Linear interpolation of two animations.</brief>
+		<para>Interpolating skeletal animations allows you to create smooth and natural transitions between different character or object movements.</para>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+	</tags>
+</sample>

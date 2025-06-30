@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>911fce225c888e31a760fc331f5ba1719d049de6</guid>
+	<type>component</type>
+	<hash>2894b27f</hash>
+	<runtimes>
+		<runtime id="911fce225c888e31a760fc331f5ba1719d049de6" name="WidgetNoSignal.cs" link="0"/>
+		<runtime id="acf913707bbb76a1b995c159da51b3bec3aaab94" name="WidgetNoSignal.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

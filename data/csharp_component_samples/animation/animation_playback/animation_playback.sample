@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Animation Playback">
+	<sdk_desc>Using multiple layers in animation playback.</sdk_desc>
+	<desc>
+		<brief>Animation playback uses animation layers.</brief>
+		<para>The possibility to control every frame provides boundless opportunities in setting the animation playback.</para>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+	</tags>
+</sample>

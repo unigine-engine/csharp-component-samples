@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>96016a53f6fa5cd66e28000a7a98f0dcf3ecb86e</guid>
+	<type>file</type>
+	<hash>18c7f4e7</hash>
+	<runtimes>
+		<runtime id="96016a53f6fa5cd66e28000a7a98f0dcf3ecb86e" name="euler_angles.sample" link="0"/>
+	</runtimes>
+</asset>

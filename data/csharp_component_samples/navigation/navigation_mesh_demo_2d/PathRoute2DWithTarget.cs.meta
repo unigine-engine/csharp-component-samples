@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>467ed6ac5134621bcfd1b0be990ea1058fd21ea0</guid>
+	<type>component</type>
+	<hash>849fc446</hash>
+	<runtimes>
+		<runtime id="467ed6ac5134621bcfd1b0be990ea1058fd21ea0" name="PathRoute2DWithTarget.cs" link="0"/>
+		<runtime id="3fee417fcf07e0d2d7eb0a09d43f0bd44a0d0523" name="PathRoute2DWithTarget.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

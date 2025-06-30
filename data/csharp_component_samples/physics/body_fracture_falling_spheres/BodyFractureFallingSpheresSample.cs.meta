@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>ee1c69a46686c06afe51709b9cb480c1d3a1fcc0</guid>
+	<type>component</type>
+	<hash>9a37fdde</hash>
+	<runtimes>
+		<runtime id="ee1c69a46686c06afe51709b9cb480c1d3a1fcc0" name="BodyFractureFallingSpheresSample.cs" link="0"/>
+		<runtime id="d16617a2e6277e064d73c9810c14f58d672051de" name="BodyFractureFallingSpheresSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

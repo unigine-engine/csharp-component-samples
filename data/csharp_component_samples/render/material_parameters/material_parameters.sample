@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Material Parameters">
+	<desc>
+		<brief>Changing parameters of materials at runtime.</brief>
+		<para>The <ui>Materials</ui> sample illustrates how to change the following parameters of <link to="material_class">materials</link> at runtime:</para>
+		<ul nt="1">
+			<li><link to="material_mesh_base" offset="parameter_albedo">Albedo color</link></li>
+			<li><link to="material_mesh_base" offset="texture_albedo">Albedo texture</link></li>
+			<li><link to="material_mesh_base" offset="parameter_metalness">Metalness</link></li>
+			<li><link to="material_mesh_base" offset="option_emission">Emission</link> state</li>
+			<li><link to="editor2_node_visual_representation" offset="cast_world_shadows">Cast World Shadow</link></li>
+		</ul>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+		<tag>Materials</tag>
+	</tags>
+</sample>

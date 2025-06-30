@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>950ba40f76db4222173cdb190f4309a4a9b1c8b3</guid>
+	<type>file</type>
+	<hash>207c815d</hash>
+	<runtimes>
+		<runtime id="950ba40f76db4222173cdb190f4309a4a9b1c8b3" name="keyboard_and_mouse_ui.ui" link="0"/>
+	</runtimes>
+</asset>

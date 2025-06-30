@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>e18f6664d346fe7319a6b13642c7771dbbda8dd8</guid>
+	<type>component</type>
+	<hash>b7a37046</hash>
+	<runtimes>
+		<runtime id="e18f6664d346fe7319a6b13642c7771dbbda8dd8" name="CameraPersecutor.cs" link="0"/>
+		<runtime id="b524375744d16ccacc23f5a1ead9928c298b2c7b" name="CameraPersecutor.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

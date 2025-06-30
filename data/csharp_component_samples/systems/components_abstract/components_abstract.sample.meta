@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>49e2c57639ce2122b7cd7e1a25c37e5393c7f23f</guid>
+	<type>file</type>
+	<hash>2746b86d</hash>
+	<runtimes>
+		<runtime id="49e2c57639ce2122b7cd7e1a25c37e5393c7f23f" name="components_abstract.sample" link="0"/>
+	</runtimes>
+</asset>

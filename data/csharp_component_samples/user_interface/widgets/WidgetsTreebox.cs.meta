@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>e85850440f8a1ed311559616dfba567d499025b8</guid>
+	<type>component</type>
+	<hash>73e76cb8</hash>
+	<runtimes>
+		<runtime id="e85850440f8a1ed311559616dfba567d499025b8" name="WidgetsTreebox.cs" link="0"/>
+		<runtime id="16c02db76d472faacda41b01b39fb86c019258db" name="WidgetsTreebox.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

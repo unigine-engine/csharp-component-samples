@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>addf5cd2daed3727101084f12af28721fe1ce20e</guid>
+	<type>file</type>
+	<hash>63c81d9d</hash>
+	<runtimes>
+		<runtime id="addf5cd2daed3727101084f12af28721fe1ce20e" name="body_fracture_explosion.sample" link="0"/>
+	</runtimes>
+</asset>

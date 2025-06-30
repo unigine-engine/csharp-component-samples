@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Arcade" img="yes">
+	<sdk_desc>A simple yet flexible 3D shooter prototype featuring core gameplay systems like shooting, collisions, health management, and dynamic effects.</sdk_desc>
+	<desc>
+		<brief><para>This sample showcases a flexible arcade-style interaction system, built with UNIGINE's C# API. It presents foundational gameplay mechanics commonly used in shooter, and action-style applications. The project serves both as a beginner-friendly learning resource and a base for prototyping more advanced features such as basic non-player behavior or scoring logic.</para>
+			<strong><para>Core Features:</para></strong>
+			<ul>
+				<li><strong>Player Controller:</strong> Control a robot character with keyboard input for movement and rotation.</li>
+				<li><strong>Projectile System:</strong> An automated turret fires projectiles using raycasting for hit detection and visual impact effects.</li>
+				<li><strong>Enemy Turret:</strong> A rotating turret that periodically shoots projectiles at the player.</li>
+				<li><strong>Health System:</strong> The robot takes damage and is destroyed when health reaches zero, with corresponding visual effects and cleanup.</li>
+				<li><strong>Node Spawning &amp; Deletion:</strong> Bullets and particle effects are dynamically created and removed, with timed destruction to manage scene performance.</li>
+				<li><strong>Visual FX (Optional):</strong> Includes particle effects for shooting, impact, and destruction events.</li>
+			</ul>
+			<strong><para>Use Cases:</para></strong>
+				<ul>
+					<li><strong>Game Prototyping:</strong> Provides a foundation for building shooter mechanics, or arcade-style gameplay.</li>
+					<li><strong>Physics &amp; Interaction:</strong> Demonstrates raycasting-based hit detection.</li>
+					<li><strong>Learning Tool:</strong> Ideal for beginners exploring the UNIGINE C# API and gameplay scripting.</li>
+				</ul>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[<p align=left>Keys <b>UP</b> and <b>DOWN</b> to move forward/backward</p>
+		<p align=left>Keys <b>LEFT</b> and <b>RIGHT</b> for clockwise/counterclockwise rotation</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Complex Solutions</tag>
+		<tag>Intersections</tag>
+		<tag>Physics</tag>
+		<tag>Games</tag>
+		<tag>Effects</tag>
+		<tag>VFX</tag>
+		<tag>Decals</tag>
+	</tags>
+</sample>

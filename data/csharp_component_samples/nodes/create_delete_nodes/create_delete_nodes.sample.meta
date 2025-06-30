@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>87c282158ecd9fc720acd101fca0416036344c16</guid>
+	<type>file</type>
+	<hash>1e354efe</hash>
+	<runtimes>
+		<runtime id="87c282158ecd9fc720acd101fca0416036344c16" name="create_delete_nodes.sample" link="0"/>
+	</runtimes>
+</asset>

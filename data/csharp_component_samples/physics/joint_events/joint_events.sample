@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sample title="Joint Events">
+	<sdk_desc>Demonstrating the usage of the <i>Broken</i> event of the <i>Joint</i> class via C# API.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates how to use the <ui><link to="joint_class" offset="EventBroken">Broken</link></ui> event of the <ui><link to="joint_class">Joint</link></ui> class via the C# API. This event allows you to react when a joint is broken due to physical forces during the simulation.</brief>
+		<para>A simple bridge structure is created by cloning a mesh and connecting multiple sections using hinge joints. Some sections are dynamic (<ui><link to="bodyrigid_class">BodyRigid</link></ui>) and others are static (<ui><link to="bodydummy_class">BodyDummy</link></ui>) to anchor the ends. Additionally, a few weights are dropped onto the bridge to cause joint breakage. The scene is configured to showcase physically reactive behavior through joints under load.</para>
+		<para>The Broken event of each joint is connected to a <ui><link to="programming_events" offset="lambda_functions">lambda</link></ui> expression using an <ui><link to="eventconnections_class">EventConnections</link></ui> class instance, which stores all connections in one place and ensures automatic cleanup when the component is shut down. When a joint breaks, the lambda is triggered, changing the material of the connected objects to visually indicate the break.</para>
+		<para>You can use this for detecting breakage in joint-based systems or adding visual feedback to destruction mechanics.</para>
+	</desc>
+	<tags>
+		<tag>Physics</tag>
+		<tag>Systems</tag>
+		<tag>Visualizer (Visual Debug)</tag>
+	</tags>
+</sample>

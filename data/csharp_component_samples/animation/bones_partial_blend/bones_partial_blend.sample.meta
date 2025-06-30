@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>48ce0b4ac35c9ea7cd05eec2205b9889e9660ae4</guid>
+	<type>file</type>
+	<hash>6915c044</hash>
+	<runtimes>
+		<runtime id="48ce0b4ac35c9ea7cd05eec2205b9889e9660ae4" name="bones_partial_blend.sample" link="0"/>
+	</runtimes>
+</asset>

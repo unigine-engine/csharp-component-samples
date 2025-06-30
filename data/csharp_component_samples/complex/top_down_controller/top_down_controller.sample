@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sample title="Top-Down Controller">
+	<sdk_desc>Implementation of a top-down camera controller for real-time strategy or tactics-style gameplay with movement and unit selection</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates how to set up and control a top-down camera controller for real-time strategy or tactics-style gameplay. It implements core features typical for such games, including camera movement, zooming, rotation, unit selection, and focus tracking.</brief>
+		<para>The logic is implemented across four components: <strong nt="1">CameraTopDown</strong>, <strong nt="1">CameraSelection, CameraUnitSelection</strong>, and <strong nt="1">CameraUnitPathControl</strong>:</para>
+		<ul>
+			<li>The camera controls are implemented in the <strong nt="1">CameraTopDown</strong> component, which handles moving, adjusting zoom levels, and interpreting user input for panning and rotating the view. The camera also supports edge scrolling - when the mouse cursor moves near the edge of the screen, the camera starts moving in that direction. When one or more units are selected, the camera can optionally shift focus to the selection and follow it continuously while a key is held.</li>
+			<li>Selection logic is managed by the <strong nt="1">CameraSelection</strong> component. It enables rectangular selection of multiple units using a screen-space box and calculates the combined bounding sphere of all selected objects for proper camera focusing.</li>
+			<li>The <strong nt="1">CameraUnitSelection</strong> component is responsible for visual feedback during selection. It highlights selected units by rendering a visual circle beneath them.</li>
+			<li>One of the units in the scene includes the <strong nt="1">CameraUnitPathControl</strong> component, which drives its movement along a predefined path that includes multiple waypoints. The unit traverses the path in a loop, demonstrating how moving elements can be integrated into a top-down control system.</li>
+		</ul>
+		<para>This setup provides a flexible base for implementing top-down camera control and unit interaction, useful for strategy games, tactical simulations, or scene overview tools.</para>
+	</desc>
+	<controls>
+		<![CDATA[
+<p>Use <b>Left Mouse Button</b> to select objects.</p>
+<p>Use <b>Middle Mouse Button</b> to move the camera.</p>
+<p>Use <b>Mouse Wheel</b> to zoom the camera.</p>
+<p>Use <b>Q</b> and <b>E</b> to rotate the camera.</p>
+<p>Hold <b>F</b> to follow selected objects.</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Complex Solutions</tag>
+		<tag>Cameras</tag>
+		<tag>Games</tag>
+	</tags>
+</sample>

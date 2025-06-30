@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>a7d5d2a62572dd16887cc1793473380ff98c0197</guid>
+	<type>property</type>
+	<hash>40b7548</hash>
+	<runtimes>
+		<runtime id="a7d5d2a62572dd16887cc1793473380ff98c0197" name="Toggleable" link="0" type="4"/>
+	</runtimes>
+</asset>

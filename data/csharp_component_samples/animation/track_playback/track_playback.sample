@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Track Playback">
+	<sdk_desc>Using tracks to animate objects (position, rotation, and scale).</sdk_desc>
+	<desc>
+		<brief>
+		<para>This example demonstrates how to use Tracker to animate objects by changing their position, rotation, and scale through tracks created in the <strong nt="1"><link to="">Tracker</link></strong> tool.</para>
+		<para>Tracks in code are referred to via names and IDs.</para>
+		<para>The <strong nt="1">TrackPlayback</strong> component uses a C# wrapper for Tracker functionality implemented in the <strong nt="1">Tracker.cs</strong> file.</para>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+	</tags>
+</sample>

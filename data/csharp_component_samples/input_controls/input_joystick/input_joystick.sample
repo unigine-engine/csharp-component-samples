@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Joystick Input">
+	<sdk_desc>This sample demonstrates how to add advanced joystick input handling, supporting multiple controllers with real-time axis/button monitoring and force feedback effects in UNIGINE.</sdk_desc>
+	<desc>
+		<brief>
+			<para>This sample demonstrates how to add advanced joystick input handling to a project using the <ui>InputJoystick.cs</ui> component assigned to <strong nt="1"><link to="node_dummy">NodeDummy</link></strong>, supporting multiple controllers with real-time axis/button monitoring and force feedback effects in UNIGINE.</para>
+			<para>It features a <strong>dynamic UI for testing 10+ force feedback types</strong> (springs, vibrations, waves) and automatically handles device connection/disconnection events.</para>
+			<para><strong>Use Cases:</strong></para>
+			<para>Ideal for racing/flight simulators or any project requiring precise controller input with haptic feedback.</para>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Input &amp; Controls</tag>
+	</tags>
+</sample>

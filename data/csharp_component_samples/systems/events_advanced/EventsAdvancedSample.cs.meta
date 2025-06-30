@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>3ccf5475a396eefbc44d9eabf1392c15b5e5c537</guid>
+	<type>component</type>
+	<hash>dbfee15b</hash>
+	<runtimes>
+		<runtime id="3ccf5475a396eefbc44d9eabf1392c15b5e5c537" name="EventsAdvancedSample.cs" link="0"/>
+		<runtime id="eb20e44b63e9ec504c235d116762b533005661fd" name="EventsAdvancedSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

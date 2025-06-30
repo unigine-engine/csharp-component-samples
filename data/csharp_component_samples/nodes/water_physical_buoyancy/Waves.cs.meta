@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>623ceaf170abe79c11adde4b1e281f2ecc62dcb5</guid>
+	<type>component</type>
+	<hash>f49e1894</hash>
+	<runtimes>
+		<runtime id="623ceaf170abe79c11adde4b1e281f2ecc62dcb5" name="Waves.cs" link="0"/>
+		<runtime id="f821909f5549a5721139c6297b53597471a2b643" name="Waves.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

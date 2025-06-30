@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>6ca4d1b4e6ef518346db490656400cad5fa18628</guid>
+	<type>component</type>
+	<hash>a0f676a1</hash>
+	<runtimes>
+		<runtime id="6ca4d1b4e6ef518346db490656400cad5fa18628" name="WidgetsSpinbox.cs" link="0"/>
+		<runtime id="8cfeb36765e8199a63759c31666c67dcc5cde18b" name="WidgetsSpinbox.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

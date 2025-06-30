@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>d875c3b342de3576638aae5d9307dc1853deb097</guid>
+	<type>component</type>
+	<hash>c4e62b4c</hash>
+	<runtimes>
+		<runtime id="d875c3b342de3576638aae5d9307dc1853deb097" name="BuoyComponent.cs" link="0"/>
+		<runtime id="57c9f45104f1a17c88278eabd7fc540ef31acc15" name="BuoyComponent.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

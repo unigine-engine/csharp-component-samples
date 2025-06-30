@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sample title="Navigation Mesh 2D">
+	<sdk_desc>Calculating and visualizing 2D navigation paths using a <i>Navigation Mesh</i> object and <i>PathRoute</i> class.</sdk_desc>
+	<desc>
+		<brief>
+			<para>This sample demonstrates how to calculate and visualize 2D navigation paths using the <strong nt="1"><link to="navigation_mesh">Navigation Mesh</link></strong> object and <ui><link to="pathroute_class">PathRoute</link></ui> class via the C# API. It shows how to build a route between two points on a navigation mesh and renders the result for debugging or visualization purposes.</para>
+		</brief>
+		<para>The main logic is implemented in the <strong nt="1">PathRoute2D</strong> component, which initializes a <ui><link to="pathroute_class">PathRoute</link></ui> class instance and uses <ui><link to="pathroute_class" offset="create2D_Vec3_Vec3_int_void">PathRoute.Create2D()</link></ui> to compute the path from a start node to a finish node. If the route is successfully resolved, the path is drawn on screen using <ui><link to="pathroute_class" offset="renderVisualizer_vec4_void">RenderVisualizer()</link></ui>. The radius parameter is set manually to ensure the generated path accounts for the navigation agent's size, avoiding collisions with nearby geometry.</para>
+		<para>The sample includes a second component, <strong nt="1">NavigationMeshVisualizer</strong>, that renders the <strong nt="1">Navigation Mesh</strong> during runtime to help visualize navigable areas.</para>
+		<para>This setup is useful for prototyping AI navigation, testing route validity, and analyzing the structure of navigable areas in 2D gameplay scenarios.</para>
+	</desc>
+	<tags>
+		<tag>Navigation &amp; Pathfinding</tag>
+		<tag>Visualizer (Visual Debug)</tag>
+	</tags>
+</sample>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>4a1103791d7f5684eb42f0134c57b656ddef79bd</guid>
+	<type>component</type>
+	<hash>f87d9bfd</hash>
+	<runtimes>
+		<runtime id="4a1103791d7f5684eb42f0134c57b656ddef79bd" name="MaterialsEmission.cs" link="0"/>
+		<runtime id="cf8e6ff8767f72f742d533eaa5cbd24165e786ac" name="MaterialsEmission.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

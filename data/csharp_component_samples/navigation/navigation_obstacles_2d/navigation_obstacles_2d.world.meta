@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>27d3d4f9755cfa04a8293d93386aa5d6c9d2a33d</guid>
+	<type>world</type>
+	<hash>3ebe342b</hash>
+	<runtimes>
+		<runtime id="27d3d4f9755cfa04a8293d93386aa5d6c9d2a33d" name="navigation_obstacles_2d.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="render_settings_path">guid://4fc5e33351fccef656c179dda1653198982d0817</parameter>
+		<parameter type="string" name="script_name"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="viewports_settings"/>
+	</parameters>
+</asset>

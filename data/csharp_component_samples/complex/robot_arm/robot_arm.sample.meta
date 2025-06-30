@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>3e0ce93e71fd5723411ec862a6822567f19861a7</guid>
+	<type>file</type>
+	<hash>046d401</hash>
+	<runtimes>
+		<runtime id="3e0ce93e71fd5723411ec862a6822567f19861a7" name="robot_arm.sample" link="0"/>
+	</runtimes>
+</asset>

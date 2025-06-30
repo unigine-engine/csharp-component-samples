@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>8b3f24e3415378dcb29aa76aa0bedbe7c5e0cfcd</guid>
+	<type>node</type>
+	<hash>084dbf74</hash>
+	<runtimes>
+		<runtime id="8b3f24e3415378dcb29aa76aa0bedbe7c5e0cfcd" name="default_player.node" link="0" type="3"/>
+	</runtimes>
+</asset>

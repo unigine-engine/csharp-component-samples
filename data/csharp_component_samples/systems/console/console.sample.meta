@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>f718b7f936798d5221a728c339bd5d345f7f7533</guid>
+	<type>file</type>
+	<hash>8e66ee2f</hash>
+	<runtimes>
+		<runtime id="f718b7f936798d5221a728c339bd5d345f7f7533" name="console.sample" link="0"/>
+	</runtimes>
+</asset>

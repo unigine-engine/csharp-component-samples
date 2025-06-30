@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>c264c448dbeaaf0f989c495379b874743f5779e1</guid>
+	<type>component</type>
+	<hash>c771fe7</hash>
+	<runtimes>
+		<runtime id="c264c448dbeaaf0f989c495379b874743f5779e1" name="Toggleable.cs" link="0"/>
+	</runtimes>
+</asset>

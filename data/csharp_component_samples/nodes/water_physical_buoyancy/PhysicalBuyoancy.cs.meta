@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>3d80b13f0bed9c4c5a5aca5b66591755e92b783d</guid>
+	<type>component</type>
+	<hash>a978bbda</hash>
+	<runtimes>
+		<runtime id="3d80b13f0bed9c4c5a5aca5b66591755e92b783d" name="PhysicalBuyoancy.cs" link="0"/>
+		<runtime id="95dd6a8567f4cce4bdb16d41c8c0dc03fa138a93" name="PhysicalBuyoancy.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

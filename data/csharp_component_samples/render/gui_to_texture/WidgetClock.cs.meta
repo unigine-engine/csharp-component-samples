@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>3c6c3f400d4b130dd247ee9b1bb5cb81cdc7323f</guid>
+	<type>component</type>
+	<hash>0509ad74</hash>
+	<runtimes>
+		<runtime id="3c6c3f400d4b130dd247ee9b1bb5cb81cdc7323f" name="WidgetClock.cs" link="0"/>
+		<runtime id="168dc2de5e12d126e849878199728ecf744bc3c5" name="WidgetClock.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

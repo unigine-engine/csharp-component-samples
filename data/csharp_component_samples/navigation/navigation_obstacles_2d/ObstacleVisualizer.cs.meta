@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>ea70a3b101a8c95c3c37d50b583a26eeb023c175</guid>
+	<type>component</type>
+	<hash>3ab937a6</hash>
+	<runtimes>
+		<runtime id="ea70a3b101a8c95c3c37d50b583a26eeb023c175" name="ObstacleVisualizer.cs" link="0"/>
+		<runtime id="51c164503d08eb6fe188220240177979b4d75484" name="ObstacleVisualizer.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

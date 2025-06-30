@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>e87a599285adc60f3f719f5ce30475010e6189d2</guid>
+	<type>file</type>
+	<hash>7d1ec5df</hash>
+	<runtimes>
+		<runtime id="e87a599285adc60f3f719f5ce30475010e6189d2" name="transform_world_local.sample" link="0"/>
+	</runtimes>
+</asset>

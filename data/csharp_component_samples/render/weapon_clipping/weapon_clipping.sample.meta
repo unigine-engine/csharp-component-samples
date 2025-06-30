@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>fc5c35a2c707763d58857006cf796a106bc626db</guid>
+	<type>file</type>
+	<hash>280c333c</hash>
+	<runtimes>
+		<runtime id="fc5c35a2c707763d58857006cf796a106bc626db" name="weapon_clipping.sample" link="0"/>
+	</runtimes>
+</asset>

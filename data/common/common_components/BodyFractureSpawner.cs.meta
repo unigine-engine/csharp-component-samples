@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>245ca791365aecf364bb2c225e7839d8ea6964d3</guid>
+	<type>component</type>
+	<hash>7c519dd2</hash>
+	<runtimes>
+		<runtime id="245ca791365aecf364bb2c225e7839d8ea6964d3" name="BodyFractureSpawner.cs" link="0"/>
+		<runtime id="a6d021071cb8ceb159c8c170226cb50b1b3e0a39" name="BodyFractureSpawner.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

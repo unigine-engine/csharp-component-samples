@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>a291bfd84c5dc15759b96eca7eb80fa188bae48c</guid>
+	<type>component</type>
+	<hash>256eaa13</hash>
+	<runtimes>
+		<runtime id="a291bfd84c5dc15759b96eca7eb80fa188bae48c" name="BuoySample.cs" link="0"/>
+		<runtime id="0f0af9cec4a3b6d54e651a300eb067cf67f7b2e2" name="BuoySample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.20.0.0">
+	<node type="NodeDummy" id="495665640" name="description_window">
+		<properties>
+			<property parent="462e74d31324e6e2fb51941f826b2ec81a74eb07" guid="6ba164bc3f8f612eb777fcb9f42d312ad02b2038"/>
+		</properties>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

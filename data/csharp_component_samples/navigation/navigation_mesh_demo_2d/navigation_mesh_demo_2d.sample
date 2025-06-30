@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sample title="Navigation Mesh Demo 2D">
+	<sdk_desc>Calculating and visualizing 2D navigation paths with moving targets using <i>Navigation Mesh</i> object and <i>PathRoute</i> class.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates how to implement dynamic 2D pathfinding using a <strong><link to="navigation_mesh">Navigation Mesh</link></strong> object, with autonomous robots navigating toward randomly positioned targets. Each robot uses a <ui><link to="pathroute_class">PathRoute</link></ui> class instance to calculate a valid route within the navigation mesh and moves along it in real time.</brief>
+		<para>The main logic is implemented in the <strong nt="1">PathRoute2DWithTarget</strong> component. On initialization, it creates a coin from a <strong><link to="node_reference">Node Reference</link></strong> and places it at a random valid location inside the Navigation Mesh. A <ui><link to="pathroute_class">PathRoute</link></ui> instance is initialized with a defined agent radius to ensure the generated path accounts for the agent's size, avoiding collisions with nearby geometry.</para>
+		<para>At runtime, the component continuously checks whether the robot is near its current target. If so, the target is moved to a new valid position, and a new path is generated using <ui><link to="pathroute_class" offset="create2D_Vec3_Vec3_int_void">Create2D()</link></ui>. If the route is valid, the path is drawn on screen using <ui><link to="pathroute_class" offset="renderVisualizer_vec4_void">RenderVisualizer()</link></ui> and the robot moves forward along it and smoothly adjusts its orientation using quaternion interpolation.</para>
+		<para>The sample includes a second component, <strong nt="1">NavigationMeshVisualizer</strong>, that renders the actual mesh structure during runtime to help visualize navigable areas.</para>
+		<para>This setup is useful for prototyping simple AI behavior such as patrolling or target chasing, where agents continuously search for and move toward dynamic goals.</para>
+	</desc>
+	<tags>
+		<tag>Navigation &amp; Pathfinding</tag>
+		<tag>Visualizer (Visual Debug)</tag>
+	</tags>
+</sample>

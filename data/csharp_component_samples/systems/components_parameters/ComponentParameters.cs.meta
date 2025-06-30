@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>6b8f555423e9c0a301f9ada6c682e8cd35db73c8</guid>
+	<type>component</type>
+	<hash>2a4a6f68</hash>
+	<runtimes>
+		<runtime id="6b8f555423e9c0a301f9ada6c682e8cd35db73c8" name="ComponentParameters.cs" link="0"/>
+		<runtime id="b73d8487fe8b783a79152a51f3475f7c5a3634ab" name="ComponentParameters.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

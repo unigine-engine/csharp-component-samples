@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>a98230fe805ea445816dc8e02aeb66bf3dfa4512</guid>
+	<type>component</type>
+	<hash>9c4b535a</hash>
+	<runtimes>
+		<runtime id="a98230fe805ea445816dc8e02aeb66bf3dfa4512" name="LaserRayIntersection.cs" link="0"/>
+		<runtime id="d86ba149dc4a3a14ab4bde63e18fb0662af98c8d" name="LaserRayIntersection.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

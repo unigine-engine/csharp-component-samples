@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>4dadb58b1f298d6e2fa2f5f59aa20ed01ae093ef</guid>
+	<type>component</type>
+	<hash>5e6d807f</hash>
+	<runtimes>
+		<runtime id="4dadb58b1f298d6e2fa2f5f59aa20ed01ae093ef" name="SoundReverbController.cs" link="0"/>
+		<runtime id="871eb0829003b5f9cc716704dca0c693e4129ad6" name="SoundReverbController.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

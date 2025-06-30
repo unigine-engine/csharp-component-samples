@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Camera Persecutor">
+	<sdk_desc>A third-person camera following a moving target.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates a camera following a moving target.</brief>
+		<para>The <ui>CameraPersecutor.cs</ui> component implements a third-person follow camera that smoothly tracks a moving target defined in the <ui>Target</ui> field. The camera adjusts its distance, pitch, and yaw to maintain the desired view of the target, using the <ui><link to="playerdummy_class">PlayerDummy</link></ui> node as its base.</para>
+		<para>Input is handled via the <ui>CameraControls.cs</ui> component and allows orbiting around the target as well as zooming in and out. The behavior is configurable through parameters such as <ui>Angular Speed, Zoom Speed, Min/Max Distance, Min/Max Vertical Angle</ui>, and the <ui>Use Fixed Angles</ui> toggle. The <ui>Target</ui> field can be manually assigned and defines the object the camera will follow.</para>
+		<para>The target movement is defined by the <ui>CameraPersecutorTarget.cs</ui> component, which moves the object along a circular path over time to demonstrate dynamic tracking.</para>
+	</desc>
+	<controls>
+		<![CDATA[
+			<p><b>Move Mouse</b> - Rotate the camera around the target</p>
+			<p><b>Mouse Wheel</b> - Zoom in and out</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Cameras</tag>
+		<tag>Logic</tag>
+		<tag>Input &amp; Controls</tag>
+	</tags>
+</sample>

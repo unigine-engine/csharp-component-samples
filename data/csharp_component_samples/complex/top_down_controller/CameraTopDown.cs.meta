@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>454eceff5ed010528b82738994786754d6ebaaa3</guid>
+	<type>component</type>
+	<hash>ea873249</hash>
+	<runtimes>
+		<runtime id="454eceff5ed010528b82738994786754d6ebaaa3" name="CameraTopDown.cs" link="0"/>
+		<runtime id="a965eb3d6b4b3378ac7a60772cb4436ae9cc9bc1" name="CameraTopDown.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

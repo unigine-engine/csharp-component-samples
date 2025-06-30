@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>317978c04deb12ff82798d7bf74572bc276842a1</guid>
+	<type>file</type>
+	<hash>817df497</hash>
+	<runtimes>
+		<runtime id="317978c04deb12ff82798d7bf74572bc276842a1" name="ifps_usage.sample" link="0"/>
+	</runtimes>
+</asset>

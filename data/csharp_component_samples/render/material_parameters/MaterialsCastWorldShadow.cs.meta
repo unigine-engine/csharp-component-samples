@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>d10e6b180e2df3970d917c0a01383be18d1ea3cc</guid>
+	<type>component</type>
+	<hash>3ef691a9</hash>
+	<runtimes>
+		<runtime id="d10e6b180e2df3970d917c0a01383be18d1ea3cc" name="MaterialsCastWorldShadow.cs" link="0"/>
+		<runtime id="9b2c8cbb9c079ade503444a5d68d2dc0d994c61f" name="MaterialsCastWorldShadow.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

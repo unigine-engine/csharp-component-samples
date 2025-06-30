@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>74152b2ec83478b518de3290f7ece4af8bab4a42</guid>
+	<type>component</type>
+	<hash>d8c683ae</hash>
+	<runtimes>
+		<runtime id="74152b2ec83478b518de3290f7ece4af8bab4a42" name="InputGamePadComponent.cs" link="0"/>
+		<runtime id="878de438f109da37b63ff22a9e44fb8151be1eec" name="InputGamePadComponent.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

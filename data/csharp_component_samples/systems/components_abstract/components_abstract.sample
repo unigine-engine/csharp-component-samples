@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sample title="Abstract Components">
+	<sdk_desc>Demonstrating the use of abstract component classes for shared behavior via C# API.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates how to use <link to="csharp_interfaces_and_abstract_classes">abstract classes</link> in the C# Component System to implement common behavior across different components.</brief>
+		<para>At the core of the sample is the abstract <strong nt="1">Toggleable</strong> component, which defines a shared structure for enabling and disabling functionality. It contains the <strong nt="1">Toggled</strong> property that automatically calls the <ui>On()</ui> or <ui>Off()</ui> methods when changed. These methods are abstract and must be implemented in each derived class. The <ui>Toggle()</ui> method is used to switch the state manually, applying the corresponding behavior and updating the internal state.</para>
+		<para>Two specific components, <strong nt="1">Lamp</strong> and <strong nt="1">Fan</strong>, inherit from <strong nt="1">Toggleable</strong> and implement their own versions of the abstract methods. Lamp controls a light source by toggling its emission material state, while Fan continuously rotates the object when active.</para>
+		<para>The <strong nt="1">Toggler</strong> component performs interaction by casting a ray from the camera when the left mouse button is pressed. If it hits an object with a <strong nt="1">Toggleable</strong> component attached, it toggles that component's state.</para>
+		<para>This setup is useful for scenarios where different types of objects need to respond to a common interaction pattern. Using abstract classes makes it easy to implement consistent logic across objects while still allowing each one of them to behave differently.</para>
+	</desc>
+	<controls>
+		<![CDATA[
+<p><b>Сlick</b> on the lamp (sphere) and the fan (cube) to toggle them.</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Component System</tag>
+		<tag>Logic</tag>
+		<tag>Programming</tag>
+	</tags>
+</sample>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>015d9dad697ee8af354720155f07dd917801f9d7</guid>
+	<type>file</type>
+	<hash>4ac37cc3</hash>
+	<runtimes>
+		<runtime id="015d9dad697ee8af354720155f07dd917801f9d7" name="intersection_mouse_ray.sample" link="0"/>
+	</runtimes>
+</asset>

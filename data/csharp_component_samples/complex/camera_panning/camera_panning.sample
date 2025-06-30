@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample title="Camera Panning">
+	<sdk_desc>A camera moving parallel to the screen plane.</sdk_desc>
+	<desc>
+		<brief>This sample demonstrates a camera moving parallel to the screen plane using the <ui>CameraPanning.cs</ui> component assigned to a <ui>PlayerDummy</ui> node.</brief>
+		<para>The <ui>CameraPanning.cs</ui> component implements a free panning camera that allows movement along the view plane, rotation, and zoom based on mouse input.</para>
+		<para>The camera position can be adjusted by dragging the scene, and rotation is enabled by holding the right mouse button. Zooming is controlled with the mouse wheel. The responsiveness of movement and rotation is configurable via the <ui>Default Linear Speed, Mouse Sensitivity</ui>, and <ui>Mouse Wheel Sensitivity</ui> parameters in the component properties.</para>
+	</desc>
+	<controls>
+		<![CDATA[
+			<p><b>RMB (Drag)</b> - Rotate the camera</p>
+			<p><b>LMB (Drag)</b> - Pan the camera</p>  
+			<p><b>Mouse Wheel</b> - Zoom in and out</p>  
+		]]>
+	</controls>
+	<tags>
+		<tag>Cameras</tag>
+		<tag>Input &amp; Controls</tag>
+	</tags>
+</sample>

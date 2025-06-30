@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>ebb50ca03abaf213e7e708648e853d0be588a471</guid>
+	<type>file</type>
+	<hash>b0596b5b</hash>
+	<runtimes>
+		<runtime id="ebb50ca03abaf213e7e708648e853d0be588a471" name="input_joystick.sample" link="0"/>
+	</runtimes>
+</asset>

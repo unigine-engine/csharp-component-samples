@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>a0b5f0153ebe4701fba364b46c5f1949da1b7112</guid>
+	<type>component</type>
+	<hash>8adefc67</hash>
+	<runtimes>
+		<runtime id="a0b5f0153ebe4701fba364b46c5f1949da1b7112" name="ZoomSample.cs" link="0"/>
+		<runtime id="63bf2eeb11e75a752c591032808e2fa7197514e0" name="ZoomSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

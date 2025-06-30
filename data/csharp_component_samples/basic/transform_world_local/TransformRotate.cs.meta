@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>e8c5d3c98f7dca946cfd34e3d28814e63021a70d</guid>
+	<type>component</type>
+	<hash>b728ab8b</hash>
+	<runtimes>
+		<runtime id="e8c5d3c98f7dca946cfd34e3d28814e63021a70d" name="TransformRotate.cs" link="0"/>
+		<runtime id="2c37e3b1fc47095c43c1150ba9b266eefcbf0175" name="TransformRotate.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

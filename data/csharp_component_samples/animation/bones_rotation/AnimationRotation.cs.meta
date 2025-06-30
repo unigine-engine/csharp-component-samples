@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>1f11c96e925601f52081aad03b637fef63ccac82</guid>
+	<type>component</type>
+	<hash>6df328c7</hash>
+	<runtimes>
+		<runtime id="1f11c96e925601f52081aad03b637fef63ccac82" name="AnimationRotation.cs" link="0"/>
+		<runtime id="5de064783893dd77a6cd9c6ae78c20c10672832c" name="AnimationRotation.prop" link="1" type="4"/>
+	</runtimes>
+</asset>
