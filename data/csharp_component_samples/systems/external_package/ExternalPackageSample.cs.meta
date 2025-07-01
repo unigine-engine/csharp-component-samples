@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>785bd5914804a1262faaaa1b6a4e765e3646ce8b</guid>
 	<type>component</type>
-	<hash>8a7e1226</hash>
+	<hash>ba58dc73</hash>
 	<runtimes>
 		<runtime id="785bd5914804a1262faaaa1b6a4e765e3646ce8b" name="ExternalPackageSample.cs" link="0"/>
 		<runtime id="9f731f078717404b7f37b701d6863f28d2364131" name="ExternalPackageSample.prop" link="1" type="4"/>
