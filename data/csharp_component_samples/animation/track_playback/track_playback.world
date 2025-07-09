@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <world version="2.20.0.0">
+	<script_name>guid://a19760572a0081ca3ee606a1ba7a6f8c61c4657b</script_name>
 	<render_settings_path>guid://4fc5e33351fccef656c179dda1653198982d0817</render_settings_path>
 	<data>
 		<unigine_editor>
@@ -303,7 +304,7 @@
 		<render_environment>1</render_environment>
 		<render_environment_cubemap_blend>0</render_environment_cubemap_blend>
 		<render_environment_ggx_mipmaps_quality>0</render_environment_ggx_mipmaps_quality>
-		<render_environment_haze>1</render_environment_haze>
+		<render_environment_haze>2</render_environment_haze>
 		<render_environment_haze_colorization_intensity>0.949999988</render_environment_haze_colorization_intensity>
 		<render_environment_haze_colorization_threshold>0.5</render_environment_haze_colorization_threshold>
 		<render_environment_haze_gradient>0</render_environment_haze_gradient>
@@ -356,6 +357,7 @@
 		<render_indirect_specular_denoise_mask_enabled>1</render_indirect_specular_denoise_mask_enabled>
 		<render_indirect_specular_denoise_threshold>1</render_indirect_specular_denoise_threshold>
 		<render_indirect_specular_denoise_threshold_ao>0.100000001</render_indirect_specular_denoise_threshold_ao>
+		<render_indirect_specular_normalization>0</render_indirect_specular_normalization>
 		<render_indirect_specular_temporal_filtering_color_clamping_intensity>1</render_indirect_specular_temporal_filtering_color_clamping_intensity>
 		<render_indirect_specular_temporal_filtering_color_clamping_intensity_ao>1</render_indirect_specular_temporal_filtering_color_clamping_intensity_ao>
 		<render_indirect_specular_temporal_filtering_color_clamping_velocity_threshold>100</render_indirect_specular_temporal_filtering_color_clamping_velocity_threshold>
@@ -620,6 +622,8 @@
 		<render_stereo_planar_reflections_per_eye>0</render_stereo_planar_reflections_per_eye>
 		<render_streaming_animations_life_time>-1</render_streaming_animations_life_time>
 		<render_streaming_budget_loading>1</render_streaming_budget_loading>
+		<render_streaming_cache_ram>-1</render_streaming_cache_ram>
+		<render_streaming_cache_vram>-1</render_streaming_cache_vram>
 		<render_streaming_committed_memory_overcommit>1</render_streaming_committed_memory_overcommit>
 		<render_streaming_free_space_ram>1024</render_streaming_free_space_ram>
 		<render_streaming_free_space_vram>512</render_streaming_free_space_vram>
@@ -730,7 +734,6 @@
 		<composite_deferred_material_guid>guid://</composite_deferred_material_guid>
 		<debug_materials/>
 		<scriptable_materials/>
-		<render_indirect_specular_normalization>0</render_indirect_specular_normalization>
 	</render>
 	<physics>
 		<frozen_linear_velocity>0.0199999996</frozen_linear_velocity>

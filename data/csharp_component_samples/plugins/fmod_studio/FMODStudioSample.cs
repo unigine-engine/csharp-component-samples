@@ -171,11 +171,15 @@ public class FMODStudioSample : Component
 			envVCA = null;
 		}
 
+		if (pluginInitialized)
+		{
+			carSphere.DeleteLater();
+			dopplerSphere.DeleteLater();
+		}
+
 		Unigine.Console.Run("plugin_unload UnigineFMOD");
 		pluginInitialized = false;
 
-		carSphere.DeleteLater();
-		dopplerSphere.DeleteLater();
 		Visualizer.Enabled = false;
 		sampleDescriptionWindow.shutdown();
 	}

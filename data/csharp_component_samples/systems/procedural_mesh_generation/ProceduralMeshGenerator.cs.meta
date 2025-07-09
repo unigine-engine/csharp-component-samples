@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>bbb111095d7aed156bc4b4fec3b63cfccd0e8d4a</guid>
+	<type>component</type>
+	<hash>84a61cf7</hash>
+	<runtimes>
+		<runtime id="bbb111095d7aed156bc4b4fec3b63cfccd0e8d4a" name="ProceduralMeshGenerator.cs" link="0"/>
+		<runtime id="38c7ebbf881a8e43654c3dec38ba576198467a58" name="ProceduralMeshGenerator.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

@@ -852,7 +852,7 @@ abstract component [Toggleable].
 
 You can         on the lamp
 (sphere) and fan (cube)
-to "toggle" them.</text>
+to &quot;toggle&quot; them.</text>
 				<font_rich>1</font_rich>
 				<font_size>40</font_size>
 				<text_wrap_width>0</text_wrap_width>

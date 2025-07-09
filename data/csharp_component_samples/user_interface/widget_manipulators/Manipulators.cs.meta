@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>37d0d1c0210e0d25e3e32f14e3e560a999480965</guid>
+	<type>component</type>
+	<hash>53876ea4</hash>
+	<runtimes>
+		<runtime id="37d0d1c0210e0d25e3e32f14e3e560a999480965" name="Manipulators.cs" link="0"/>
+		<runtime id="7115b15ea4639d29e8e01b9227d75746985e637b" name="Manipulators.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

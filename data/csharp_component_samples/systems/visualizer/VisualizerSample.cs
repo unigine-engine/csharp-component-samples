@@ -7,14 +7,9 @@ public class VisualizerSample : Component
 	[Parameter(Title = "Visualizer usage")]
 	private VisualizerUsage visualizer_usage = null;
 	private SampleDescriptionWindow window = null;
-	Input.MOUSE_HANDLE mouse_grab = Input.MOUSE_HANDLE.USER;
-
 
 	void Init()
 	{
-		mouse_grab = Input.MouseHandle;
-		Input.MouseHandle = Input.MOUSE_HANDLE.GRAB;
-
 		window = new SampleDescriptionWindow();
 		window.createWindow();
 		var parameters = window.getParameterGroupBox();

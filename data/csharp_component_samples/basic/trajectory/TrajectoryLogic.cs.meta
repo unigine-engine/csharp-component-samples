@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>fdf76726954d9cd120e8bbda20e97b750136d861</guid>
+	<type>component</type>
+	<hash>3f357e71</hash>
+	<runtimes>
+		<runtime id="fdf76726954d9cd120e8bbda20e97b750136d861" name="TrajectoryLogic.cs" link="0"/>
+		<runtime id="3dbf3dd482e5e570fb4168689d535522a7a0fc17" name="TrajectoryLogic.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

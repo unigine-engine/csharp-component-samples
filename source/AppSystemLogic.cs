@@ -13,6 +13,7 @@ namespace UnigineApp
 		public override bool Init()
 		{
 			InterpreterRegistrator.Initialize();
+			Input.MouseHandle = Input.MOUSE_HANDLE.USER;
 			return true;
 		}
 

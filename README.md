@@ -6,7 +6,10 @@ This repository contains [C# UNIGINE samples](https://developer.unigine.com/en/d
 
 - [**UNIGINE SDK Browser**](https://developer.unigine.com/en/docs/latest/start/installing_sdk?rlang=cpp) (latest version)
 - **UNIGINE SDK Community** or **Engineering** edition (**Sim** upgrade supported)
+- **Python 3.10** or newer
 - **Visual Studio 2022** (recommended)
+
+Check the full list of system requirements at [developer.unigine.com.](https://developer.unigine.com/en/docs/latest/start/requirements?rlang=cpp)
 
 ## Running the Samples
 

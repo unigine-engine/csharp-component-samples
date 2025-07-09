@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>076835999824eabec468bdfe5c0ff8bde0a0c2d0</guid>
 	<type>component</type>
-	<hash>425eb68a</hash>
+	<hash>a8f0d26e</hash>
 	<runtimes>
 		<runtime id="076835999824eabec468bdfe5c0ff8bde0a0c2d0" name="DefaultPlayer.cs" link="0"/>
 		<runtime id="329841cf19529c597e1d5eecb92603dc8b4f216e" name="DefaultPlayer.prop" link="1" type="4"/>

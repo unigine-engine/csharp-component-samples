@@ -115,10 +115,14 @@ public class FMODCoreSample : Component
 			musicChannel3D.Release();
 			musicChannel3D = null;
 		}
+		if (pluginInitialized)
+		{
+			carSphere.DeleteLater();
+		}
 
+		Unigine.Console.Run("plugin_unload UnigineFMOD");
 		pluginInitialized = false;
 
-		carSphere.DeleteLater();
 		Visualizer.Enabled = false;
 		sampleDescriptionWindow.shutdown();
 	}

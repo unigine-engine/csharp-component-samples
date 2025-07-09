@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>a904a285fae742f5e9e61cf5afd86c0242fc7729</guid>
+	<type>component</type>
+	<hash>a8d44d2e</hash>
+	<runtimes>
+		<runtime id="a904a285fae742f5e9e61cf5afd86c0242fc7729" name="IntersectionTriggerComponent.cs" link="0"/>
+		<runtime id="6bd4a7db685ab8df907188cb5ecf4bcf1054599f" name="IntersectionTriggerComponent.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

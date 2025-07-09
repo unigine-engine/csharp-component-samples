@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>ca076bf6ee8c38ff86cb38823f55b992d45ac838</guid>
 	<type>component</type>
-	<hash>d4be4518</hash>
+	<hash>8382cfe6</hash>
 	<runtimes>
 		<runtime id="ca076bf6ee8c38ff86cb38823f55b992d45ac838" name="VisualizerSample.cs" link="0"/>
 		<runtime id="3a4bfa242c0f8179abfaded08f54d57662e23496" name="VisualizerSample.prop" link="1" type="4"/>

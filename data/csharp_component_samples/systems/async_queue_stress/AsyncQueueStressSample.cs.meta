@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>3415f714eb2820765c531107b671308534f907a7</guid>
+	<type>component</type>
+	<hash>6aa06a94</hash>
+	<runtimes>
+		<runtime id="3415f714eb2820765c531107b671308534f907a7" name="AsyncQueueStressSample.cs" link="0"/>
+		<runtime id="a8bfb39278ee1070f8d9f70d5e424754152a26ed" name="AsyncQueueStressSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

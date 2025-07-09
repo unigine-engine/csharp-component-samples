@@ -218,6 +218,23 @@
 		<Compile Include="data/common/common_components/SimpleAnimationPlayer.cs"/>
 		<Compile Include="data/common/utils/DescriptionWindowCreator.cs"/>
 		<Compile Include="data/common/menu_ui/components/SampleDescriptionWindow.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/triggers/MathTriggerComponent.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/triggers/IntersectionTriggerComponent.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/triggers/TriggerSample.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/trajectory/TrajectoryLogic.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/trajectory/PathTrajectorySaver.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/trajectory/SimpleTrajectoryMovement.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/trajectory/SplineTrajectoryMovement.cs"/>
+		<Compile Include="data/csharp_component_samples/basic/trajectory/SavedPathTrajectory.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widget_manipulators/Manipulators.cs"/>
+		<Compile Include="data/csharp_component_samples/user_interface/widget_manipulators/ManipulatorsSample.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/async_queue/AsyncQueueSample.cs"/>
+		<Compile Include="data/common/utils/Utils.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/async_queue_stress/AsyncQueueStressSample.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/async_queue_tasks/AsyncQueueTasksSample.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/procedural_mesh_generation/ProceduralMeshGenerator.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/procedural_mesh_apply/ProceduralMeshApply.cs"/>
+		<Compile Include="data/csharp_component_samples/systems/procedural_mesh_modification/ProceduralMeshModifier.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source/**/*.cs"/>

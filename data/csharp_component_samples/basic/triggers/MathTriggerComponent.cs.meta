@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>717961aa7a33a59ca4ea027a4fe474540aff805e</guid>
+	<type>component</type>
+	<hash>9c430675</hash>
+	<runtimes>
+		<runtime id="717961aa7a33a59ca4ea027a4fe474540aff805e" name="MathTriggerComponent.cs" link="0"/>
+		<runtime id="33a82db84a2489447af346085b2b1c2e128d4d4c" name="MathTriggerComponent.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

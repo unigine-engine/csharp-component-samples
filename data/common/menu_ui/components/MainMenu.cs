@@ -209,7 +209,7 @@ public class MainMenu : Component
 		public UISampleList sampleList;
 		public UITagStyle tagStyle;
 	}
-	[ShowInEditor] UIConfiguration uiConfiguration;
+	[ShowInEditor] UIConfiguration uiConfiguration = null;
 
 	private WidgetHBox samples_and_tags_hbox = null;
 
@@ -527,8 +527,6 @@ internal class WidgetSearchField
 	private WidgetEditLine editline = null;
 	private WidgetSprite icon_sprite = null;
 
-
-	private WidgetVBox tags_vbox = null;
 	private WidgetScrollBox tags_scrollbox = null;
 	private List<Widget> tag_widgets_ordered = new List<Widget>();
 
@@ -1029,7 +1027,6 @@ internal class WidgetSample : WidgetSampleListNode
 	private WidgetLabel title_label = null;
 	private WidgetLabel description_label = null;
 
-	private WidgetVBox tags_vbox = null;
 	private Dictionary<string, Tag> tag_widgets = new Dictionary<string, Tag>();
 
 	Sample sample_info;
@@ -1177,8 +1174,6 @@ internal class WidgetSample : WidgetSampleListNode
 
 internal class WidgetCategory : WidgetSampleListNode
 {
-	private bool was_pressed = false;
-
 	private WidgetSprite icon_sprite;
 	private WidgetLabel title_label;
 	private WidgetSprite arrow_sprite;

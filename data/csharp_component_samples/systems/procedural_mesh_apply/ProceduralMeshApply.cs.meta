@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>965dfed315f96e6024894fcaf030cdb80889d45f</guid>
+	<type>component</type>
+	<hash>051d405b</hash>
+	<runtimes>
+		<runtime id="965dfed315f96e6024894fcaf030cdb80889d45f" name="ProceduralMeshApply.cs" link="0"/>
+		<runtime id="f57beaf90b900209989d36d8cad84699660d88e5" name="ProceduralMeshApply.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

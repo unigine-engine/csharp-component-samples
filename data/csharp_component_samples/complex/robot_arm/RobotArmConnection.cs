@@ -6,14 +6,13 @@ using Unigine;
 public class RobotArmConnection : Component
 {
 	[ShowInEditor]
-	private Node connectionPoint;
+	private Node connectionPoint = null;
 
 	[ShowInEditor]
-	private PhysicalTrigger connectionTrigger;
+	private PhysicalTrigger connectionTrigger = null;
 
 	private JointFixed jointFixed;
 	private BodyRigid connectionCandidate = null;
-	private bool connected = false;
 
 	private void Init()
 	{
@@ -31,8 +30,6 @@ public class RobotArmConnection : Component
 	{
 		if(Input.IsKeyDown(Input.KEY.C) && connectionCandidate != null)
 		{
-			connected = true;
-
 			jointFixed.Body1 = connectionCandidate;
 
 			var itransform = MathLib.Inverse(connectionCandidate.Transform);
@@ -45,7 +42,6 @@ public class RobotArmConnection : Component
 
 		if (Input.IsKeyDown(Input.KEY.V))
 		{
-			connected = false;
 			jointFixed.Enabled = false;
 		}
 	}
@@ -61,7 +57,6 @@ public class RobotArmConnection : Component
 		if(connectionCandidate == (body as BodyRigid))
 		{
 			connectionCandidate = null;
-			connected = false;
 			jointFixed.Enabled = false;
 		}
 	}

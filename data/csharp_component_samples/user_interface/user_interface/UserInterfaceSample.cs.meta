@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>2e90d547535748fc68247f33b788232f9377a2a9</guid>
 	<type>component</type>
-	<hash>d18a3221</hash>
+	<hash>54cd4332</hash>
 	<runtimes>
 		<runtime id="2e90d547535748fc68247f33b788232f9377a2a9" name="UserInterfaceSample.cs" link="0"/>
 		<runtime id="b4a1c14d6eb72caa79943c59f9360e9a2421d91f" name="UserInterfaceSample.prop" link="1" type="4"/>

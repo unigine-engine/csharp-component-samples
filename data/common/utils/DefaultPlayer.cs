@@ -20,7 +20,9 @@ public class DefaultPlayer : Component
 
 	private bool init_player_controlled = false;
 	private bool init_mouse_enabled = false;
+	private Input.MOUSE_HANDLE init_mouse_handle;
 
+	[MethodInit(Order = 10)]
 	void Init()
 	{
 		if (!player)
@@ -34,6 +36,8 @@ public class DefaultPlayer : Component
 
 		init_player_controlled = player.Controlled;
 		init_mouse_enabled = ControlsApp.MouseEnabled;
+		init_mouse_handle = Input.MouseHandle;
+		Input.MouseHandle = MOUSE_HANDLE.USER;
 
 		var button = (Input.MOUSE_BUTTON)mouse_button;
 		if (button != Input.MOUSE_BUTTON.UNKNOWN)
@@ -63,5 +67,6 @@ public class DefaultPlayer : Component
 
 		ControlsApp.MouseEnabled = init_mouse_enabled;
 		Input.MouseCursorHide = false;
+		Input.MouseHandle = init_mouse_handle;
 	}
 }

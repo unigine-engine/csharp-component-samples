@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>266386067dd049dc533004b1219f33910997c791</guid>
+	<type>component</type>
+	<hash>b0cfe293</hash>
+	<runtimes>
+		<runtime id="266386067dd049dc533004b1219f33910997c791" name="AsyncQueueTasksSample.cs" link="0"/>
+		<runtime id="de9cb9b47ac32b0e4f34b127fa6dedebf19a3fc7" name="AsyncQueueTasksSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

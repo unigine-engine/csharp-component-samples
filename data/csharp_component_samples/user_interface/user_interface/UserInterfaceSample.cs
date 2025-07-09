@@ -27,7 +27,7 @@ public class UserInterfaceSample : Component
 		ui.GetWidgetByName("edittext").EventChanged.Connect(EdittextChanged);
 		ui.GetWidgetByName("menubox_0").EventClicked.Connect(Menubox0Clicked);
 
-		Widget window = ui.GetWidget(ui.FindWidget("window"));
+		window = ui.GetWidget(ui.FindWidget("window"));
 		window.Arrange();
 		gui.AddChild(window, Gui.ALIGN_OVERLAP | Gui.ALIGN_CENTER);
 

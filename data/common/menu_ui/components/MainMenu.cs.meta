@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>4aa46dbd41f6d3f8a1a486f72daf37ead4760641</guid>
 	<type>component</type>
-	<hash>c3bba389</hash>
+	<hash>f8177b2</hash>
 	<runtimes>
 		<runtime id="4aa46dbd41f6d3f8a1a486f72daf37ead4760641" name="MainMenu.cs" link="0"/>
 		<runtime id="1858030bd6307ceea1ea1f75d0482a50b2c4f96f" name="MainMenu.prop" link="1" type="4"/>

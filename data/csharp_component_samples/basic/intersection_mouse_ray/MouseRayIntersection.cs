@@ -29,10 +29,12 @@ public class MouseRayIntersection : Component
 	public int mask = 1;
 
 	private WidgetLabel label = null;
+	Input.MOUSE_HANDLE initHandle;
 
 	private void Init()
 	{
 		// show cursor when player is not rotate
+		initHandle = Input.MouseHandle;
 		Input.MouseHandle = Input.MOUSE_HANDLE.SOFT;
 
 		// create label for target object name
@@ -67,6 +69,6 @@ public class MouseRayIntersection : Component
 	{
 		Gui.GetCurrent().RemoveChild(label);
 
-		Input.MouseHandle = Input.MOUSE_HANDLE.GRAB;
+		Input.MouseHandle = initHandle;
 	}
 }

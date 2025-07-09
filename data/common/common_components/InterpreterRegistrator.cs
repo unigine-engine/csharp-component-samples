@@ -7,7 +7,9 @@ public partial class InterpreterRegistrator
 {
 	private static InterpreterRegistrator instance = new InterpreterRegistrator();
 
+#nullable enable
 	private static List<Action>? actions;
+#nullable disable
 
 	private InterpreterRegistrator() { }
 
