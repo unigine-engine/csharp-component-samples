@@ -1,0 +1,1508 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<meta>
+	<samples_pack name="csharp_component_samples">
+		<title>C# Component Samples</title>
+		<version>2.20</version>
+		<dependency>2.20</dependency>
+		<os>cross</os>
+		<workflow>editor2</workflow>
+		<precision>double</precision>
+		<path>data</path>
+		<command>world_load csharp_component_samples</command>
+		<custom_app>csharp_component_samples</custom_app>
+		<run_workflow>dotnet</run_workflow>
+		<bin_type>development</bin_type>
+		<api>csdnc</api>
+		<plugins>FMOD</plugins>
+		<description>
+			<![CDATA[
+			<p>A set of samples showcasing the use of engine features via C# components for various use cases.</p>
+			<p>Programming is easy: application logic is implemented in components, that can be assigned to any nodes in the virtual world to extend their functionality.</p>
+			<p>To launch this samples, you should perform the following actions:
+				<ul>
+					<li>Install one of the following IDEs to work with the source code:
+						<ul>
+							<li><b><a href="https://code.visualstudio.com/download">Visual Studio Code</a></b>, recommended (C# extension is required)</li>
+							<li><b>Visual Studio 2022</b></li>
+						</ul>
+					</li>
+					<li>Download and install <a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">.NET Core 8.0</a><br/>If you're using Visual Studio, choose the appropriate .NET Core version:
+						<ul>
+							<li>
+								<a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">v8.0.107</a> for Visual Studio 2022
+							</li>
+						</ul>
+					</li>
+					<li>Click <b>Copy as Project</b> under this Demo.</li>
+					<li>Click <b>Open Editor</b> for the project to run it in the Editor.</li>
+					<li>Run the project via the <b>Play</b> button on the Editor's toolbar.</li>
+				</ul>
+			</p>
+			]]>
+		</description>
+		<features>
+			<![CDATA[
+				<p>
+					<ul>
+						<li><b>Animation</b> - blending and lerping animations, applying partial blending of bones, rotating bones via code, controlling animation playback</li>
+						<li><b>Arcade Sample</b> - simple but frequently used arcade mechanics: controls, shooting and intersection of bullets with surfaces, node spawning, transformations, and deletion</li>
+						<li><b>Cameras</b> - creating and controlling various cameras: first-person-view, orbital, panning, and persecutor camera</li>
+						<li><b>CharacterController</b> - first-person character controller implementation</li>
+						<li><b>Components</b> - all available types of component parameters</li>
+						<li><b>Create Nodes</b> - creating and deleting nodes via code</li>
+						<li><b>Input</b> - enabling input from various devices (keyboard, gamepad, joystick, etc.)</li>
+						<li><b>Materials</b> - changing material parameters at run time</li>
+						<li><b>Navigation</b> - 2D and 3D pathfinding and navigation (navigation meshes, obstacles, sectors)</li>
+						<li><b>Sounds</b> - adding and controlling various sounds</li>
+						<li><b>Tracker</b> - using Tracker functionality to animate objects (change their position, rotation, and scale) via tracks created in the Tracker tool.</li>
+						<li><b>Transformation</b> - object transformations: rotation via Euler angles, local and world transforms</li>
+						<li><b>Widgets</b> - using widgets and containers to create a custom GUI</li>
+						<li><b>World Intersection</b> - detecting intersections between bounds and nodes, between rays and geometry</li>
+					</ul>
+				</p>
+			]]>
+		</features>
+		<products>
+			<product>tier3_bin_windows</product>
+			<product>tier3_bin_channel</product>
+			<product>tier3_bin_channel_windows</product>
+			<product>tier3_bin_channel_linux</product>
+			<product>tier3_src_windows</product>
+			<product>tier3_bin_linux</product>
+			<product>tier3_src_linux</product>
+			<product>tier3_evaluation</product>
+			<product>tier2_bin_windows</product>
+			<product>tier2_src_windows</product>
+			<product>tier2_bin_linux</product>
+			<product>tier2_src_linux</product>
+			<product>tier2_evaluation</product>
+			<product>tier0_bin</product>
+			<product>tier0_bin_pro</product>
+		</products>
+		<images>
+			<card_image>.meta/images/csharp_rect.png</card_image>
+			<thumb>.meta/images/csharp_sm.png</thumb>
+			<image>.meta/images/csharp_001.png</image>
+			<image>.meta/images/csharp_002.png</image>
+			<image>.meta/images/csharp_003.png</image>
+		</images>
+	<categories>
+		<category id="animation" name="Animation" img="data/csharp_component_samples/animation/animation.png"/>
+		<category id="basic" name="Basic" img="data/csharp_component_samples/basic/basic.png"/>
+		<category id="complex" name="Complex" img="data/csharp_component_samples/complex/complex.png"/>
+		<category id="input_controls" name="Input Controls" img="data/csharp_component_samples/input_controls/input_controls.png"/>
+		<category id="navigation" name="Navigation" img="data/csharp_component_samples/navigation/navigation.png"/>
+		<category id="nodes" name="Nodes" img="data/csharp_component_samples/nodes/nodes.png"/>
+		<category id="physics" name="Physics" img="data/csharp_component_samples/physics/physics.png"/>
+		<category id="plugins" name="Plugins" img="data/csharp_component_samples/plugins/plugins.png"/>
+		<category id="render" name="Render" img="data/csharp_component_samples/render/render.png"/>
+		<category id="sounds" name="Sounds" img="data/csharp_component_samples/sounds/sounds.png"/>
+		<category id="systems" name="Systems" img="data/csharp_component_samples/systems/systems.png"/>
+		<category id="user_interface" name="User Interface" img="data/csharp_component_samples/user_interface/user_interface.png"/>
+		</categories>
+<samples>
+<sample title="Animation Additive Blend" id="animation_additive_blend" category_id="animation">
+	<sdk_desc>
+		<![CDATA[Additive blending of two animations.]]>
+	</sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[Additive blending of two animations.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+		</tags>
+</sample>
+<sample title="Animation Lerp Blend" id="animation_lerp_blend" category_id="animation">
+	<sdk_desc>
+		<![CDATA[Linear interpolation of two animations.]]>
+	</sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[Linear interpolation of two animations.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+		</tags>
+</sample>
+<sample title="Animation Playback" id="animation_playback" category_id="animation">
+	<sdk_desc><![CDATA[Using multiple layers in animation playback.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[Animation playback uses animation layers.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+		</tags>
+</sample>
+<sample title="Bones Partial Blend" id="bones_partial_blend" category_id="animation">
+	<sdk_desc><![CDATA[Demonstration of partial blending between two animations using bone-specific interpolation.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates partial blending between two animations using bone-specific interpolation.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+		</tags>
+</sample>
+<sample title="Bones Rotation" id="bones_rotation" category_id="animation">
+	<sdk_desc><![CDATA[Controlling animation playback and directly modifying bone transforms.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to control animation playback and directly modify bone transforms.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+		</tags>
+</sample>
+<sample title="Track Playback" id="track_playback" category_id="animation">
+	<sdk_desc><![CDATA[Using tracks to animate objects (position, rotation, and scale).]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[		<p>This example demonstrates how to use Tracker to animate objects by changing their position, rotation, and scale through tracks created in the <b>Tracker</b> tool.</p>
+		<p>Tracks in code are referred to via names and IDs.</p>
+		<p>The <b>TrackPlayback</b> component uses a C# wrapper for Tracker functionality implemented in the <b>Tracker.cs</b> file.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+		</tags>
+</sample>
+<sample title="Camera Zoom" id="camera_zoom" category_id="basic">
+	<sdk_desc><![CDATA[Creating interactive camera system with adjustable zoom and focus on selectable scene targets.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[		<p>This sample demonstrates a zoom and camera focus system that allows the user to inspect predefined targets in the scene and adjust the zoom level. Three info boards are placed throughout the scene, each with an in-world GUI panel showing its distance from the player and its dimensions. These panels update automatically in real time based on the player's position.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Cameras</tag>
+		<tag>Transformations</tag>
+		<tag>Basic Recipes</tag>
+		</tags>
+</sample>
+<sample title="Euler Angles" id="euler_angles" category_id="basic">
+	<sdk_desc><![CDATA[Showing how the order of angles affects rotation.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[Example of the object rotation using Euler angles. You can also observe different ways of decomposing the current rotation by various angle sequences.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Basic Recipes</tag>
+		<tag>Transformations</tag>
+		</tags>
+</sample>
+<sample title="IFps Usage" id="ifps_usage" category_id="basic">
+	<sdk_desc><![CDATA[Using <i>Game.IFps</i> to implement movement logic independent of the frame rate.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates the importance of using <i>Game.IFps</i> to implement movement logic independent of the frame rate.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Logic</tag>
+		</tags>
+</sample>
+<sample title="Intersection Bound Box" id="intersection_bound_box" category_id="basic">
+	<sdk_desc><![CDATA[Finding an intersection between the bound box and geometry.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to find an intersection between the bound box and geometry.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Intersections</tag>
+		</tags>
+</sample>
+<sample title="Intersection Bound Frustum" id="intersection_bound_frustum" category_id="basic">
+	<sdk_desc><![CDATA[Finding an intersection between the bound frustum and geometry.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to find an intersection between the bound frustum and geometry.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Intersections</tag>
+		</tags>
+</sample>
+<sample title="Intersection Bound Sphere" id="intersection_bound_sphere" category_id="basic">
+	<sdk_desc><![CDATA[Finding an intersection between the bound sphere and geometry.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to find an intersection between the bound sphere and geometry.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Intersections</tag>
+		</tags>
+</sample>
+<sample title="Intersection Mouse Ray" id="intersection_mouse_ray" category_id="basic">
+	<sdk_desc><![CDATA[Finding an intersection between a ray cast from the camera through the mouse cursor and geometry.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to find an intersection between a ray cast from the camera through the mouse cursor and geometry.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Intersections</tag>
+		</tags>
+</sample>
+<sample title="Intersection Ray" id="intersection_ray" category_id="basic">
+	<sdk_desc><![CDATA[Finding an intersection of a ray with geometry.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to find an intersection of a ray with geometry.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Intersections</tag>
+		</tags>
+</sample>
+<sample title="Trajectory" id="trajectory" category_id="basic">
+	<sdk_desc><![CDATA[Three types of movement along a predefined path: linear interpolation, spline interpolation, and a trajectory loaded from a <b>*.path</b> file.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates three types of movement along a predefined path:</p>
+							<p> - <b>Red plane</b>: linear interpolation.</p>
+				<p> - <b>Blue plane</b>: spline interpolation.</p>
+				<p> - <b>Green plane</b>: path from a file.</p>
+						<p>The sample contains the <i>PathTrajectorySaver</i> component that illustrates how to create your own path file, which is opened via the <i>WorldTransformPath</i> node. Each path can be toggled on and off, and you can switch between the cameras to have a first-person view from each plane.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Nodes</tag>
+		<tag>Basics</tag>
+		<tag>Basic Recipes</tag>
+		<tag>Transformations</tag>
+		</tags>
+</sample>
+<sample title="World Local Transformation" id="transform_world_local" category_id="basic">
+	<sdk_desc><![CDATA[Demonstration of the difference between local and world transformations.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates the difference between local and world transformations.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Basics</tag>
+		<tag>Basic Recipes</tag>
+		<tag>Transformations</tag>
+		</tags>
+</sample>
+<sample title="Triggers" id="triggers" category_id="basic">
+	<sdk_desc><![CDATA[Implementation of various types of triggers.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample illustrates how to implement a simple trigger component in five different ways:</p>
+							<p> - <b>Intersection Trigger</b> performs the bound check via <i>World::getIntersection()</i>.</p>
+				<p> - <b>Math Trigger</b> performs the check if the object is inside the trigger sphere or cube using the object coordinates (the simplest and most performance-friendly way).</p>
+				<p> - <b>World Trigger</b> uses the built-in <i>WorldTrigger</i> node, which automatically detects when nodes enter or leave a predefined volume.</p>
+				<p> - <b>Physical Trigger</b> uses the built-in <i>PhysicalTrigger</i> node, triggers events when a physical object gets inside or outside it. To be detected by the trigger, physical objects are required to have at the same time both a body and a shape.</p>
+				<p> - <b>Node Trigger</b> uses the built-in <i>NodeTrigger</i> node, which has no visual representation and triggers events when like being enabled or moved.</p>
+					]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Triggers</tag>
+		<tag>Logic</tag>
+		</tags>
+</sample>
+<sample title="Arcade" img="yes" id="arcade" category_id="complex">
+	<sdk_desc><![CDATA[A simple yet flexible 3D shooter prototype featuring core gameplay systems like shooting, collisions, health management, and dynamic effects.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[<p>This sample showcases a flexible arcade-style interaction system, built with UNIGINE's C# API. It presents foundational gameplay mechanics commonly used in shooter, and action-style applications. The project serves both as a beginner-friendly learning resource and a base for prototyping more advanced features such as basic non-player behavior or scoring logic.</p>
+			<b><p>Core Features:</p></b>
+							<p> - <b>Player Controller:</b> Control a robot character with keyboard input for movement and rotation.</p>
+				<p> - <b>Projectile System:</b> An automated turret fires projectiles using raycasting for hit detection and visual impact effects.</p>
+				<p> - <b>Enemy Turret:</b> A rotating turret that periodically shoots projectiles at the player.</p>
+				<p> - <b>Health System:</b> The robot takes damage and is destroyed when health reaches zero, with corresponding visual effects and cleanup.</p>
+				<p> - <b>Node Spawning &amp; Deletion:</b> Bullets and particle effects are dynamically created and removed, with timed destruction to manage scene performance.</p>
+				<p> - <b>Visual FX (Optional):</b> Includes particle effects for shooting, impact, and destruction events.</p>
+						<b><p>Use Cases:</p></b>
+									<p> - <b>Game Prototyping:</b> Provides a foundation for building shooter mechanics, or arcade-style gameplay.</p>
+					<p> - <b>Physics &amp; Interaction:</b> Demonstrates raycasting-based hit detection.</p>
+					<p> - <b>Learning Tool:</b> Ideal for beginners exploring the UNIGINE C# API and gameplay scripting.</p>
+						]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[<p align=left>Keys <b>UP</b> and <b>DOWN</b> to move forward/backward</p>
+		<p align=left>Keys <b>LEFT</b> and <b>RIGHT</b> for clockwise/counterclockwise rotation</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Complex Solutions</tag>
+		<tag>Intersections</tag>
+		<tag>Physics</tag>
+		<tag>Games</tag>
+		<tag>Effects</tag>
+		<tag>VFX</tag>
+		<tag>Decals</tag>
+		</tags>
+</sample>
+<sample title="Camera First-Person" id="camera_first_person" category_id="complex">
+	<sdk_desc><![CDATA[A first-person spectator-style camera with free movement.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates a first-person spectator-style camera with free movement.]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+			<p><b>W</b> - Move forward</p>
+			<p><b>S</b> - Move backward</p>
+			<p><b>A</b> - Move left</p>
+			<p><b>D</b> - Move right</p>
+			<p><b>Left Shift</b> - Increase movement speed</p>
+			<p><b>Mouse Movement</b> - Rotate the camera</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Cameras</tag>
+		<tag>Input &amp; Controls</tag>
+		</tags>
+</sample>
+<sample title="Camera Orbit" id="camera_orbit" category_id="complex">
+	<sdk_desc><![CDATA[An orbital camera rotating around a target.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates an orbital camera rotating around a target.]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+				<p><b>Mouse Movement</b> - Rotate the camera</p>
+				<p><b>Mouse Wheel</b> - Zoom in and out</p>
+			]]>
+	</controls>
+	<tags>
+		<tag>Cameras</tag>
+		<tag>Input &amp; Controls</tag>
+		</tags>
+</sample>
+<sample title="Camera Panning" id="camera_panning" category_id="complex">
+	<sdk_desc><![CDATA[A camera moving parallel to the screen plane.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates a camera moving parallel to the screen plane using the <i>CameraPanning.cs</i> component assigned to a <i>PlayerDummy</i> node.]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+			<p><b>RMB (Drag)</b> - Rotate the camera</p>
+			<p><b>LMB (Drag)</b> - Pan the camera</p>  
+			<p><b>Mouse Wheel</b> - Zoom in and out</p>  
+		]]>
+	</controls>
+	<tags>
+		<tag>Cameras</tag>
+		<tag>Input &amp; Controls</tag>
+		</tags>
+</sample>
+<sample title="Camera Persecutor" id="camera_persecutor" category_id="complex">
+	<sdk_desc><![CDATA[A third-person camera following a moving target.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates a camera following a moving target.]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+			<p><b>Move Mouse</b> - Rotate the camera around the target</p>
+			<p><b>Mouse Wheel</b> - Zoom in and out</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Cameras</tag>
+		<tag>Logic</tag>
+		<tag>Input &amp; Controls</tag>
+		</tags>
+</sample>
+<sample title="Day-Night Switching" id="day_night_switch" category_id="complex">
+	<sdk_desc><![CDATA[Implementation of an automated day-night system with light and material switching.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample showcases a dynamic day-night cycle driven by the rotation of a <b>World Light</b> source (sun), animated according to a simulated global time. The sun's position is updated continuously or in response to manual time input. The time progression speed can be adjusted using the <i>Timescale</i> slider.</p>
+			<p>The sun's orientation influences both the overall scene lighting and object-specific responses, enabling or disabling nodes and adjusting the emission states of designated materials depending on whether it's currently day or night. Additional props, such as <b>Projected Light</b> node and door closed/open signage, are toggled to reflect the time of day. Red and blue helper vectors visualize the zenith direction and the sun's current orientation, respectively.</p>
+			<p><b>Two control modes are available:</b></p>
+									<p> - <b>Zenith Angle</b>: Uses the angle between the sun's direction and the zenith (up vector). If the angle is below a threshold, it is considered daytime.</p>
+					<p> - <b>Time-Based</b>: Defines day/night using configurable <i>Morning</i> and <i>Evening hour boundaries</i> sliders.</p>
+							<p><b>Use Cases:</b></p>
+			<p>Ideal for <b>games, simulations</b>, or <b>architectural walkthroughs</b> that need consistent lighting transitions and dynamic environmental response.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Complex Solutions</tag>
+		<tag>Environment</tag>
+		<tag>Lighting</tag>
+		</tags>
+</sample>
+<sample title="First-Person Controller" id="first_person_controller" category_id="complex">
+	<sdk_desc><![CDATA[Implementation of the first-person character controller with a physical body.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates implementation of the character controller using the component assigned to <i>PlayerDummy</i>.</p>
+			<p>Intersection is detected using shape-surface collision, and collision is detailed via the surface intersection.</p>
+		]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+		<p><b>W/A/S/D</b> - control camera movement</p>
+		<p><b>Shift</b> - accelerate</p>
+		<p><b>Space</b> - jump</p>
+		<p><b>Ctrl</b> - crouch</p>
+		<p><b>Mouse movement</b> - look around</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Cameras</tag>
+		<tag>Basic Recipes</tag>
+		<tag>Intersections</tag>
+		<tag>Physics</tag>
+		</tags>
+</sample>
+<sample title="Observer Controller" id="observer_controller" category_id="complex">
+	<sdk_desc><![CDATA[Implementation of a free-flying camera similar to the one used in the UnigineEditor (with zooming, panning, focusing and speed control).]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample replicates the free camera used in the UnigineEditor. The camera offers the following key features:</p>
+									<p> - <b>Fly-Through Mode</b> Freely move the camera in all directions using keyboard and mouse controls.</p>
+					<p> - <b>Focus on Objects</b> Center the camera on any selected object and adjust distance automatically.</p>
+					<p> - <b>Zoom &amp; Pan</b> Zoom in and out, and pan while preserving view direction.</p>
+					<p> - <b>Speed Control Menu</b> Switch between predefined movement speeds (<b>1-3</b>) or adjust custom speed values.</p>
+					<p> - <b>Position Management</b> Set or teleport the camera to specific world coordinates through the menu.</p>
+						]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+		<p> - <b>F3</b>: show/hide the camera control menu</p>
+		<p> - <b>RMB (hold)</b>: switch to Spectator mode</p>
+		<p> - <b>RMB + mouse</b>: look around</p>
+		<p> - <b>RMB + W/A/S/D, Q/E</b>: camera movement</p>
+		<p> - <b>Alt + RMB</b>: switch to zooming mode</p>
+		<p> - <b>Alt + MMB</b>: switch to panoramic movement mode</p>
+		<p> - <b>F</b>: focus on the object under the mouse cursor</p>
+		<p> - <b>1, 2, 3</b>: switch movement speed<br/><br/></p>
+		<p>You can customize the key bindings in the camera properties within the editor.</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Complex Solutions</tag>
+		<tag>Cameras</tag>
+		</tags>
+</sample>
+<sample title="Robot Arm" img="yes" id="robot_arm" category_id="complex">
+	<sdk_desc><![CDATA[Implementation of a physics-based robotic arm with 6 degrees of freedom (5 movable joints + 1 fixed base).]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to build a physics-based robotic arm with a kinematic chain composed of six links: one fixed and five movable. Each movable link is connected via a hinge joint (<i><b>JointHinge</b></i>) and driven by a motor that responds to keyboard inputs.</p>
+			<p>The arm's <b>end effector</b> is a <b>magnetic gripper</b> capable of <b>grabbing, holding, and releasing</b> dynamic objects in its environment. The gripper and each joint can be controlled independently via key bindings, which are configurable and demonstrated in the <i>Controls</i> section.</p>
+			<p>This setup provides a flexible starting point for creating custom robotic arms with any required number of degrees of freedom (DoF). You can replace manual input with a control system (e.g., inverse kinematics, AI, joystick, or ROS integration) to adapt the robot arm to your specific use case.</p>
+			<p><b>Use Cases:</b></p>
+									<p> - <b>Simulation &amp; prototyping</b> of industrial robotic manipulators.</p>
+					<p> - <b>Educational environments</b> to teach principles of robotics, joint control, or physics-based animation.</p>
+					<p> - <b>AI training</b> for robotic arms using reinforcement learning or motion planning.</p>
+					<p> - <b>Human-machine interfaces</b>: test robotic interaction with dynamic environments.</p>
+					<p> - <b>Virtual reality</b> robotics simulations or operator training.</p>
+						]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[<p align=left>Keys <b>H</b> and <b>F</b> for Link 0</p>
+		<p align=left>Keys <b>T</b> and <b>G</b> for Link 1</p>
+		<p align=left>Keys <b>I</b> and <b>K</b> for Link 2</p>
+		<p align=left>Keys <b>J</b> and <b>L</b> for Link 3</p>
+		<p align=left>Keys <b>U</b> and <b>O</b> for Link 4</p>
+		<p align=left>Keys <b>R</b> and <b>Y</b> for Link 5</p><br/>
+		<p align=left>Key <b>C</b> for Grab Object</p>
+		<p align=left>Key <b>V</b> for Release Object</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Complex Solutions</tag>
+		<tag>Physics</tag>
+		</tags>
+</sample>
+<sample title="Spectator Controller" id="spectator_controller" category_id="complex">
+	<sdk_desc><![CDATA[Implementation of a customizable first-person spectator camera with configurable movement and physical collision detection.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample implements a first-person <b>Spectator camera</b> controller with configurable movement and physical collision detection using the <b>Sphere collision shape</b>, assigned to respond to collisions with geometry (e.g. with terrain) in the world.</p>
+			<p>Movement parameters such as speed, sprint acceleration, turning rate, and mouse sensitivity can be adjusted in real-time using the sliders in the <i>Parameters</i> section.</p>
+			<p><b>Use Cases:</b></p>
+									<p> - Building custom camera tools with physical awareness for scene editing or testing purposes.</p>
+					<p> - First-person 3D scenes navigation and exploring while preserving configurable interaction with the geometry.</p>
+						]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+		<p><b>W/A/S/D, Q/E</b>: control camera movement</p>
+		<p><b>Shift</b>: accelerate</p>
+		<p><b>Mouse movement or Arrow keys</b>: look around</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Complex Solutions</tag>
+		<tag>Cameras</tag>
+		<tag>Physics</tag>
+		</tags>
+</sample>
+<sample title="Top-Down Controller" id="top_down_controller" category_id="complex">
+	<sdk_desc><![CDATA[Implementation of a top-down camera controller for real-time strategy or tactics-style gameplay with movement and unit selection]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to set up and control a top-down camera controller for real-time strategy or tactics-style gameplay. It implements core features typical for such games, including camera movement, zooming, rotation, unit selection, and focus tracking.]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+<p>Use <b>Left Mouse Button</b> to select objects.</p>
+<p>Use <b>Middle Mouse Button</b> to move the camera.</p>
+<p>Use <b>Mouse Wheel</b> to zoom the camera.</p>
+<p>Use <b>Q</b> and <b>E</b> to rotate the camera.</p>
+<p>Hold <b>F</b> to follow selected objects.</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Complex Solutions</tag>
+		<tag>Cameras</tag>
+		<tag>Games</tag>
+		</tags>
+</sample>
+<sample title="Gamepad Input" id="input_gamepad" category_id="input_controls">
+	<sdk_desc>
+		<![CDATA[This sample demonstrates how to add input from the gamepad to the project.]]>
+	</sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to add input from the gamepad to the project.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Input &amp; Controls</tag>
+		</tags>
+</sample>
+<sample title="Joystick Input" id="input_joystick" category_id="input_controls">
+	<sdk_desc><![CDATA[This sample demonstrates how to add advanced joystick input handling, supporting multiple controllers with real-time axis/button monitoring and force feedback effects in UNIGINE.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to add advanced joystick input handling to a project using the <i>InputJoystick.cs</i> component assigned to <b>NodeDummy</b>, supporting multiple controllers with real-time axis/button monitoring and force feedback effects in UNIGINE.</p>
+			<p>It features a <b>dynamic UI for testing 10+ force feedback types</b> (springs, vibrations, waves) and automatically handles device connection/disconnection events.</p>
+			<p><b>Use Cases:</b></p>
+			<p>Ideal for racing/flight simulators or any project requiring precise controller input with haptic feedback.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Input &amp; Controls</tag>
+		</tags>
+</sample>
+<sample title="Keyboard And Mouse Input" id="input_keyboard_mouse" category_id="input_controls">
+	<sdk_desc><![CDATA[This sample demonstrates how to add monitoring of keyboard and mouse input, tracking key states, mouse movements, wheel events, cursor positions, and real-time input data.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to add monitoring of keyboard and mouse input, tracking key states, mouse movements, wheel events, and cursor positions across different coordinate systems using the <i>InputKeyboardAndMouse.cs</i> component assigned to <b>NodeDummy</b>. It displays real-time input data including key presses, mouse deltas, and text input.</p>
+			<p>The sample shows three mouse handling modes:</p>
+							<p> - <b>GRAB</b> - locks and hides the cursor</p>
+				<p> - <b>SOFT</b> - locks the cursor to the window but keeps it visible</p>
+				<p> - <b>USER</b> - leaves mouse behavior completely under user control.</p>
+					]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Input &amp; Controls</tag>
+		</tags>
+</sample>
+<sample title="Touch Input" id="input_touch" category_id="input_controls">
+	<sdk_desc><![CDATA[This sample demonstrates how to add multi-touch input from the touchscreen, visualizing finger positions with dynamic circles and displaying real-time coordinates to the project.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to add multi-touch input from the <i><b>touchscreen</b></i>, visualizing finger positions with dynamic circles and displaying real-time coordinates to the project using the <i>InputTouches.cs</i> component assigned to <b>NodeDummy</b>.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Input &amp; Controls</tag>
+		</tags>
+</sample>
+<sample title="Navigation Mesh 2D" id="navigation_mesh_2d" category_id="navigation">
+	<sdk_desc><![CDATA[Calculating and visualizing 2D navigation paths using a <i>Navigation Mesh</i> object and <i>PathRoute</i> class.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to calculate and visualize 2D navigation paths using the <b>Navigation Mesh</b> object and <i>PathRoute</i> class via the C# API. It shows how to build a route between two points on a navigation mesh and renders the result for debugging or visualization purposes.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Navigation &amp; Pathfinding</tag>
+		<tag>Visualizer (Visual Debug)</tag>
+		</tags>
+</sample>
+<sample title="Navigation Mesh Demo 2D" id="navigation_mesh_demo_2d" category_id="navigation">
+	<sdk_desc><![CDATA[Calculating and visualizing 2D navigation paths with moving targets using <i>Navigation Mesh</i> object and <i>PathRoute</i> class.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to implement dynamic 2D pathfinding using a <b>Navigation Mesh</b> object, with autonomous robots navigating toward randomly positioned targets. Each robot uses a <i>PathRoute</i> class instance to calculate a valid route within the navigation mesh and moves along it in real time.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Navigation &amp; Pathfinding</tag>
+		<tag>Visualizer (Visual Debug)</tag>
+		</tags>
+</sample>
+<sample title="Navigation Obstacles 2D" id="navigation_obstacles_2d" category_id="navigation">
+	<sdk_desc><![CDATA[Demonstrating the use of <i>Obstacles</i> within a <i>Navigation Mesh</i> to dynamically modify valid pathfinding areas at runtime.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to use dynamic <b>Obstacles</b> in combination with a <b>Navigation Mesh</b> to influence 2D pathfinding in runtime. When an obstacle overlaps the navigation mesh, it temporarily modifies the traversable area, forcing the pathfinding algorithm to recalculate a valid route around it.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Navigation &amp; Pathfinding</tag>
+		<tag>Visualizer (Visual Debug)</tag>
+		</tags>
+</sample>
+<sample title="Navigation Sectors 2D" id="navigation_sectors_2d" category_id="navigation">
+	<sdk_desc><![CDATA[Calculating and visualizing 2D navigation paths using <i>Navigation Sector</i> objects and the <i>PathRoute</i> class]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to calculate and visualize 2D navigation paths using the <b>Navigation Sector</b> objects and <i>PathRoute</i> class. Unlike navigation meshes, sectors allow defining modular navigable areas that can be enabled, disabled, or moved dynamically at runtime.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Navigation &amp; Pathfinding</tag>
+		<tag>Visualizer (Visual Debug)</tag>
+		</tags>
+</sample>
+<sample title="Navigation Sectors 3D" id="navigation_sectors_3d" category_id="navigation">
+	<sdk_desc><![CDATA[Calculating and visualizing 3D navigation paths using <i>Navigation Sector</i> objects and the <i>PathRoute</i> class]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to calculate and visualize 3D navigation paths using the <b>Navigation Sector</b> objects and <i>PathRoute</i> class via the C# API. Unlike navigation meshes, sectors allow defining modular navigable areas that can be enabled, disabled, or moved dynamically at runtime.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Navigation &amp; Pathfinding</tag>
+		<tag>Visualizer (Visual Debug)</tag>
+		</tags>
+</sample>
+<sample title="Navigation Sectors Demo 3D" id="navigation_sectors_demo_3d" category_id="navigation">
+	<sdk_desc><![CDATA[Calculating and visualizing 3D navigation paths using <i>Navigation Sector</i> and the <i>PathRoute</i> class to track dynamic targets]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to implement 3D pathfinding logic using <b>Navigation Sector</b> and <i>PathRoute</i> class via the C# API. Robots autonomously fly and collect coins, which are dynamically placed at random locations within the navigation sector volume.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Navigation &amp; Pathfinding</tag>
+		<tag>Visualizer (Visual Debug)</tag>
+		</tags>
+</sample>
+<sample title="Cluster" id="cluster" category_id="nodes">
+	<sdk_desc><![CDATA[Dynamic manipulation of <i>ObjectMeshCluster</i> in UNIGINE, showcasing how to add/remove mesh instances at runtime through user interaction.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates dynamic manipulation of <b>ObjectMeshCluster</b> in UNIGINE, showcasing how to add/remove mesh instances at runtime through user interaction. A <b>Mesh Cluster</b> allows you to bake identical meshes (with the same material applied to their surfaces) into a single object, which provides less cluttered spatial tree, reduces the number of texture fetches and speeds up rendering.</p>
+			<p><b>Core Features:</b></p>
+							<p> - <b>Placement and Removal</b> - click on empty ground adds a new mesh at the clicked position, click on existing cluster geometry removes the selected mesh instance from the cluster</p>
+				<p> - <b>Raycasting and Intersection Testing</b> - casts a ray from the camera through the mouse position to detect whether the user clicked on a cluster mesh or terrain</p>
+						<p><b>Use Cases:</b></p>
+							<p> - Scattering objects like rocks, grass, or debris</p>
+				<p> - Dynamic level editing and environment design</p>
+				<p> - Performance-sensitive applications with many similar mesh instances.</p>
+					]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+		<b>Сlick</b> on an existing mesh removes it from the cluster.<br/><b>Сlick</b> in an empty space adds a new mesh.
+		]]>
+	</controls>
+	<tags>
+		<tag>Optimization</tag>
+		<tag>Objects</tag>
+		<tag>World Management</tag>
+		</tags>
+</sample>
+<sample title="Clutter-to-Cluster Converter" id="clutter_to_cluster" category_id="nodes">
+	<sdk_desc><![CDATA[Dynamic generation of a <i>Mesh Clutter</i> and its conversion into a performance-optimized <i>Mesh Cluster</i> at runtime.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to dynamically generate a clutter (<b>ObjectMeshClutter</b>) and convert it into an optimized cluster (<b>ObjectMeshCluster</b>) in real time. The clutter is generated using a random seed, and the conversion process transfers all key parameters from the clutter: materials, surface properties, LOD, shadows, physics, and collision settings.</p>
+			<p>The resulting cluster inherits the clutter's transform and hierarchy, but lets you <b>selectively edit and remove individual elements</b> of the group. Very often when building your worlds it is necessary to scatter meshes across a certain area randomly and then reposition some of them manually (e.g. when creating forests).</p>
+			<p><b>UI Features:</b></p>
+							<p> - <b>Generate Clutter</b> - Creates a randomized layout of clutter meshes.</p>
+				<p> - <b>Convert to Cluster</b> - Merges all clutter instances into a single <b>ObjectMeshCluster</b> with identical visual/physical behavior.</p>
+					]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Optimization</tag>
+		<tag>Objects</tag>
+		<tag>World Management</tag>
+		</tags>
+</sample>
+<sample title="Nodes Creation and Deletion" id="create_delete_nodes" category_id="nodes">
+	<sdk_desc><![CDATA[Dynamic creation and deletion of node instances at runtime.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to dynamically create and delete node instances at runtime in UNIGINE.</p>
+			<p>A specified <b>.node</b> asset is instantiated repeatedly at timed intervals, with each new instance positioned in a grid pattern. Once a certain number of nodes are active, the oldest ones are automatically removed (first-in, first-out deletion) to maintain a fixed, memory-safe maximum count in the scene.</p>
+			<p><b>Use Cases:</b></p>
+							<p> - Object pooling and controlled instancing</p>
+				<p> - Spawning projectiles, enemies, or temporary effects.</p>
+					]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Objects</tag>
+		<tag>Optimization</tag>
+		</tags>
+</sample>
+<sample title="Primitives Creation" id="create_primitives" category_id="nodes">
+	<sdk_desc><![CDATA[This sample demonstrates how to create parametric 3D primitives at runtime.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to create parametric 3D primitives at runtime in UNIGINE. It showcases the use of the <b>Mesh</b> class and <b>ObjectMeshDynamic</b> nodes to procedurally generate a variety of basic shapes (<b>Box, Sphere, Cylinder, Capsule, Prism</b> with a custom number of sides and <b>Plane</b>) via code.</p>
+			<p>Each shape is constructed with a customizable size and resolution, added to a mesh surface, and placed in the world at a designated position. This approach allows dynamic geometry generation for tools, editor extensions, procedural environments, and rapid prototyping.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Objects</tag>
+		<tag>Procedural</tag>
+		</tags>
+</sample>
+<sample title="Buoyancy" id="water_buoyancy" category_id="nodes">
+	<sdk_desc><![CDATA[Real-time wave control and buoyancy simulation without engaging physics.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates realistic water interaction in UNIGINE, showcasing both the current state of <b>Global Water</b> control via changing <b>Beaufort</b> levels and the use of fetching the water level at a certain point for a simplified simulation of buoyancy without engaging Physics.</p>
+			<p><b>Core Features:</b></p>
+			<p><b>Global Water Control.</b> Adjust ocean conditions in real-time using the <b>Beaufort slider</b> <b>(0-12)</b>. Higher values create stormier waves with enhanced foam and detail.</p>
+			<p><b>Optimized Buoyancy System</b>. Simulates floating objects without full physics collisions. Uses three anchor points for stable wave-following behavior. It then smoothly adjusts the object's position and rotation to match the waves, with calculations based on:</p>
+											<p> - Object mass (customizable)</p>
+						<p> - Global buoyancy coefficient (adjustable via <b>Buoyancy slider</b>)</p>
+						<p> - Water surface steepness and wave height.</p>
+								<p><b>Use Cases:</b></p>
+									<p> - Marine simulations</p>
+					<p> - Weather  system prototyping</p>
+					<p> - Performance-sensitive scenes with many floating objects</p>
+					<p> - Games needing stylized water interactions.</p>
+							]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Water</tag>
+		<tag>Maritime</tag>
+		<tag>Optimization</tag>
+		</tags>
+</sample>
+<sample title="Physical Buoyancy" id="water_physical_buoyancy" category_id="nodes">
+	<sdk_desc><![CDATA[Implementing physically accurate buoyancy for dynamic objects floating on <i>Global Water</i>.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to implement <b>physically accurate buoyancy</b> for dynamic objects floating on <b>Global Water</b>. A physical body is divided into a grid of virtual volume elements, each sampled independently for water height. Based on how much of each cell is submerged, the system:</p>
+			<p> - Calculates and applies distributed <b>buoyant forces</b></p>
+				<p> - Adds appropriate <b>torque</b> to simulate rotation</p>
+				<p> - Applies <b>linear and angular damping</b> depending on submerged volume.</p>
+						<p>You can also define a <b>custom center of mass</b>, and optionally enable <b>debug visualization</b> of submerged sections, force directions, and sampling points via API. Use the <b>Global Water</b> object across different <b>Beaufort</b> slider parameter to adjust wave intensity.</p>
+			<p>This approach is useful for games and simulators involving boats, ships, debris, or physics-based water interactions.</p>
+		]]>
+		</brief>
+	</desc>
+	<controls> 
+		<![CDATA[<p align=left><b>WASD</b> to control the boat.</p>
+		<p align=left><b>Mouse movements</b> to rotate the camera.</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Water</tag>
+		<tag>Maritime</tag>
+		<tag>Physics</tag>
+		</tags>
+</sample>
+<sample title="Body Events" id="body_events" category_id="physics">
+	<sdk_desc><![CDATA[Demonstrating the usage of <i>Frozen, Position</i>, and <i>ContactEnter</i> events of the <i>Body</i> class via C# API.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to use the <i>Frozen</i>, <i>Position</i>, and <i>ContactEnter</i> events of the <i>Body</i> class via the C# API. These events allow responding to physical state changes, such as when a rigid body comes to rest, moves, or collides with another object or surface.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Physics</tag>
+		<tag>Systems</tag>
+		<tag>Visualizer (Visual Debug)</tag>
+		</tags>
+</sample>
+<sample title="BodyFracture Explosion" id="body_fracture_explosion" category_id="physics">
+	<sdk_desc><![CDATA[Simulating a radial explosion that triggers <i>BodyFracture</i> object to crack and applies forces to its pieces.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[		<p>This sample demonstrates how to simulate an explosion that fractures physical objects within its radius using the <i>BodyFracture</i> class. Each object affected by the explosion is dynamically fractured into separate physical fragments depending on its proximity to the center of the explosion and the decreasing explosion strength over distance.</p>
+		<p>The force applied to the fragments pushes them outward from the explosion center, creating a realistic dispersal effect. A built-in debug visualization clearly displays the explosion radius and the direction of the applied forces, making it easier to understand and adjust the fracture behavior and explosion dynamics. The explosion can be manually triggered via a simple interface button.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Physics</tag>
+		<tag>Systems</tag>
+		<tag>Logic</tag>
+		</tags>
+</sample>
+<sample title="BodyFracture Falling Spheres" id="body_fracture_falling_spheres" category_id="physics">
+	<sdk_desc><![CDATA[Continuously fracturing falling objects upon collision using the <i>BodyFracture</i> class.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[		<p>This sample demonstrates continuous fracturing of objects using <i>BodyFracture</i> class. Spheres are periodically spawned every 3 seconds and fall freely under gravity. Upon collision with the ground, each sphere fractures dynamically into multiple physical fragments.</p>
+		<p>The sample includes a debug visualization that displays mesh wireframes, providing clear insight into internal mesh structure and fracture patterns generated upon impact.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Physics</tag>
+		<tag>Systems</tag>
+		<tag>Logic</tag>
+		</tags>
+</sample>
+<sample title="BodyFracture Shooting Gallery" id="body_fracture_shooting_gallery" category_id="physics">
+	<sdk_desc><![CDATA[Implementation of a basic physics-driven shooting gallery using <i>Fracture Body</i>.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample shows how to simulate projectile-based interactions in a simple shooting gallery setup using <b>Fracture Body</b>. When the left mouse button is clicked, a projectile is spawned in front of the camera and propelled forward. Target objects in the scene react to the impact physically and can be fractured using the <b>Fracture Body</b> system to simulate realistic destruction effects.</p>
+			<p><b>Use Cases:</b></p>
+									<p> - Prototyping physics-based shooting mechanics.</p>
+					<p> - Demonstrating <b>Fracture Body</b> impulse interactions.</p>
+					<p> - Testing fracture behaviors in destructible environment setups.</p>
+						]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[<p><b>LMB</b> - fire a projectile.</p>]]>
+	</controls>
+	<tags>
+		<tag>Basic Recipes</tag>
+		<tag>Physics</tag>
+		</tags>
+</sample>
+<sample title="Joint Events" id="joint_events" category_id="physics">
+	<sdk_desc><![CDATA[Demonstrating the usage of the <i>Broken</i> event of the <i>Joint</i> class via C# API.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to use the <i>Broken</i> event of the <i>Joint</i> class via the C# API. This event allows you to react when a joint is broken due to physical forces during the simulation.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Physics</tag>
+		<tag>Systems</tag>
+		<tag>Visualizer (Visual Debug)</tag>
+		</tags>
+</sample>
+<sample title="Update Physics" id="update_physics" category_id="physics">
+	<sdk_desc><![CDATA[Demonstration of the difference between iplementation of physics-driven movement within the <i>update()</i> and <i>updatePhysics()</i> methods.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates the difference between <i>update()</i> and <i>updatePhysics()</i> methods.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Physics</tag>
+		<tag>Logic</tag>
+		</tags>
+</sample>
+<sample title="FMOD Core" id="fmod_core" category_id="plugins">
+	<sdk_desc><![CDATA[
+		<p><b>FMOD Core</b> integration for real-time playback of 2D and 3D sounds with timeline control and DSP effects.</p>
+		<p><br/><b>NOTICE: Additional libraries are required, run the sample for details.</b></p>
+	]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>Before running this sample, follow the steps provided in the setup section or in the FMOD Integration Guide linked below.</p>
+			<p>This sample loads the <i>FMOD</i> plugin and initializes the <i>Core</i> system to demonstrate playback of both 2D and 3D sound instances, supporting up to <b>1024</b> simultaneous sound channels. You can switch between the 2D and 3D scenes to observe and interact with different sound behaviors.</p>
+			<p>Two sound modes are presented:</p>
+							<p> - <b>2D Music Playback</b>: Standard audio playback with support for volume adjustment and a distortion DSP effect</p>
+				<p> - <b>3D Music Playback</b>: Sound is emitted from a red sphere in 3D space, demonstrating positional audio in the environment. Move the camera to experience changes in sound direction and attenuation in real time.</p>
+						<p><b>Use Cases:</b></p>
+							<p> - Integrating FMOD Core into runtime environments for games or simulations</p>
+				<p> - Prototyping spatial sound design and 3D audio placement.</p>
+						<p><br/><br/><b>Sample Requirements</b><br/></p>
+			<p>1. Download and install <b>FMOD Engine (version 2.02.04)</b> for your OS available on the official website (<b>https://www.fmod.com/download</b>).<br/><br/></p>
+			<p>2. Go to the FMOD installation folder and copy the following files to the <b>bin</b> folder of your project:<br/></p>
+			<p><br/><b>for Windows:</b></p>
+									<p> - <b>fmod.dll, fmodL.dll</b> from <b>/api/core/lib/x64/</b></p>
+					<p> - <b>fsbank.dll, libfsbvorbis64.dll, opus.dll</b> from <b>/api/fbank/lib/x64/</b>.</p>
+					<p> - <b>fmodstudio.dll, fmodstudioL.dll</b> from <b>/api/studio/lib/x64/</b></p>
+							<p><br/><b>for Linux</b></p>
+									<p> - <b>libfmod.so.13, libfmodL.so.13</b> from <b>/api/core/lib/x64/</b></p>
+					<p> - <b>libfsbank.so.13, libfsbankL.so.13, libfsbvorbis.so, libopus.so</b> from <b>/api/fbank/lib/x64/</b></p>
+					<p> - <b>libfmodstudio.so.13, libfmodstudioL.so.13</b> from <b>/api/studio/lib/x64/</b></p>
+						]]>
+		</brief>
+	</desc>
+	<link_docs>https://developer.unigine.com/docs/code/plugins/fmod/index?rlang=cpp</link_docs>
+	<tags>
+		<tag>Sound</tag>
+		<tag>Plugins</tag>
+		<tag>Integration</tag>
+		<tag>Extension &amp; Customization</tag>
+		</tags>
+</sample>
+<sample title="FMOD Studio" id="fmod_studio" category_id="plugins">
+	<sdk_desc><![CDATA[
+		<p><b>FMOD Studio</b> integration with real-time interactive audio effects, spatialization, and Doppler effect simulation.</p>
+		<p><br/><b>NOTICE: Additional libraries are required, run the sample for details.</b></p>
+	]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>Before running this sample, follow the steps provided in the setup section or in the FMOD Integration Guide linked below.</p>
+			<p>This sample demonstrates how to control, simulate, and visualize real-time audio events using the <i>FMOD Studio</i> plugin.</p>
+			<p>The setup includes a stationary object (car) and a moving object representing a source of Doppler-shifted sound, which can be toggled and adjusted via the <i>Doppler</i> tab of the GUI Parameters section. Additional sound settings such as wind, rain, the car engine RPM sound, and overall environmental volume can also be fine-tuned in real time under the <i>Ambience</i>, <i>Engine</i>, and <i>VCA</i> tabs.</p>
+			<p><b>Use Cases:</b></p>
+							<p> - Prototyping audio-driven game mechanics (e.g., vehicle audio, spatial ambiences, Doppler effects)</p>
+				<p> - Demonstrating dynamic audio parameters and movement-based effects like Doppler shifts.</p>
+						<p><br/><br/><b>Sample Requirements</b><br/></p>
+			<p>1. Download and install <b>FMOD Engine (version 2.02.04)</b> for your OS available on the official website (<b>https://www.fmod.com/download</b>).<br/><br/></p>
+			<p>2. Go to the FMOD installation folder and copy the following files to the <b>bin</b> folder of your project:<br/></p>
+			<p><br/><b>for Windows:</b></p>
+									<p> - <b>fmod.dll, fmodL.dll</b> from <b>/api/core/lib/x64/</b></p>
+					<p> - <b>fsbank.dll, libfsbvorbis64.dll, opus.dll</b> from <b>/api/fbank/lib/x64/</b>.</p>
+					<p> - <b>fmodstudio.dll, fmodstudioL.dll</b> from <b>/api/studio/lib/x64/</b></p>
+							<p><br/><b>for Linux</b></p>
+									<p> - <b>libfmod.so.13, libfmodL.so.13</b> from <b>/api/core/lib/x64/</b></p>
+					<p> - <b>libfsbank.so.13, libfsbankL.so.13, libfsbvorbis.so, libopus.so</b> from <b>/api/fbank/lib/x64/</b></p>
+					<p> - <b>libfmodstudio.so.13, libfmodstudioL.so.13</b> from <b>/api/studio/lib/x64/</b></p>
+						]]>
+		</brief>
+	</desc>
+	<link_docs>https://developer.unigine.com/docs/code/plugins/fmod/index?rlang=cpp</link_docs>
+	<tags>
+		<tag>Sound</tag>
+		<tag>Plugins</tag>
+		<tag>Integration</tag>
+		<tag>Extension &amp; Customization</tag>
+		</tags>
+</sample>
+<sample title="Gui to Texture" id="gui_to_texture" category_id="render">
+	<sdk_desc><![CDATA[Rendering GUI onto texture using <i>Gui.Render()</i>.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to render GUI elements into a texture using <i>Gui.Render()</i>. Instead of drawing directly to the screen, the GUI is redirected to a custom framebuffer, which isolates its rendering pipeline and allows the resulting texture to be applied to materials.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Render</tag>
+		<tag>Materials</tag>
+		</tags>
+</sample>
+<sample title="Material Parameters" id="material_parameters" category_id="render">
+	<sdk_desc>
+		<![CDATA[Changing parameters of materials at runtime.]]>
+	</sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[Changing parameters of materials at runtime.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Animation</tag>
+		<tag>Materials</tag>
+		</tags>
+</sample>
+<sample title="Weapon Clipping" id="weapon_clipping" category_id="render">
+	<sdk_desc><![CDATA[Rendering the weapon from a second camera into a texture to avoid clipping issues.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[In first-person games, weapon models can clip through walls or geometry when the camera gets too close. This sample solves the problem by rendering the weapon separately into a texture and overlaying it on top of the main camera view.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Render</tag>
+		<tag>Cameras</tag>
+		<tag>Games</tag>
+		<tag>Basic Recipes</tag>
+		</tags>
+</sample>
+<sample title="Sound Ambient" id="sound_ambient" category_id="sounds">
+	<sdk_desc><![CDATA[Playing ambient sounds via code.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample shows the implementation of a component that controls the playback of ambient sound (<i>AmbientSource</i>) and allows interactive adjustment of playback parameters using the keyboard.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Sound</tag>
+		</tags>
+</sample>
+<sample title="Sound Reverb" id="sound_reverb" category_id="sounds">
+	<sdk_desc><![CDATA[Setting a reverberation zone and its parameters via code.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This example shows a component that creates a <i>Reverberation Zone (SoundReverb)</i> and updates reverb settings based on a given power value.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Sound</tag>
+		</tags>
+</sample>
+<sample title="Sound Source" id="sound_source" category_id="sounds">
+	<sdk_desc><![CDATA[Playing a sound source via code.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This example demonstrates how to create a sound source (<i>SoundSource</i>) and configure its basic parameters: volume, pitch, looping mode, and playback type.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Sound</tag>
+		</tags>
+</sample>
+<sample title="AsyncQueue" id="async_queue" category_id="systems">
+	<sdk_desc><![CDATA[Loading meshes and textures in a separate thread using the <i>AsyncQueue</i> class]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample shows how to load resources like meshes and textures in the background using the <i>AsyncQueue</i> class. Files are loaded in a separate thread, so the main application stays responsive.</p>
+			<p>Meshes and textures are added to the loading queue, and the system listens for events to know when each resource is ready. When a mesh finishes loading, it's removed from the queue. For textures, an event handler is used to handle their completion. The sample also demonstrates how to group and manage resource requests, making it easier to control the loading process.</p>
+		]]>
+		</brief>
+	</desc>
+	<link_docs>https://developer.unigine.com/docs/api/library/filesystem/class.asyncqueue?rlang=cs</link_docs>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Optimization</tag>
+		<tag>File System</tag>
+		<tag>Multithreading</tag>
+		</tags>
+</sample>
+<sample title="AsyncQueue Stress" id="async_queue_stress" category_id="systems">
+	<sdk_desc><![CDATA[Asynchronous node loading via <i>AsyncQueue</i> with main-thread spatial integration.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to asynchronously load large number of nodes using the <i>AsyncQueue</i> class while ensuring correct activation on the main thread.</p>
+			<p>In UNIGINE, world nodes must be created only from the main thread. To comply with this restriction and avoid blocking the main thread, the sample performs the initial node loading in a background thread, and then schedules a follow-up task on the main thread to finalize activation by calling <i>updateEnabled()</i> - a method that registers the node and its children in the world's spatial structure.</p>
+			<p>With the built-in Profiler enabled, you can observe how the engine handles increasing load smoothly and avoids frame spikes.</p>
+		]]>
+		</brief>
+	</desc>
+	<link_docs>https://developer.unigine.com/docs/api/library/filesystem/class.asyncqueue?rlang=cs</link_docs>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Optimization</tag>
+		<tag>Multithreading</tag>
+		<tag>World Management</tag>
+		</tags>
+</sample>
+<sample title="AsyncQueue Tasks" id="async_queue_tasks" category_id="systems">
+	<sdk_desc><![CDATA[Managing tasks via <i>AsyncQueue</i> class with dirrefent thread types, parallel execution and frame control.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstates how to schedule and run different types of tasks using the <i>AsyncQueue class</i>. It shows how to execute operations in different thread types, control thread count, and choose whether tasks should complete within the current frame or run freely in the background.</p>
+							<p> - <b>Async</b> - non-blocking execution in a single thread. Useful for offloading tasks without stalling the main thread.</p>
+				<p> - <b>Async Multithread</b> - parallel execution across multiple threads. Each thread receives its own portion of work. Does not block the caller.</p>
+				<p> - <b>Frame-Async Multithread</b> - same as <b>Async Multithread</b>, but ensures all threads complete their tasks within the current frame.</p>
+				<p> - <b>Sync Multithread</b> - multi-threaded execution that blocks the calling thread until all threads finish.</p>
+				<p> - <b>Frame-Sync Multithread</b> - same as <b>Sync Multithread</b>, but ensures all threads complete their tasks within the current frame.</p>
+					]]>
+		</brief>
+	</desc>
+	<link_docs>https://developer.unigine.com/docs/api/library/filesystem/class.asyncqueue?rlang=cs</link_docs>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Optimization</tag>
+		<tag>Multithreading</tag>
+		</tags>
+</sample>
+<sample title="Abstract Components" id="components_abstract" category_id="systems">
+	<sdk_desc><![CDATA[Demonstrating the use of abstract component classes for shared behavior via C# API.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to use abstract classes in the C# Component System to implement common behavior across different components.]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+<p><b>Сlick</b> on the lamp (sphere) and the fan (cube) to toggle them.</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Component System</tag>
+		<tag>Logic</tag>
+		<tag>Programming</tag>
+		</tags>
+</sample>
+<sample title="Component Parameters" id="components_parameters" category_id="systems">
+	<sdk_desc><![CDATA[Demonstrate possible variations of component parameters.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>The example demonstrates possible variations of component parameters.</p>
+			<p>Select the <b>component_parameters</b> <i>Node Dummy</i> in the Editor and check the parameters window.</p>
+			<p>It will contain all types of parameters.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Component System</tag>
+		<tag>Programming</tag>
+		<tag>Logic</tag>
+		</tags>
+</sample>
+<sample title="Console" id="console" category_id="systems">
+	<sdk_desc>
+		<![CDATA[This sample demonstrates how to interact with the engine's built-in console and add custom console commands and variables via API using the <i>Console</i> and <i>ConsoleVariable</i> classes.]]>
+	</sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to interact with the engine's built-in console and add custom console commands and variables via API using the <i>Console</i> and <i>ConsoleVariable</i> classes.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Logic</tag>
+		</tags>
+</sample>
+<sample title="Events Advanced" id="events_advanced" category_id="systems">
+	<sdk_desc><![CDATA[Advanced ways of subscribing to events in UNIGINE: using extra arguments, discarding parameters, and storing connection handles for disconnection.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates advanced ways of subscribing to events in UNIGINE: using extra arguments, discarding parameters, and storing connection handles for disconnection.]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[<p>T - rotate around X axis</p><p>Y - rotate around Y axis</p><p>U - rotate around Z axis</p><p>I - rotate around XYZ axes at the same time</p>]]>
+	</controls>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Logic</tag>
+		</tags>
+</sample>
+<sample title="External Package" id="external_package" category_id="systems">
+	<sdk_desc><![CDATA[Demonstration of working with external package files via the <i>Package</i> class.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to create a custom data package using code and use it to generate objects in the scene.</p>
+			<p>Package is a collection of files and data for UNIGINE projects stored a single file. The <i>Package</i> class is a data provider for the File System. You can use it to load all necessary resources. </p>
+			<p>The <i>ExternalPackage</i> class describes the generation of a mesh (in this case, a box) and its saving to a temporary file at a specified path. The class also implements an interface for searching, reading, and retrieving information about files within the package.</p>
+			<p>The <i>ExternalPackageSample</i> class adds the created external package, and its contents are used to create meshes with different positions and orientations. This approach allows for quick and convenient management of a large number of objects without adding them by hand.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Logic</tag>
+		<tag>File System</tag>
+		</tags>
+</sample>
+<sample title="FFP" id="ffp" category_id="systems">
+	<sdk_desc><![CDATA[Using FFP functionality to draw simple 2D shapes over the rendered image without any additional shaders]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to render a simple 2D shape using the <i>Fixed Function Pipeline (Ffp)</i> in UNIGINE via the C# API. A colorful figure composed of 16 vertices is drawn directly on screen using orthographic projection.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Rendering</tag>
+		</tags>
+</sample>
+<sample title="Images" id="images" category_id="systems">
+	<sdk_desc><![CDATA[Procedurally generate <i>3D</i> image data and use it as a density texture for a volume-based material in real time.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample shows how to procedurally generate <i>3D</i> image data and use it as a density texture for a volume-based material in real time.</p>
+			<p>The result is visualized using a volume box that updates dynamically every frame based on custom field simulation.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Render</tag>
+		<tag>Procedural</tag>
+		</tags>
+</sample>
+<sample title="Microprofiler" id="microprofiler" category_id="systems">
+	<sdk_desc><![CDATA[Using <i>Microprofile</i>, an advanced CPU/GPU profiler, to track performance and estimate the time spent on different sections of code.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates methods for tracking performance and estimating the time spent on different sections of code. For this purpose, it uses <b>Microprofile</b>, an advanced CPU/GPU profiler with per-frame inspection support.]]>
+		</brief>
+	</desc>
+	<exec>microprofile_enabled 1</exec>
+	<edit>microprofile_enabled 1</edit>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Optimization</tag>
+		</tags>
+</sample>
+<sample title="Procedural Mesh Apply" id="procedural_mesh_apply" category_id="systems">
+	<sdk_desc><![CDATA[A minimal example that shows how to generate and apply a procedural mesh at runtime using the correct update sequence.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates the correct order of operations for modifying and applying procedural mesh data at runtime. It serves as a minimal example showing how to build geometry, configure procedural mode, and apply changes to an <i>ObjectMeshCluster</i>. The same workflow and apply methods are also available for other objects that support procedural meshes, such as <i>ObjectMeshStatic</i>, <i>ObjectGuiMesh</i>, <i>DecalMesh</i>, and <i>ObjectMeshClutter</i>.</p>
+			<p>Inside the component's code, you'll find a linear implementation of the procedural mesh pipeline, demonstrating how geometry is generated and applied in the correct order.</p>
+			<p>Use this sample to understand the basic flow of procedural mesh updates and try adjusting configurations to find what best suits your needs.</p>
+		]]>
+		</brief>
+	</desc>
+	<link_docs>https://developer.unigine.com/docs/api/library/objects/class.objectmeshstatic?rlang=cs#procedural_workflow</link_docs>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Objects</tag>
+		<tag>Procedural</tag>
+		</tags>
+</sample>
+<sample title="Procedural Mesh Generation" id="procedural_mesh_generation" category_id="systems">
+	<sdk_desc><![CDATA[Demonstrating runtime procedural mesh generation, along with visualization of how different procedural modes impact memory usage during creation and rendering.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to generate static mesh geometry at runtime using different procedural mesh generation methods. A grid of <i>ObjectMeshStatic</i> objects is created, each receiving its geometry from a user-defined callback that builds a box-shaped mesh surface via the <i>Mesh API</i>.</p>
+			<p>You can experiment with various procedural modes (such as <i>Dynamic, File</i>, or <i>Blob</i>), as well as configure how geometry is stored and accessed by selecting different MeshRender usage flags (DirectX 12 only). These flags determine whether vertex and/or index data is kept in RAM instead of VRAM, allowing the GPU to render directly from system memory.</p>
+							<p> - <b>Dynamic</b> - fastest performance, stored in RAM and VRAM, not automatically unloaded from memory.</p>
+				<p> - <b>Blob</b> - moderate performance, stored in RAM and VRAM, automatically unloaded from memory.</p>
+				<p> - <b>File</b> - slowest performance, all data stored on disk, automatically unloaded from memory.</p>
+						<p>The <b>Field Size</b> parameter defines how many mesh objects are generated along each axis, forming a square grid.</p>
+			<p>For each configuration, the sample shows total RAM and VRAM usage, along with the number of active mesh objects. This makes it easier evaluate the performance, memory layout, and behavior of each procedural mode in different runtime conditions.</p>
+		]]>
+		</brief>
+	</desc>
+	<link_docs>https://developer.unigine.com/docs/api/library/objects/class.objectmeshstatic?rlang=cs#procedural_workflow</link_docs>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Objects</tag>
+		<tag>Procedural</tag>
+		</tags>
+</sample>
+<sample title="Procedural Mesh Modification" id="procedural_mesh_modification" category_id="systems">
+	<sdk_desc><![CDATA[Demonstrating runtime procedural mesh modification, along with visualization of how different procedural modes impact streamiing and memory usage during creation and rendering.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to dynamically generate, modify, and apply procedural geometry at runtime using different procedural mesh modification methods.</p>
+			<p>The dynamic surface mesh being built and animated over time using trigonometric functions. The geometry is rebuilt each frame depending on current configuration.</p>
+			<p>You can experiment with various procedural modes (such as <i>Dynamic, File</i>, or <i>Blob</i>), as well as configure how geometry is stored and accessed by selecting different MeshRender usage flags (DirectX 12 only). These flags determine whether vertex and/or index data is kept in RAM instead of VRAM, allowing the GPU to render directly from system memory.</p>
+			<p>Additionally, you can choose whether mesh generation occurs on the <b>Main</b> thread or in the <b>Background</b>, giving you more control over performance and responsiveness during updates.</p>
+							<p> - <b>Dynamic</b> - fastest performance, stored in RAM and VRAM, not automatically unloaded from memory.</p>
+				<p> - <b>Blob</b> - moderate performance, stored in RAM and VRAM, automatically unloaded from memory.</p>
+				<p> - <b>File</b> - slowest performance, all data stored on disk, automatically unloaded from memory.</p>
+						<p>You can also toggle between different update modes (<i>Async</i> or <i>Force</i>), choose memory transfer strategies (<i>Copy</i> or <i>Move</i>), and optionally enable manual control of the <i>MeshRender</i>, where you update its content explicitly after modifying mesh data, instead of relying on automatic updates. Additionally, collision data can be generated explicitly after geometry modification, as it is not created automatically.</p>
+		]]>
+		</brief>
+	</desc>
+	<link_docs>https://developer.unigine.com/en/docs/api/library/objects/class.objectmeshstatic?rlang=cs#procedural_workflow</link_docs>
+	<tags>
+		<tag>Systems</tag>
+		<tag>Objects</tag>
+		<tag>Procedural</tag>
+		</tags>
+</sample>
+<sample title="USC Arrays" id="usc_arrays" category_id="systems">
+	<sdk_desc>
+		<![CDATA[This sample showcases integration between <i>C#</i> and <i>UnigineScript</i> by registering external <i>C#</i> functions that manipulate <i>UnigineScript</i> array types.]]>
+	</sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample showcases integration between <i>C#</i> and <i>UnigineScript</i> by registering external <i>C#</i> functions that manipulate <i>UnigineScript</i> array types.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>UnigineScript</tag>
+		</tags>
+</sample>
+<sample title="USC Callbacks" id="usc_callbacks" category_id="systems">
+	<sdk_desc>
+		<![CDATA[			<p>This sample demonstrates how to call <i>UnigineScript</i> functions from <i>C#</i> code via callbacks.</p>
+			<p>The mechanism is based on <i>Variable</i> Class instances and allows calling both custom and built-in script functions by name.</p>
+		]]>
+	</sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates how to call <i>UnigineScript</i> functions from <i>C#</i> code via callbacks.</p>
+			<p>The mechanism is based on <i>Variable</i> Class instances and allows calling both custom and built-in script functions by name.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>UnigineScript</tag>
+		</tags>
+</sample>
+<sample title="USC Variables" id="usc_variables" category_id="systems">
+	<sdk_desc>
+		<![CDATA[This sample demonstrates how to work with different variable types in <i>UnigineScript</i> using the <i>Variable</i> class from <i>C#</i> code.]]>
+	</sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to work with different variable types in <i>UnigineScript</i> using the <i>Variable</i> class from <i>C#</i> code.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>UnigineScript</tag>
+		</tags>
+</sample>
+<sample title="Visualizer Showcase" id="visualizer" category_id="systems">
+	<sdk_desc><![CDATA[Demonstration of the full range of features provided by the <i>Visualizer</i> class for visual debugging.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates the full range of features provided by the <i>Visualizer</i> class for visual debugging.]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+		<p><b>W,A,S,D</b> - Camera movement</p>
+		<p><b>LMB</b> - Camera rotation</p>
+		<p><b>Left Shift</b> - Camera acceleration</p>
+		]]>
+	</controls>
+	<tags>
+		<tag>Visualizer (Visual Debug)</tag>
+		</tags>
+</sample>
+<sample title="XML" id="xml" category_id="systems">
+	<sdk_desc>
+		<![CDATA[This sample demonstrates how to create and manipulate an <i>XML</i> document using the <i>Xml</i> class.]]>
+	</sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to create and manipulate an <i>XML</i> document using the <i>Xml</i> class.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>File Formats</tag>
+		</tags>
+</sample>
+<sample title="Target Marker" id="target_marker" category_id="user_interface">
+	<sdk_desc>
+		<![CDATA[Implementation of a marker that always highlights the target when it is within the field of view, or displays an arrow pointing the direction to the target when it is out of sight (aligned with the screen borders).]]>
+	</sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[Implementation of a marker that always highlights the target when it is within the field of view, or displays an arrow pointing the direction to the target when it is out of sight (aligned with the screen borders).]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Interface (GUI)</tag>
+		<tag>Game</tag>
+		<tag>Basic Recipes</tag>
+		</tags>
+</sample>
+<sample title="User Interface" id="user_interface" category_id="user_interface">
+	<sdk_desc><![CDATA[On-the-fly generation of a user interface from a <b>.ui</b> file and setting event handlers for widgets.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample shows how to generate a User Interface from a description stored in a <b>.ui</b> file (<i>XML</i> format) via C# API. The sample also demonstrates how to get a UI widget by name via <i>getWidgetByName()</i> and subscribe to events to implement custom handling for user actions (particularly selecting <i>File -&gt; Reload</i> from the main menu or entering text in the text field on the <b>EditText</b> tab).]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+		Clicking an element allows you to interact with it.
+		]]>
+	</controls>
+	<tags>
+		<tag>Interface (GUI)</tag>
+		<tag>Widgets</tag>
+		</tags>
+</sample>
+<sample title="Widgets" id="widgets" category_id="user_interface">
+	<sdk_desc><![CDATA[Implementation of various UI widgets in UNIGINE, such as sliders, scrolls, buttons, checkboxes, drop-down lists, etc.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[			<p>This sample demonstrates the implementation of various UI widgets in UNIGINE. It showcases how to create, configure and manage interactive <b>GUI</b> elements.</p>
+			<p>The sample includes multiple widget types with event handling capabilities, demonstrating how to create and position widgets, configure visual properties, handle user interactions, etc., such as <b>sliders, scrolls, buttons, checkboxes, drop-down lists, etc</b>.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Widgets</tag>
+		<tag>Interface (GUI)</tag>
+		</tags>
+</sample>
+<sample title="Canvas Widget" id="widget_canvas" category_id="user_interface">
+	<sdk_desc><![CDATA[Using the <i>WidgetCanvas</i> class to draw vector-based shapes and text. The canvas supports adding lines, polygons, and text by defining their geometry through vertex positions. Elements are layered by draw order and colored individually.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to use the <i>WidgetCanvas</i> class to draw vector-based shapes and text. The canvas supports adding lines, polygons, and text by defining their geometry through vertex positions. Elements are layered by draw order and colored individually.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Widgets</tag>
+		<tag>Interface (GUI)</tag>
+		</tags>
+</sample>
+<sample title="Widget Containers" id="widget_containers" category_id="user_interface">
+	<sdk_desc>
+		<![CDATA[Demonstration of various types of widget containers (vertical and horizontal box layouts, paned widgets, tabbed interfaces, group boxes, grid-based container, etc.) you can use when creating a User Interface.]]>
+	</sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[Demonstration of various types of widget containers (vertical and horizontal box layouts, paned widgets, tabbed interfaces, group boxes, grid-based container, etc.) you can use when creating a User Interface.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Widgets</tag>
+		<tag>Interface (GUI)</tag>
+		</tags>
+</sample>
+<sample title="Dialog Widgets" id="widget_dialog" category_id="user_interface">
+	<sdk_desc><![CDATA[Creating widget dialog windows and assigning handlers via the C# API]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to create and manage a GUI dialog system using UNIGINE's dialog widgets via the C# API. A <i>WidgetWindow</i> instance contains several buttons, each opening a different type of dialog: <i>WidgetDialogMessage</i>, <i>WidgetDialogFile</i>, <i>WidgetDialogColor</i>, or <i>WidgetDialogImage</i>.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Widgets</tag>
+		<tag>Windows &amp; Viewports</tag>
+		<tag>Interface (GUI)</tag>
+		</tags>
+</sample>
+<sample title="Widget Manipulators" id="widget_manipulators" category_id="user_interface">
+	<sdk_desc>
+		<![CDATA[This sample demonstrates the use of manipulators. You can lock axes for transformations, and apply transformation in local or world coordinates.]]>
+	</sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates the use of manipulators. You can lock axes for transformations, and apply transformation in local or world coordinates.]]>
+		</brief>
+	</desc>
+	<controls>
+		<![CDATA[
+		To enter the camera control mode, click the <b>left mouse button</b> inside the window, to 
+		exit this mode press <b>Esc</b>.<br/><br/>
+		To select an object, click it with the <b>right mouse button</b>, to move (<b>W</b>), 
+		rotate (<b>E</b>), or scale (<b>R</b>) the object, drag it along the axes while holding 
+		the <b>left mouse button</b> pressed.<br/><br/>
+		To deselect an object, press <b>U</b> or <b>Esc</b>.<br/>
+		To focus on an object, press <b>F</b>.
+		]]>
+	</controls>
+	<tags>
+		<tag>Interface (GUI)</tag>
+		<tag>Widgets</tag>
+		</tags>
+</sample>
+<sample title="WidgetWindow" id="widget_window" category_id="user_interface">
+	<sdk_desc><![CDATA[Creating a basic <i>WidgetWindow</i> using the C# API and handling user interactions (edit line and button press events) through handler function connections.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[This sample demonstrates how to create a basic <i>WidgetWindow</i> using the C# API and handle user interactions (edit line and button press events) through handler function connections.]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Widgets</tag>
+		<tag>Interface (GUI)</tag>
+		<tag>Windows &amp; Viewports</tag>
+		</tags>
+</sample>
+</samples>
+</samples_pack>
+</meta>
