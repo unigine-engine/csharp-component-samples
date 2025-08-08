@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>3447eceaaf5537417d1fa7ac93a4ff1b6317a9be</guid>
 	<type>component</type>
-	<hash>575df289</hash>
+	<hash>449f9f5b</hash>
 	<runtimes>
 		<runtime id="3447eceaaf5537417d1fa7ac93a4ff1b6317a9be" name="SoundAmbient.cs" link="0"/>
 		<runtime id="45d24605667f7fa0b4622e7f0e58e9d2399e7f09" name="SoundAmbient.prop" link="1" type="4"/>

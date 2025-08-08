@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>dd25ed385fb57f03698e1dc82d2d507c09d19506</guid>
+	<type>file</type>
+	<hash>bdc2f62f</hash>
+	<runtimes>
+		<runtime id="dd25ed385fb57f03698e1dc82d2d507c09d19506" name="README.md" link="0"/>
+	</runtimes>
+</asset>

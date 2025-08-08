@@ -116,7 +116,7 @@ public class AsyncQueueSample : Component
 		sprite.SetImage(loadedImage);
 		sprite.Width = 100;
 		sprite.Height = 100;
-		WindowManager.MainWindow.AddChild(sprite, Gui.ALIGN_OVERLAP);
+		WindowManager.MainWindow.AddChild(sprite, Gui.ALIGN_OVERLAP | Gui.ALIGN_BACKGROUND);
 
 		ivec2 initialSpritePosition = new ivec2(0, WindowManager.MainWindow.Size.y - 200);
 

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using Unigine;
 using static MainMenu;
 
@@ -225,8 +226,6 @@ public class MainMenu : Component
 	private vec4 close_color;
 	private bool close_button_pressed = false;
 
-	private bool search_editline_focused = false;
-
 	// sample list
 	private WidgetSampleList sample_list = null;
 
@@ -236,9 +235,10 @@ public class MainMenu : Component
 	private void Init()
 	{
 		// parse meta
-		List<Category> categories = new List<Category>();
-		List<string> tags = new List<string>();
-		parse_meta_xml(uiConfiguration.pathToMeta, categories, tags);
+		SamplesManager.Instance.parseMetaXml(uiConfiguration.pathToMeta);
+
+		List<Category> categories = SamplesManager.Instance.getCategories();
+		List<string> tags = SamplesManager.Instance.getTags();
 
 		Tag.setTagConfig(uiConfiguration.tagStyle);
 
@@ -279,7 +279,7 @@ public class MainMenu : Component
 			tag_cloud.setTagSelected(str, true);
 			sample_list.setTagSelected(str, true);
 		});
-		search_field.getEventEditlineFocused().Connect(connections, (bool focused) => { search_editline_focused = focused; });
+
 		Tag.getEventClicked().Connect(connections, (string str) =>
 		{
 			search_field.changeTagState(str, uiConfiguration.tagStyle);
@@ -301,8 +301,8 @@ public class MainMenu : Component
 		//	close_button_sprite->setHidden(!window->isFullscreen());
 		//	close_button_sprite->setEnabled(!close_button_sprite->isHidden());
 
-		tag_cloud.update(!search_editline_focused);
-		sample_list.update(!search_editline_focused);
+		tag_cloud.update();
+		sample_list.update();
 		search_field.update();
 
 		side_panel_vbox.Height = window_height;
@@ -366,7 +366,7 @@ public class MainMenu : Component
 	{
 		string cpp_samples_xml_path = FileSystem.GetAbsolutePath(Engine.DataPath + @"\" + path_relative_to_data);
 		Log.Message($"{path_relative_to_data}\n");
-		
+
 		Xml cpp_samples_xml = new Xml();
 		if (!cpp_samples_xml.Load(cpp_samples_xml_path))
 		{
@@ -384,7 +384,7 @@ public class MainMenu : Component
 		for (int i = 0; i < categories_xml.NumChildren; ++i)
 		{
 			Xml category_xml = categories_xml.GetChild(i);
-						
+
 			string icon_path = category_xml.GetArg("img");
 			if (icon_path.StartsWith("data/"))
 			{
@@ -429,14 +429,14 @@ public class MainMenu : Component
 
 		categories.Clear();
 		foreach (var c in categories_map)
-	{
+		{
 			if (c.Value.samples.Count > 0)
 				categories.Add(c.Value);
 		}
 
 		tags.Clear();
 		foreach (var t in tags_set)
-	{
+		{
 			tags.Add(t);
 		}
 	}
@@ -791,8 +791,18 @@ internal class WidgetSearchField
 		&& (Input.IsKeyDown(Input.KEY.ESC) || Input.IsKeyDown(Input.KEY.ENTER)))
 			editline.RemoveFocus();
 
-		if (editline.IsFocused() == 0 && MenuUtils.isHovered(tags_scrollbox))
-			tags_scrollbox.SetFocus();
+		if (MenuUtils.isHovered(tags_scrollbox))
+		{
+			int wheel = Input.MouseWheel;
+			if (wheel != 0)
+			{
+				int value = tags_scrollbox.VScrollValue;
+				int step = tags_scrollbox.VScrollStepSize;
+				tags_scrollbox.VScrollValue = value - wheel * step * 4;
+			}
+		}
+		else
+			tags_scrollbox.RemoveFocus();
 	}
 }
 
@@ -865,7 +875,7 @@ internal class WidgetTagCloud
 		return main_vbox;
 	}
 
-	public void update(bool enable_focus)
+	public void update()
 	{
 		if (Unigine.Console.Active)
 			return;
@@ -878,8 +888,18 @@ internal class WidgetTagCloud
 			tag_widget.Value.update(up, down);
 		}
 
-		if (enable_focus && MenuUtils.isHovered(main_scrollbox))
-			main_scrollbox.SetFocus();
+		if (MenuUtils.isHovered(main_scrollbox))
+		{
+			int wheel = Input.MouseWheel;
+			if (wheel != 0)
+			{
+				int value = main_scrollbox.VScrollValue;
+				int step = main_scrollbox.VScrollStepSize;
+				main_scrollbox.VScrollValue = value - wheel * step * 4;
+			}
+		}
+		else
+			main_scrollbox.RemoveFocus();
 	}
 
 	public void setTagSelected(string str, bool selected = true)
@@ -893,25 +913,6 @@ internal class WidgetTagCloud
 
 	public Event<string> getEventTagClicked() { return event_tag_clicked; }
 }
-
-
-public class Sample
-{
-	public string title;
-	public string description;
-	public List<string> tags = new List<string>();
-	public string world_name;
-};
-
-
-public class Category
-{
-	public Unigine.Image icon;
-	public string title;
-
-	public List<Sample> samples = new List<Sample>();
-};
-
 
 internal abstract class WidgetSampleListNode
 {
@@ -1330,15 +1331,25 @@ internal class WidgetSampleList
 			filter_node(roots[i], search_words, search_tags);
 	}
 
-	public void update(bool enable_focus)
+	public void update()
 	{
 		for (int i = 0; i < roots.Count; ++i)
 			roots[i].update();
 
 		bool hovered = MenuUtils.isHovered(main_scrollbox);
 
-		if (enable_focus && hovered)
-			main_scrollbox.SetFocus();
+		if (hovered)
+		{
+			int wheel = Input.MouseWheel;
+			if (wheel != 0)
+			{
+				int value = main_scrollbox.VScrollValue;
+				int step = main_scrollbox.VScrollStepSize;
+				main_scrollbox.VScrollValue = value - wheel * step * 4;
+			}
+		}
+		else
+			main_scrollbox.RemoveFocus();
 	}
 
 	public void setCollapseAll(bool collapse = true)

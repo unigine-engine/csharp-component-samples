@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>1719634d253f0724e81feb448fa0cbb5f810a831</guid>
+	<type>file</type>
+	<hash>f80361b</hash>
+	<runtimes>
+		<runtime id="1719634d253f0724e81feb448fa0cbb5f810a831" name="async_queue_tasks.sample" link="0"/>
+	</runtimes>
+</asset>

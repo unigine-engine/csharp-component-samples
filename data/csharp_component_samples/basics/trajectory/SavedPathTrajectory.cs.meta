@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>3f990c0ab1b34c6f1d1478feeb86d31b3e01fab5</guid>
+	<type>component</type>
+	<hash>bdfe3137</hash>
+	<runtimes>
+		<runtime id="3f990c0ab1b34c6f1d1478feeb86d31b3e01fab5" name="SavedPathTrajectory.cs" link="0"/>
+		<runtime id="b9943918b39397a29c8751ec6b1d21fb4398cc4b" name="SavedPathTrajectory.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

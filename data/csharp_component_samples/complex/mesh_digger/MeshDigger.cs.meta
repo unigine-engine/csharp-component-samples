@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>9333bc7b06b4644cc9ec4e2beac5aac301225111</guid>
+	<type>component</type>
+	<hash>a9582ca2</hash>
+	<runtimes>
+		<runtime id="9333bc7b06b4644cc9ec4e2beac5aac301225111" name="MeshDigger.cs" link="0"/>
+		<runtime id="7e58ea61a9b1c73a78316091d4bcb7343928ed47" name="MeshDigger.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

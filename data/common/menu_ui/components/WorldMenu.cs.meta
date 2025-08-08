@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>b05d65be5744d20599189ba003509a7f9b7c65d2</guid>
 	<type>component</type>
-	<hash>c5f6b01b</hash>
+	<hash>2f7f79dd</hash>
 	<runtimes>
 		<runtime id="b05d65be5744d20599189ba003509a7f9b7c65d2" name="WorldMenu.cs" link="0"/>
 		<runtime id="fccd3384dd4529130a2a9b56e5e31abd02139cf8" name="WorldMenu.prop" link="1" type="4"/>

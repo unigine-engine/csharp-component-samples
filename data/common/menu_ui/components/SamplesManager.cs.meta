@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>d2f1b86b0327c067fc013964071c989122530ea1</guid>
+	<type>component</type>
+	<hash>28bda0d6</hash>
+	<runtimes>
+		<runtime id="d2f1b86b0327c067fc013964071c989122530ea1" name="SamplesManager.cs" link="0"/>
+	</runtimes>
+</asset>

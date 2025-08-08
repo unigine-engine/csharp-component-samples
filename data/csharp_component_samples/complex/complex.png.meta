@@ -2,10 +2,9 @@
 <asset version="2.20.0.0">
 	<guid>776e4aae89c81235ba05fe10e1873a2f4012a1c2</guid>
 	<type>texture</type>
-	<hash>a659838c</hash>
+	<hash>684f66b5</hash>
 	<runtimes>
-		<runtime id="776e4aae89c81235ba05fe10e1873a2f4012a1c2" name="complex.png" link="0" type="6"/>
-		<runtime id="503ddc2f75e4dbc2de8f6839dacef444a8e872d3" name="complex.texture" link="1" type="6"/>
+		<runtime id="503ddc2f75e4dbc2de8f6839dacef444a8e872d3" name="complex.png" link="0" type="6"/>
 	</runtimes>
 	<parameters>
 		<parameter type="int" name="blur_radius">1</parameter>
@@ -19,7 +18,7 @@
 		<parameter type="float" name="sharpness_intensity">0.25</parameter>
 		<parameter type="float" name="sharpness_radius">1</parameter>
 		<parameter type="bool" name="srgb_correction">1</parameter>
-		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
 		<parameter type="string" name="width">auto</parameter>
 	</parameters>
 </asset>

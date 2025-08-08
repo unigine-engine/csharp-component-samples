@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>1f7713739f86eb69933fa8b56cdeae729b882e2d</guid>
 	<type>component</type>
-	<hash>666da0fe</hash>
+	<hash>287d425</hash>
 	<runtimes>
 		<runtime id="1f7713739f86eb69933fa8b56cdeae729b882e2d" name="FMODStudioSample.cs" link="0"/>
 		<runtime id="5cb85699ce485ecd4f4c9e8bead8eb7993f5d703" name="FMODStudioSample.prop" link="1" type="4"/>

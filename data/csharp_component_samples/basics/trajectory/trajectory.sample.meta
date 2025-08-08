@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>0ec50b09de1b01fc97e5e89014082632665c58ad</guid>
+	<type>file</type>
+	<hash>ca95b22</hash>
+	<runtimes>
+		<runtime id="0ec50b09de1b01fc97e5e89014082632665c58ad" name="trajectory.sample" link="0"/>
+	</runtimes>
+</asset>

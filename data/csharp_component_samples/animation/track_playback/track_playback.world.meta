@@ -2,14 +2,14 @@
 <asset version="2.20.0.0">
 	<guid>25fa05c45891565312506796516ff9fd666e7338</guid>
 	<type>world</type>
-	<hash>92a895a7</hash>
+	<hash>33b30987</hash>
 	<runtimes>
 		<runtime id="25fa05c45891565312506796516ff9fd666e7338" name="track_playback.world" link="0"/>
 	</runtimes>
 	<parameters>
 		<parameter type="string" name="physics_settings_path"/>
 		<parameter type="string" name="render_settings_path">guid://4fc5e33351fccef656c179dda1653198982d0817</parameter>
-		<parameter type="string" name="script_name"/>
+		<parameter type="string" name="script_name">guid://a19760572a0081ca3ee606a1ba7a6f8c61c4657b</parameter>
 		<parameter type="string" name="sound_settings_path"/>
 		<parameter type="string" name="viewports_settings"/>
 	</parameters>

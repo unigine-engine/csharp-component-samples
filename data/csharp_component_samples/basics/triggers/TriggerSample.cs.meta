@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>49053314bb50ec6e099c0a647e302207257cf6e8</guid>
+	<type>component</type>
+	<hash>00b5d114</hash>
+	<runtimes>
+		<runtime id="49053314bb50ec6e099c0a647e302207257cf6e8" name="TriggerSample.cs" link="0"/>
+		<runtime id="c59b7f924043770709e88a625e90acd2ad16ebc6" name="TriggerSample.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

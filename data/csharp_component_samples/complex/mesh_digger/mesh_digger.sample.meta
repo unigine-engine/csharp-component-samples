@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>09b0e76141b0870004e742325755d527b7fe4867</guid>
+	<type>file</type>
+	<hash>f602bdd6</hash>
+	<runtimes>
+		<runtime id="09b0e76141b0870004e742325755d527b7fe4867" name="mesh_digger.sample" link="0"/>
+	</runtimes>
+</asset>

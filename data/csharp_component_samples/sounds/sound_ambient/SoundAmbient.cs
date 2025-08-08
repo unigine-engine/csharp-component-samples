@@ -93,6 +93,8 @@ public class SoundAmbient : Component
 
 		if (isPlaying)
 			ambientSource.Play();
+		else
+			ambientSource.Stop();
 	}
 
 }

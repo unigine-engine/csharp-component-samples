@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>7839d787283ae2bb2132ceaa973d690ffc9a7536</guid>
+	<type>file</type>
+	<hash>174e2a3c</hash>
+	<runtimes>
+		<runtime id="7839d787283ae2bb2132ceaa973d690ffc9a7536" name="procedural_mesh_modification.sample" link="0"/>
+	</runtimes>
+</asset>

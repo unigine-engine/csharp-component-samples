@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>4703eba75e73e0100b9a52180f7f5450c43cd273</guid>
+	<type>file</type>
+	<hash>fbf00a22</hash>
+	<runtimes>
+		<runtime id="4703eba75e73e0100b9a52180f7f5450c43cd273" name="procedural_mesh_generation.sample" link="0"/>
+	</runtimes>
+</asset>

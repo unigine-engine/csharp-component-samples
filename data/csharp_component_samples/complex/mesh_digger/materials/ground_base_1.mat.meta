@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>5fdd0258fe61903c2788dae826d4fe600b823126</guid>
+	<type>material</type>
+	<hash>a8893b7d</hash>
+	<runtimes>
+		<runtime id="5fdd0258fe61903c2788dae826d4fe600b823126" name="ground_base_1" link="0" type="5"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>d500d29fcf9516e968c0f0e47bd8dc8ce3596228</guid>
+	<type>file</type>
+	<hash>a36ca334</hash>
+	<runtimes>
+		<runtime id="d500d29fcf9516e968c0f0e47bd8dc8ce3596228" name="triggers.sample" link="0"/>
+	</runtimes>
+</asset>

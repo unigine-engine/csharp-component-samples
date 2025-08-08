@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <world version="2.20.0.0">
+	<render_settings_path>guid://4fc5e33351fccef656c179dda1653198982d0817</render_settings_path>
 	<data>
 		<unigine_editor>
 			<body>

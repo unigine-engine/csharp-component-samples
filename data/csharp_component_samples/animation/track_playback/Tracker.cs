@@ -183,10 +183,7 @@ public class Tracker : Component
 		// add tracker_wrapper to world logic if not set in editor
 		if (!isWrapperLoaded)
 		{
-			World.ScriptName = trackerWrapperGUID;
-			World.ScriptExecute = true;
-			World.SaveWorld();
-			World.ReloadWorld();
+			Log.WarningLine($"{trackerWrapperUsc} not setup as world script. Setup it in Editor.");
 			return;
 		}
 

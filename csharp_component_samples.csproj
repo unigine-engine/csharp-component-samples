@@ -72,8 +72,8 @@
 	<ItemGroup>
 		<Compile Include="data/csharp_component_samples/systems/usc_arrays/ScriptArrays.cs"/>
 		<Compile Include="data/csharp_component_samples/complex/robot_arm/RobotArmController.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/transform_world_local/TransformWorldRotate.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/transform_world_local/TransformWorldTranslate.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/transform_world_local/TransformWorldRotate.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/transform_world_local/TransformWorldTranslate.cs"/>
 		<Compile Include="data/csharp_component_samples/input_controls/input_joystick/InputJoystickUI.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/ffp/FFPSample.cs"/>
 		<Compile Include="data/csharp_component_samples/complex/arcade/LifetimeController.cs"/>
@@ -84,11 +84,11 @@
 		<Compile Include="data/csharp_component_samples/systems/components_parameters/abstract_components/InterfaceComponentImplementation.cs"/>
 		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsIcon.cs"/>
 		<Compile Include="data/csharp_component_samples/nodes/water_physical_buoyancy/PhysicalBuyoancy.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/intersection_mouse_ray/MouseRayIntersection.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/intersection_mouse_ray/MouseRayIntersection.cs"/>
 		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsEdittext.cs"/>
 		<Compile Include="data/csharp_component_samples/user_interface/user_interface/UserInterfaceSample.cs"/>
 		<Compile Include="data/csharp_component_samples/physics/body_fracture_shooting_gallery/BodyFractureShootingGallerySample.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/intersection_bound_box/BoundBoxIntersection.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/intersection_bound_box/BoundBoxIntersection.cs"/>
 		<Compile Include="data/csharp_component_samples/render/material_parameters/MaterialsAlbedoTexture.cs"/>
 		<Compile Include="data/csharp_component_samples/user_interface/target_marker/WidgetsTargetMarker.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/console/ConsoleSample.cs"/>
@@ -110,13 +110,13 @@
 		<Compile Include="data/csharp_component_samples/nodes/water_buoyancy/BuoyComponent.cs"/>
 		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsTreebox.cs"/>
 		<Compile Include="data/csharp_component_samples/nodes/clutter_to_cluster/ClutterSample.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/intersection_bound_sphere/BoundSphereIntersection.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/intersection_bound_sphere/BoundSphereIntersection.cs"/>
 		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsSprite.cs"/>
 		<Compile Include="data/csharp_component_samples/nodes/water_physical_buoyancy/Buoyancy.cs"/>
 		<Compile Include="data/csharp_component_samples/physics/body_fracture_shooting_gallery/BodyFractureShootingGalleryGun.cs"/>
 		<Compile Include="data/csharp_component_samples/physics/update_physics/UpdatePhysicsUsageSample.cs"/>
 		<Compile Include="data/csharp_component_samples/complex/robot_arm/RobotArmConnection.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/ifps_usage/IFpsMovementController.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/ifps_usage/IFpsMovementController.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/components_parameters/ComponentParameters.cs"/>
 		<Compile Include="data/csharp_component_samples/render/gui_to_texture/WidgetClock.cs"/>
 		<Compile Include="data/csharp_component_samples/complex/camera_persecutor/CameraPersecutorTarget.cs"/>
@@ -125,7 +125,7 @@
 		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsEditline.cs"/>
 		<Compile Include="data/csharp_component_samples/navigation/navigation_mesh_2d/NavigationMeshVisualizer.cs"/>
 		<Compile Include="data/csharp_component_samples/sounds/sound_source/SoundSourceController.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/camera_zoom/ZoomController.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/camera_zoom/ZoomController.cs"/>
 		<Compile Include="data/csharp_component_samples/physics/body_fracture_explosion/BodyFractureExplosion.cs"/>
 		<Compile Include="data/csharp_component_samples/complex/camera_persecutor/CameraPersecutor.cs"/>
 		<Compile Include="data/csharp_component_samples/navigation/navigation_sectors_demo_3d/PathRoute3DWithTarget.cs"/>
@@ -148,20 +148,20 @@
 		<Compile Include="data/csharp_component_samples/plugins/fmod_studio/FMODStudioSample.cs"/>
 		<Compile Include="data/csharp_component_samples/sounds/sound_reverb/SoundReverbController.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/components_parameters/abstract_components/Interface.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/intersection_ray/LaserRayIntersection.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/intersection_ray/LaserRayIntersection.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/external_package/ExternalPackageSample.cs"/>
 		<Compile Include="data/csharp_component_samples/render/weapon_clipping/WeaponClippingSample.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/usc_variables/ScriptVariables.cs"/>
 		<Compile Include="data/csharp_component_samples/nodes/water_physical_buoyancy/Waves.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/components_abstract/Fan.cs"/>
 		<Compile Include="data/csharp_component_samples/complex/arcade/Projectile.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/transform_world_local/TransformRotate.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/transform_world_local/TransformRotate.cs"/>
 		<Compile Include="data/csharp_component_samples/nodes/create_delete_nodes/NodeSpawner.cs"/>
 		<Compile Include="data/csharp_component_samples/complex/top_down_controller/CameraSelection.cs"/>
 		<Compile Include="data/csharp_component_samples/nodes/cluster/ClusterSample.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/ifps_usage/IFpsMovementSample.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/ifps_usage/IFpsMovementSample.cs"/>
 		<Compile Include="data/csharp_component_samples/navigation/navigation_mesh_demo_2d/PathRoute2DWithTarget.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/camera_zoom/TargetGui.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/camera_zoom/TargetGui.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/components_parameters/abstract_components/AbstractComponentImplementation.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/usc_callbacks/ScriptCallback.cs"/>
 		<Compile Include="data/csharp_component_samples/sounds/sound_ambient/SoundAmbient.cs"/>
@@ -176,7 +176,7 @@
 		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsMenu.cs"/>
 		<Compile Include="data/csharp_component_samples/input_controls/input_keyboard_mouse/InputKeyboardAndMouseUI.cs"/>
 		<Compile Include="data/csharp_component_samples/complex/arcade/Robo.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/transform_world_local/TransformTranslate.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/transform_world_local/TransformTranslate.cs"/>
 		<Compile Include="data/csharp_component_samples/render/weapon_clipping/WeaponClipping.cs"/>
 		<Compile Include="data/csharp_component_samples/animation/bones_partial_blend/AnimationPartialInterpolation.cs"/>
 		<Compile Include="data/csharp_component_samples/physics/body_fracture_falling_spheres/BodyFractureFallingSpheresSample.cs"/>
@@ -190,9 +190,9 @@
 		<Compile Include="data/csharp_component_samples/systems/components_abstract/Toggleable.cs"/>
 		<Compile Include="data/csharp_component_samples/complex/camera_orbit/CameraOrbit.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/components_abstract/Lamp.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/euler_angles/TransformEulerAngles.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/euler_angles/TransformEulerAngles.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/components_parameters/abstract_components/AbstractComponent.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/camera_zoom/ZoomSample.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/camera_zoom/ZoomSample.cs"/>
 		<Compile Include="data/csharp_component_samples/complex/spectator_controller/SpectatorControllerSample.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/events_advanced/EventsAdvancedUnit.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/visualizer/VisualizerUsage.cs"/>
@@ -203,7 +203,7 @@
 		<Compile Include="data/csharp_component_samples/complex/arcade/Spinner.cs"/>
 		<Compile Include="data/csharp_component_samples/complex/top_down_controller/CameraUnitPathControl.cs"/>
 		<Compile Include="data/csharp_component_samples/complex/day_night_switch/SunController.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/intersection_bound_frustum/BoundFrustumIntersection.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/intersection_bound_frustum/BoundFrustumIntersection.cs"/>
 		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsScroll.cs"/>
 		<Compile Include="data/csharp_component_samples/user_interface/widgets/WidgetsListbox.cs"/>
 		<Compile Include="data/common/common_components/Movement.cs"/>
@@ -218,14 +218,14 @@
 		<Compile Include="data/common/common_components/SimpleAnimationPlayer.cs"/>
 		<Compile Include="data/common/utils/DescriptionWindowCreator.cs"/>
 		<Compile Include="data/common/menu_ui/components/SampleDescriptionWindow.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/triggers/MathTriggerComponent.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/triggers/IntersectionTriggerComponent.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/triggers/TriggerSample.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/trajectory/TrajectoryLogic.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/trajectory/PathTrajectorySaver.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/trajectory/SimpleTrajectoryMovement.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/trajectory/SplineTrajectoryMovement.cs"/>
-		<Compile Include="data/csharp_component_samples/basic/trajectory/SavedPathTrajectory.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/triggers/MathTriggerComponent.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/triggers/IntersectionTriggerComponent.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/triggers/TriggerSample.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/trajectory/TrajectoryLogic.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/trajectory/PathTrajectorySaver.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/trajectory/SimpleTrajectoryMovement.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/trajectory/SplineTrajectoryMovement.cs"/>
+		<Compile Include="data/csharp_component_samples/basics/trajectory/SavedPathTrajectory.cs"/>
 		<Compile Include="data/csharp_component_samples/user_interface/widget_manipulators/Manipulators.cs"/>
 		<Compile Include="data/csharp_component_samples/user_interface/widget_manipulators/ManipulatorsSample.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/async_queue/AsyncQueueSample.cs"/>
@@ -235,6 +235,8 @@
 		<Compile Include="data/csharp_component_samples/systems/procedural_mesh_generation/ProceduralMeshGenerator.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/procedural_mesh_apply/ProceduralMeshApply.cs"/>
 		<Compile Include="data/csharp_component_samples/systems/procedural_mesh_modification/ProceduralMeshModifier.cs"/>
+		<Compile Include="data/csharp_component_samples/complex/mesh_digger/MeshDigger.cs"/>
+		<Compile Include="data/common/menu_ui/components/SamplesManager.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source/**/*.cs"/>

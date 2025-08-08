@@ -5,38 +5,124 @@
 			<property parent="fccd3384dd4529130a2a9b56e5e31abd02139cf8" guid="eddbc286df2f382dde9bbba8ea846ae7584f6b1a">
 				<parameter name="mainWorldName">csharp_component_samples</parameter>
 				<parameter name="common">
-					<parameter name="padding">20 20 20 20</parameter>
+					<parameter name="padding">10 10 10 10</parameter>
+					<parameter name="spaceBetweenHintAndNavigation">10</parameter>
 				</parameter>
 				<parameter name="hint">
-					<parameter name="spaceX">10</parameter>
-					<parameter name="background">guid://3e2e0b9bb0ac8214d3bf6f3bca9c981b21e34ebe</parameter>
+					<parameter name="spaceX">5</parameter>
+					<parameter name="background">guid://47fbb80751b9dee04f5a6370ddc78f84d94f29dd</parameter>
 					<parameter name="backgroundColor">1 1 1 1</parameter>
-					<parameter name="backgroundSliceScale">0.100000001</parameter>
-					<parameter name="backgroundPadding">10 10 10 10</parameter>
-					<parameter name="labelFont">guid://e9648366a1416b7f82740c46c9fc1d7af7e8b65d</parameter>
-					<parameter name="labelFontSize">16</parameter>
-					<parameter name="labelFontColor">0.156862751 0.160784319 0.180392161 1</parameter>
-					<parameter name="icon">guid://c0f8e490343ae56d15bad470f77e8f4bc25b377f</parameter>
-					<parameter name="iconColor">1 1 1 1</parameter>
-					<parameter name="iconWidth">24</parameter>
-					<parameter name="iconHeight">24</parameter>
+					<parameter name="backgroundSliceOffsets">0.125 0.125 0.125 0.125</parameter>
+					<parameter name="backgroundSliceScale">0.25</parameter>
+					<parameter name="backgroundPadding">10 10 5 5</parameter>
+					<parameter name="height">30</parameter>
+					<parameter name="icon">
+						<parameter name="icon">guid://4d5e27a364b821d0e29079de3a5d4b32d0db824c</parameter>
+						<parameter name="iconSize">16 16</parameter>
+					</parameter>
+					<parameter name="label">
+						<parameter name="font">guid://67929fdad939a6b9df06fe3b6860c86a1869c11b</parameter>
+						<parameter name="fontSize">15</parameter>
+					</parameter>
 				</parameter>
 				<parameter name="back">
-					<parameter name="background">guid://4be0a1b39d0a9c77407e8153746c79eabf015bf6</parameter>
+					<parameter name="background">guid://72bf45c5a614746db9edee26b1b1428c0a29ee2b</parameter>
+					<parameter name="backgroundHover">guid://72a91781f52670170aaa20a4af9b82caf87442a2</parameter>
 					<parameter name="backgroundColor">1 1 1 1</parameter>
-					<parameter name="backgroundSliceOffsets">0.300000012 0.300000012 0.300000012 0.300000012</parameter>
-					<parameter name="backgroundSliceScale">0.100000001</parameter>
-					<parameter name="backgroundPadding">10 17 17 17</parameter>
-					<parameter name="buttonBackgroundColor">1 1 1 1</parameter>
-					<parameter name="buttonIcon">guid://b911be4618e9ec32fa251726abf378c684ff4fbd</parameter>
-					<parameter name="buttonIconColor">1 1 1 1</parameter>
-					<parameter name="buttonWidth">24</parameter>
-					<parameter name="buttonHeight">24</parameter>
-					<parameter name="buttonTintColor">0.564705908 0.564705908 0.564705908 1</parameter>
-					<parameter name="labelFont">guid://cdbfb14c7ac34eecec0fab2c8f34747acf884c8b</parameter>
-					<parameter name="labelFontSize">20</parameter>
-					<parameter name="labelFontColor">1 1 1 1</parameter>
-					<parameter name="spaceBetweenButtonAndLabel">10</parameter>
+					<parameter name="buttonTintColor">0.678431392 0.678431392 0.678431392 1</parameter>
+					<parameter name="backgroundSliceOffsets">0.125 0.125 0.125 0.125</parameter>
+					<parameter name="backgroundSliceScale">0.125</parameter>
+					<parameter name="backgroundPadding">14 14 8 8</parameter>
+					<parameter name="icon">
+						<parameter name="icon">guid://fe8583ef4813279cbc8876ba4630423c66d47b48</parameter>
+						<parameter name="iconSize">10 10</parameter>
+					</parameter>
+					<parameter name="label">
+						<parameter name="font">guid://cdbfb14c7ac34eecec0fab2c8f34747acf884c8b</parameter>
+						<parameter name="fontSize">16</parameter>
+					</parameter>
+					<parameter name="spaceBetweenIconAndLabel">10</parameter>
+				</parameter>
+				<parameter name="navigation">
+					<parameter name="background">guid://65280469fffbbf4e958e2e6c5a421add3c67e82a</parameter>
+					<parameter name="backgroundHover">guid://1b404eaf9c2ec8f4c9515cb8e1b4c83fcd2a8c45</parameter>
+					<parameter name="backgroundSliceOffsets">0.125 0.125 0.125 0.125</parameter>
+					<parameter name="backgroundSliceScale">0.25</parameter>
+					<parameter name="width">344</parameter>
+					<parameter name="height">32</parameter>
+					<parameter name="spaceBetweenIconAndLabel">10</parameter>
+					<parameter name="icon">
+						<parameter name="icon">guid://3b67833b2e4f6e645175bf74d966a4735092c4f1</parameter>
+						<parameter name="iconSize">10 10</parameter>
+					</parameter>
+					<parameter name="label">
+						<parameter name="font">guid://cdbfb14c7ac34eecec0fab2c8f34747acf884c8b</parameter>
+						<parameter name="fontSize">16</parameter>
+					</parameter>
+					<parameter name="tooltip">
+						<parameter name="background">guid://5219d6ddb5dbd1520e843a369ad2b64326bb24e2</parameter>
+						<parameter name="backgroundColor">0.156862751 0.160784319 0.180392161 1</parameter>
+						<parameter name="height">28</parameter>
+						<parameter name="padding">10 10 6 6</parameter>
+						<parameter name="timeDelay">0.5</parameter>
+						<parameter name="pos">12 -5</parameter>
+						<parameter name="font">
+							<parameter name="font">guid://e9648366a1416b7f82740c46c9fc1d7af7e8b65d</parameter>
+							<parameter name="fontSize">14</parameter>
+						</parameter>
+					</parameter>
+					<parameter name="button_prev">
+						<parameter name="backgroundSliceOffsets">0.125 0 0.125 0.125</parameter>
+						<parameter name="backgroundSliceScale">0.25</parameter>
+						<parameter name="icon">
+							<parameter name="icon">guid://a358812d184581885e7ddf2edcb54b39ab083153</parameter>
+							<parameter name="iconSize">10 10</parameter>
+						</parameter>
+						<parameter name="tooltipText">Previous Sample - </parameter>
+						<parameter name="background">guid://fa2b8e3dc7edaafbb6b35930225c0161eb20a4ce</parameter>
+						<parameter name="backgroundHover">guid://151dfbcb83954e68aef075e6e681cb025d9d8214</parameter>
+						<parameter name="buttonWidth">38</parameter>
+						<parameter name="buttonHeight">32</parameter>
+					</parameter>
+					<parameter name="button_next">
+						<parameter name="backgroundSliceOffsets">0 0.125 0.125 0.125</parameter>
+						<parameter name="backgroundSliceScale">0.25</parameter>
+						<parameter name="icon">
+							<parameter name="icon">guid://0e17739750fd7abae408f84204581a7a72117890</parameter>
+							<parameter name="iconSize">10 10</parameter>
+						</parameter>
+						<parameter name="tooltipText">Next Sample - </parameter>
+						<parameter name="background">guid://f4ce2e6352ea83b5b3199f3ced296105031233d9</parameter>
+						<parameter name="backgroundHover">guid://d84c6841ebb65e63269e26929a97a0721fe9c647</parameter>
+						<parameter name="buttonWidth">38</parameter>
+						<parameter name="buttonHeight">32</parameter>
+					</parameter>
+				</parameter>
+				<parameter name="selector">
+					<parameter name="background">guid://c0d798d5c513ece0821bfce825194885fc6388c6</parameter>
+					<parameter name="backgroundSliceOffsets">0.100000001 0.100000001 0.100000001 0.100000001</parameter>
+					<parameter name="backgroundSliceScale">0.400000006</parameter>
+					<parameter name="height">416</parameter>
+					<parameter name="headerHeight">30</parameter>
+					<parameter name="headerPadding">0 0 9 9</parameter>
+					<parameter name="headerFont">
+						<parameter name="font">guid://cdbfb14c7ac34eecec0fab2c8f34747acf884c8b</parameter>
+						<parameter name="fontSize">16</parameter>
+					</parameter>
+					<parameter name="spacerBackground">guid://f5f59c5966148a289ccbe30a1fbb58e93fe59a9f</parameter>
+					<parameter name="spacerHeight">2</parameter>
+					<parameter name="spaceBetweenButtons">4</parameter>
+					<parameter name="button">
+						<parameter name="backgroundSelectedColor">0.486274511 0.678431392 0.325490206 0.313725501</parameter>
+						<parameter name="font">
+							<parameter name="font">guid://e9648366a1416b7f82740c46c9fc1d7af7e8b65d</parameter>
+							<parameter name="fontSize">14</parameter>
+						</parameter>
+						<parameter name="background">guid://5219d6ddb5dbd1520e843a369ad2b64326bb24e2</parameter>
+						<parameter name="backgroundColor">1 1 1 0</parameter>
+						<parameter name="backgroundTintColor">1 1 1 0.0980392173</parameter>
+						<parameter name="buttonHeight">24</parameter>
+					</parameter>
 				</parameter>
 			</property>
 		</properties>

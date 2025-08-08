@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>e3c1886ac115e2e6ff0c37802e41212dea7cd332</guid>
 	<type>component</type>
-	<hash>cbcaf749</hash>
+	<hash>4765be33</hash>
 	<runtimes>
 		<runtime id="e3c1886ac115e2e6ff0c37802e41212dea7cd332" name="FMODCoreSample.cs" link="0"/>
 		<runtime id="95d526786760889d8859911ec8ef8bf20e579a00" name="FMODCoreSample.prop" link="1" type="4"/>

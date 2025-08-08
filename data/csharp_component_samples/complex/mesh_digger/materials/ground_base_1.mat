@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.20.0.0" guid="5fdd0258fe61903c2788dae826d4fe600b823126" base_material="a9c0ae5aa6c83dcc4925fd6a3afd886d0eddc5d8">
+	<parameter name="roughness" expression="0">0.800000012</parameter>
+	<parameter name="offset" expression="0">0</parameter>
+	<parameter name="mesh_height" expression="0">13.0379</parameter>
+</material>

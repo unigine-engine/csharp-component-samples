@@ -2,8 +2,8 @@
 <meta>
 	<samples_pack name="csharp_component_samples">
 		<title>C# Component Samples</title>
-		<version>2.20</version>
-		<dependency>2.20</dependency>
+		<version>2.20.0.1</version>
+		<dependency>2.20.0.1</dependency>
 		<os>cross</os>
 		<workflow>editor2</workflow>
 		<precision>double</precision>
@@ -88,7 +88,7 @@
 		</images>
 	<categories>
 		<category id="animation" name="Animation" img="data/csharp_component_samples/animation/animation.png"/>
-		<category id="basic" name="Basic" img="data/csharp_component_samples/basic/basic.png"/>
+		<category id="basics" name="Basics" img="data/csharp_component_samples/basics/basics.png"/>
 		<category id="complex" name="Complex" img="data/csharp_component_samples/complex/complex.png"/>
 		<category id="input_controls" name="Input Controls" img="data/csharp_component_samples/input_controls/input_controls.png"/>
 		<category id="navigation" name="Navigation" img="data/csharp_component_samples/navigation/navigation.png"/>
@@ -99,7 +99,7 @@
 		<category id="sounds" name="Sounds" img="data/csharp_component_samples/sounds/sounds.png"/>
 		<category id="systems" name="Systems" img="data/csharp_component_samples/systems/systems.png"/>
 		<category id="user_interface" name="User Interface" img="data/csharp_component_samples/user_interface/user_interface.png"/>
-		</categories>
+	</categories>
 <samples>
 <sample title="Animation Additive Blend" id="animation_additive_blend" category_id="animation">
 	<sdk_desc>
@@ -112,7 +112,7 @@
 	</desc>
 	<tags>
 		<tag>Animation</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Animation Lerp Blend" id="animation_lerp_blend" category_id="animation">
 	<sdk_desc>
@@ -125,7 +125,7 @@
 	</desc>
 	<tags>
 		<tag>Animation</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Animation Playback" id="animation_playback" category_id="animation">
 	<sdk_desc><![CDATA[Using multiple layers in animation playback.]]></sdk_desc>
@@ -136,7 +136,7 @@
 	</desc>
 	<tags>
 		<tag>Animation</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Bones Partial Blend" id="bones_partial_blend" category_id="animation">
 	<sdk_desc><![CDATA[Demonstration of partial blending between two animations using bone-specific interpolation.]]></sdk_desc>
@@ -147,7 +147,7 @@
 	</desc>
 	<tags>
 		<tag>Animation</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Bones Rotation" id="bones_rotation" category_id="animation">
 	<sdk_desc><![CDATA[Controlling animation playback and directly modifying bone transforms.]]></sdk_desc>
@@ -158,7 +158,7 @@
 	</desc>
 	<tags>
 		<tag>Animation</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Track Playback" id="track_playback" category_id="animation">
 	<sdk_desc><![CDATA[Using tracks to animate objects (position, rotation, and scale).]]></sdk_desc>
@@ -172,9 +172,9 @@
 	</desc>
 	<tags>
 		<tag>Animation</tag>
-		</tags>
+	</tags>
 </sample>
-<sample title="Camera Zoom" id="camera_zoom" category_id="basic">
+<sample title="Camera Zoom" id="camera_zoom" category_id="basics">
 	<sdk_desc><![CDATA[Creating interactive camera system with adjustable zoom and focus on selectable scene targets.]]></sdk_desc>
 	<desc>
 		<brief>
@@ -186,9 +186,9 @@
 		<tag>Cameras</tag>
 		<tag>Transformations</tag>
 		<tag>Basic Recipes</tag>
-		</tags>
+	</tags>
 </sample>
-<sample title="Euler Angles" id="euler_angles" category_id="basic">
+<sample title="Euler Angles" id="euler_angles" category_id="basics">
 	<sdk_desc><![CDATA[Showing how the order of angles affects rotation.]]></sdk_desc>
 	<desc>
 		<brief>
@@ -198,9 +198,9 @@
 	<tags>
 		<tag>Basic Recipes</tag>
 		<tag>Transformations</tag>
-		</tags>
+	</tags>
 </sample>
-<sample title="IFps Usage" id="ifps_usage" category_id="basic">
+<sample title="IFps Usage" id="ifps_usage" category_id="basics">
 	<sdk_desc><![CDATA[Using <i>Game.IFps</i> to implement movement logic independent of the frame rate.]]></sdk_desc>
 	<desc>
 		<brief>
@@ -209,9 +209,9 @@
 	</desc>
 	<tags>
 		<tag>Logic</tag>
-		</tags>
+	</tags>
 </sample>
-<sample title="Intersection Bound Box" id="intersection_bound_box" category_id="basic">
+<sample title="Intersection Bound Box" id="intersection_bound_box" category_id="basics">
 	<sdk_desc><![CDATA[Finding an intersection between the bound box and geometry.]]></sdk_desc>
 	<desc>
 		<brief>
@@ -220,9 +220,9 @@
 	</desc>
 	<tags>
 		<tag>Intersections</tag>
-		</tags>
+	</tags>
 </sample>
-<sample title="Intersection Bound Frustum" id="intersection_bound_frustum" category_id="basic">
+<sample title="Intersection Bound Frustum" id="intersection_bound_frustum" category_id="basics">
 	<sdk_desc><![CDATA[Finding an intersection between the bound frustum and geometry.]]></sdk_desc>
 	<desc>
 		<brief>
@@ -231,9 +231,9 @@
 	</desc>
 	<tags>
 		<tag>Intersections</tag>
-		</tags>
+	</tags>
 </sample>
-<sample title="Intersection Bound Sphere" id="intersection_bound_sphere" category_id="basic">
+<sample title="Intersection Bound Sphere" id="intersection_bound_sphere" category_id="basics">
 	<sdk_desc><![CDATA[Finding an intersection between the bound sphere and geometry.]]></sdk_desc>
 	<desc>
 		<brief>
@@ -242,9 +242,9 @@
 	</desc>
 	<tags>
 		<tag>Intersections</tag>
-		</tags>
+	</tags>
 </sample>
-<sample title="Intersection Mouse Ray" id="intersection_mouse_ray" category_id="basic">
+<sample title="Intersection Mouse Ray" id="intersection_mouse_ray" category_id="basics">
 	<sdk_desc><![CDATA[Finding an intersection between a ray cast from the camera through the mouse cursor and geometry.]]></sdk_desc>
 	<desc>
 		<brief>
@@ -253,9 +253,9 @@
 	</desc>
 	<tags>
 		<tag>Intersections</tag>
-		</tags>
+	</tags>
 </sample>
-<sample title="Intersection Ray" id="intersection_ray" category_id="basic">
+<sample title="Intersection Ray" id="intersection_ray" category_id="basics">
 	<sdk_desc><![CDATA[Finding an intersection of a ray with geometry.]]></sdk_desc>
 	<desc>
 		<brief>
@@ -264,9 +264,9 @@
 	</desc>
 	<tags>
 		<tag>Intersections</tag>
-		</tags>
+	</tags>
 </sample>
-<sample title="Trajectory" id="trajectory" category_id="basic">
+<sample title="Trajectory" id="trajectory" category_id="basics">
 	<sdk_desc><![CDATA[Three types of movement along a predefined path: linear interpolation, spline interpolation, and a trajectory loaded from a <b>*.path</b> file.]]></sdk_desc>
 	<desc>
 		<brief>
@@ -274,7 +274,7 @@
 							<p> - <b>Red plane</b>: linear interpolation.</p>
 				<p> - <b>Blue plane</b>: spline interpolation.</p>
 				<p> - <b>Green plane</b>: path from a file.</p>
-						<p>The sample contains the <i>PathTrajectorySaver</i> component that illustrates how to create your own path file, which is opened via the <i>WorldTransformPath</i> node. Each path can be toggled on and off, and you can switch between the cameras to have a first-person view from each plane.</p>
+						<p>The sample contains the <i>PathTrajectorySaver</i> component that illustrates how to create your own path file, which is opened via the <i>WorldTransformPath</i> node. In the Parameters section, you can toggle path visualization on and off, adjust the planes' velocity, or switch between the cameras to have a first-person view from each plane.</p>
 		]]>
 		</brief>
 	</desc>
@@ -283,9 +283,9 @@
 		<tag>Basics</tag>
 		<tag>Basic Recipes</tag>
 		<tag>Transformations</tag>
-		</tags>
+	</tags>
 </sample>
-<sample title="World Local Transformation" id="transform_world_local" category_id="basic">
+<sample title="World Local Transformation" id="transform_world_local" category_id="basics">
 	<sdk_desc><![CDATA[Demonstration of the difference between local and world transformations.]]></sdk_desc>
 	<desc>
 		<brief>
@@ -296,9 +296,9 @@
 		<tag>Basics</tag>
 		<tag>Basic Recipes</tag>
 		<tag>Transformations</tag>
-		</tags>
+	</tags>
 </sample>
-<sample title="Triggers" id="triggers" category_id="basic">
+<sample title="Triggers" id="triggers" category_id="basics">
 	<sdk_desc><![CDATA[Implementation of various types of triggers.]]></sdk_desc>
 	<desc>
 		<brief>
@@ -314,7 +314,7 @@
 	<tags>
 		<tag>Triggers</tag>
 		<tag>Logic</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Arcade" img="yes" id="arcade" category_id="complex">
 	<sdk_desc><![CDATA[A simple yet flexible 3D shooter prototype featuring core gameplay systems like shooting, collisions, health management, and dynamic effects.]]></sdk_desc>
@@ -348,7 +348,7 @@
 		<tag>Effects</tag>
 		<tag>VFX</tag>
 		<tag>Decals</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Camera First-Person" id="camera_first_person" category_id="complex">
 	<sdk_desc><![CDATA[A first-person spectator-style camera with free movement.]]></sdk_desc>
@@ -370,7 +370,7 @@
 	<tags>
 		<tag>Cameras</tag>
 		<tag>Input &amp; Controls</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Camera Orbit" id="camera_orbit" category_id="complex">
 	<sdk_desc><![CDATA[An orbital camera rotating around a target.]]></sdk_desc>
@@ -388,7 +388,7 @@
 	<tags>
 		<tag>Cameras</tag>
 		<tag>Input &amp; Controls</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Camera Panning" id="camera_panning" category_id="complex">
 	<sdk_desc><![CDATA[A camera moving parallel to the screen plane.]]></sdk_desc>
@@ -407,7 +407,7 @@
 	<tags>
 		<tag>Cameras</tag>
 		<tag>Input &amp; Controls</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Camera Persecutor" id="camera_persecutor" category_id="complex">
 	<sdk_desc><![CDATA[A third-person camera following a moving target.]]></sdk_desc>
@@ -426,7 +426,7 @@
 		<tag>Cameras</tag>
 		<tag>Logic</tag>
 		<tag>Input &amp; Controls</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Day-Night Switching" id="day_night_switch" category_id="complex">
 	<sdk_desc><![CDATA[Implementation of an automated day-night system with light and material switching.]]></sdk_desc>
@@ -446,7 +446,7 @@
 		<tag>Complex Solutions</tag>
 		<tag>Environment</tag>
 		<tag>Lighting</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="First-Person Controller" id="first_person_controller" category_id="complex">
 	<sdk_desc><![CDATA[Implementation of the first-person character controller with a physical body.]]></sdk_desc>
@@ -471,7 +471,21 @@
 		<tag>Basic Recipes</tag>
 		<tag>Intersections</tag>
 		<tag>Physics</tag>
-		</tags>
+	</tags>
+</sample>
+<sample title="Mesh Digger" id="mesh_digger" category_id="complex">
+	<sdk_desc><![CDATA[Simulation of the ground digging process based on mesh geometry modification.]]></sdk_desc>
+	<desc>
+		<brief>
+		<![CDATA[		<p>This sample demonstrates a simulation of ground digging, modification of a terrain fragment represented by a mesh via API. The fragment of the ground surfaces is generated using the Marching Cubes algorithm. You can dig the ground at any point by moving the mouse cursor (the cutting sphere is visualized around the cursor) to it and clicking the left mouse button. You can also set the desired radius of the cutting sphere (<b>Digging Radius</b>) defining the volume of ground to be removed on a left-click. To add volume instead, hold the <i>Ctrl</i> key and left-click.</p>
+		]]>
+		</brief>
+	</desc>
+	<tags>
+		<tag>Complex Solutions</tag>
+		<tag>Procedural</tag>
+		<tag>Sim</tag>
+	</tags>
 </sample>
 <sample title="Observer Controller" id="observer_controller" category_id="complex">
 	<sdk_desc><![CDATA[Implementation of a free-flying camera similar to the one used in the UnigineEditor (with zooming, panning, focusing and speed control).]]></sdk_desc>
@@ -502,7 +516,7 @@
 	<tags>
 		<tag>Complex Solutions</tag>
 		<tag>Cameras</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Robot Arm" img="yes" id="robot_arm" category_id="complex">
 	<sdk_desc><![CDATA[Implementation of a physics-based robotic arm with 6 degrees of freedom (5 movable joints + 1 fixed base).]]></sdk_desc>
@@ -534,7 +548,7 @@
 	<tags>
 		<tag>Complex Solutions</tag>
 		<tag>Physics</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Spectator Controller" id="spectator_controller" category_id="complex">
 	<sdk_desc><![CDATA[Implementation of a customizable first-person spectator camera with configurable movement and physical collision detection.]]></sdk_desc>
@@ -559,7 +573,7 @@
 		<tag>Complex Solutions</tag>
 		<tag>Cameras</tag>
 		<tag>Physics</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Top-Down Controller" id="top_down_controller" category_id="complex">
 	<sdk_desc><![CDATA[Implementation of a top-down camera controller for real-time strategy or tactics-style gameplay with movement and unit selection]]></sdk_desc>
@@ -581,7 +595,7 @@
 		<tag>Complex Solutions</tag>
 		<tag>Cameras</tag>
 		<tag>Games</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Gamepad Input" id="input_gamepad" category_id="input_controls">
 	<sdk_desc>
@@ -594,7 +608,7 @@
 	</desc>
 	<tags>
 		<tag>Input &amp; Controls</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Joystick Input" id="input_joystick" category_id="input_controls">
 	<sdk_desc><![CDATA[This sample demonstrates how to add advanced joystick input handling, supporting multiple controllers with real-time axis/button monitoring and force feedback effects in UNIGINE.]]></sdk_desc>
@@ -609,7 +623,7 @@
 	</desc>
 	<tags>
 		<tag>Input &amp; Controls</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Keyboard And Mouse Input" id="input_keyboard_mouse" category_id="input_controls">
 	<sdk_desc><![CDATA[This sample demonstrates how to add monitoring of keyboard and mouse input, tracking key states, mouse movements, wheel events, cursor positions, and real-time input data.]]></sdk_desc>
@@ -625,7 +639,7 @@
 	</desc>
 	<tags>
 		<tag>Input &amp; Controls</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Touch Input" id="input_touch" category_id="input_controls">
 	<sdk_desc><![CDATA[This sample demonstrates how to add multi-touch input from the touchscreen, visualizing finger positions with dynamic circles and displaying real-time coordinates to the project.]]></sdk_desc>
@@ -636,7 +650,7 @@
 	</desc>
 	<tags>
 		<tag>Input &amp; Controls</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Navigation Mesh 2D" id="navigation_mesh_2d" category_id="navigation">
 	<sdk_desc><![CDATA[Calculating and visualizing 2D navigation paths using a <i>Navigation Mesh</i> object and <i>PathRoute</i> class.]]></sdk_desc>
@@ -649,7 +663,7 @@
 	<tags>
 		<tag>Navigation &amp; Pathfinding</tag>
 		<tag>Visualizer (Visual Debug)</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Navigation Mesh Demo 2D" id="navigation_mesh_demo_2d" category_id="navigation">
 	<sdk_desc><![CDATA[Calculating and visualizing 2D navigation paths with moving targets using <i>Navigation Mesh</i> object and <i>PathRoute</i> class.]]></sdk_desc>
@@ -661,7 +675,7 @@
 	<tags>
 		<tag>Navigation &amp; Pathfinding</tag>
 		<tag>Visualizer (Visual Debug)</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Navigation Obstacles 2D" id="navigation_obstacles_2d" category_id="navigation">
 	<sdk_desc><![CDATA[Demonstrating the use of <i>Obstacles</i> within a <i>Navigation Mesh</i> to dynamically modify valid pathfinding areas at runtime.]]></sdk_desc>
@@ -673,7 +687,7 @@
 	<tags>
 		<tag>Navigation &amp; Pathfinding</tag>
 		<tag>Visualizer (Visual Debug)</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Navigation Sectors 2D" id="navigation_sectors_2d" category_id="navigation">
 	<sdk_desc><![CDATA[Calculating and visualizing 2D navigation paths using <i>Navigation Sector</i> objects and the <i>PathRoute</i> class]]></sdk_desc>
@@ -685,7 +699,7 @@
 	<tags>
 		<tag>Navigation &amp; Pathfinding</tag>
 		<tag>Visualizer (Visual Debug)</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Navigation Sectors 3D" id="navigation_sectors_3d" category_id="navigation">
 	<sdk_desc><![CDATA[Calculating and visualizing 3D navigation paths using <i>Navigation Sector</i> objects and the <i>PathRoute</i> class]]></sdk_desc>
@@ -698,7 +712,7 @@
 	<tags>
 		<tag>Navigation &amp; Pathfinding</tag>
 		<tag>Visualizer (Visual Debug)</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Navigation Sectors Demo 3D" id="navigation_sectors_demo_3d" category_id="navigation">
 	<sdk_desc><![CDATA[Calculating and visualizing 3D navigation paths using <i>Navigation Sector</i> and the <i>PathRoute</i> class to track dynamic targets]]></sdk_desc>
@@ -710,7 +724,7 @@
 	<tags>
 		<tag>Navigation &amp; Pathfinding</tag>
 		<tag>Visualizer (Visual Debug)</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Cluster" id="cluster" category_id="nodes">
 	<sdk_desc><![CDATA[Dynamic manipulation of <i>ObjectMeshCluster</i> in UNIGINE, showcasing how to add/remove mesh instances at runtime through user interaction.]]></sdk_desc>
@@ -736,7 +750,7 @@
 		<tag>Optimization</tag>
 		<tag>Objects</tag>
 		<tag>World Management</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Clutter-to-Cluster Converter" id="clutter_to_cluster" category_id="nodes">
 	<sdk_desc><![CDATA[Dynamic generation of a <i>Mesh Clutter</i> and its conversion into a performance-optimized <i>Mesh Cluster</i> at runtime.]]></sdk_desc>
@@ -754,7 +768,7 @@
 		<tag>Optimization</tag>
 		<tag>Objects</tag>
 		<tag>World Management</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Nodes Creation and Deletion" id="create_delete_nodes" category_id="nodes">
 	<sdk_desc><![CDATA[Dynamic creation and deletion of node instances at runtime.]]></sdk_desc>
@@ -771,7 +785,7 @@
 	<tags>
 		<tag>Objects</tag>
 		<tag>Optimization</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Primitives Creation" id="create_primitives" category_id="nodes">
 	<sdk_desc><![CDATA[This sample demonstrates how to create parametric 3D primitives at runtime.]]></sdk_desc>
@@ -785,7 +799,7 @@
 	<tags>
 		<tag>Objects</tag>
 		<tag>Procedural</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Buoyancy" id="water_buoyancy" category_id="nodes">
 	<sdk_desc><![CDATA[Real-time wave control and buoyancy simulation without engaging physics.]]></sdk_desc>
@@ -810,7 +824,7 @@
 		<tag>Water</tag>
 		<tag>Maritime</tag>
 		<tag>Optimization</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Physical Buoyancy" id="water_physical_buoyancy" category_id="nodes">
 	<sdk_desc><![CDATA[Implementing physically accurate buoyancy for dynamic objects floating on <i>Global Water</i>.]]></sdk_desc>
@@ -834,7 +848,7 @@
 		<tag>Water</tag>
 		<tag>Maritime</tag>
 		<tag>Physics</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Body Events" id="body_events" category_id="physics">
 	<sdk_desc><![CDATA[Demonstrating the usage of <i>Frozen, Position</i>, and <i>ContactEnter</i> events of the <i>Body</i> class via C# API.]]></sdk_desc>
@@ -847,7 +861,7 @@
 		<tag>Physics</tag>
 		<tag>Systems</tag>
 		<tag>Visualizer (Visual Debug)</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="BodyFracture Explosion" id="body_fracture_explosion" category_id="physics">
 	<sdk_desc><![CDATA[Simulating a radial explosion that triggers <i>BodyFracture</i> object to crack and applies forces to its pieces.]]></sdk_desc>
@@ -862,7 +876,7 @@
 		<tag>Physics</tag>
 		<tag>Systems</tag>
 		<tag>Logic</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="BodyFracture Falling Spheres" id="body_fracture_falling_spheres" category_id="physics">
 	<sdk_desc><![CDATA[Continuously fracturing falling objects upon collision using the <i>BodyFracture</i> class.]]></sdk_desc>
@@ -877,7 +891,7 @@
 		<tag>Physics</tag>
 		<tag>Systems</tag>
 		<tag>Logic</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="BodyFracture Shooting Gallery" id="body_fracture_shooting_gallery" category_id="physics">
 	<sdk_desc><![CDATA[Implementation of a basic physics-driven shooting gallery using <i>Fracture Body</i>.]]></sdk_desc>
@@ -897,7 +911,7 @@
 	<tags>
 		<tag>Basic Recipes</tag>
 		<tag>Physics</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Joint Events" id="joint_events" category_id="physics">
 	<sdk_desc><![CDATA[Demonstrating the usage of the <i>Broken</i> event of the <i>Joint</i> class via C# API.]]></sdk_desc>
@@ -910,7 +924,7 @@
 		<tag>Physics</tag>
 		<tag>Systems</tag>
 		<tag>Visualizer (Visual Debug)</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Update Physics" id="update_physics" category_id="physics">
 	<sdk_desc><![CDATA[Demonstration of the difference between iplementation of physics-driven movement within the <i>update()</i> and <i>updatePhysics()</i> methods.]]></sdk_desc>
@@ -922,7 +936,7 @@
 	<tags>
 		<tag>Physics</tag>
 		<tag>Logic</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="FMOD Core" id="fmod_core" category_id="plugins">
 	<sdk_desc><![CDATA[
@@ -959,7 +973,7 @@
 		<tag>Plugins</tag>
 		<tag>Integration</tag>
 		<tag>Extension &amp; Customization</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="FMOD Studio" id="fmod_studio" category_id="plugins">
 	<sdk_desc><![CDATA[
@@ -994,7 +1008,7 @@
 		<tag>Plugins</tag>
 		<tag>Integration</tag>
 		<tag>Extension &amp; Customization</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Gui to Texture" id="gui_to_texture" category_id="render">
 	<sdk_desc><![CDATA[Rendering GUI onto texture using <i>Gui.Render()</i>.]]></sdk_desc>
@@ -1007,7 +1021,7 @@
 	<tags>
 		<tag>Render</tag>
 		<tag>Materials</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Material Parameters" id="material_parameters" category_id="render">
 	<sdk_desc>
@@ -1021,7 +1035,7 @@
 	<tags>
 		<tag>Animation</tag>
 		<tag>Materials</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Weapon Clipping" id="weapon_clipping" category_id="render">
 	<sdk_desc><![CDATA[Rendering the weapon from a second camera into a texture to avoid clipping issues.]]></sdk_desc>
@@ -1035,7 +1049,7 @@
 		<tag>Cameras</tag>
 		<tag>Games</tag>
 		<tag>Basic Recipes</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Sound Ambient" id="sound_ambient" category_id="sounds">
 	<sdk_desc><![CDATA[Playing ambient sounds via code.]]></sdk_desc>
@@ -1046,7 +1060,7 @@
 	</desc>
 	<tags>
 		<tag>Sound</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Sound Reverb" id="sound_reverb" category_id="sounds">
 	<sdk_desc><![CDATA[Setting a reverberation zone and its parameters via code.]]></sdk_desc>
@@ -1057,7 +1071,7 @@
 	</desc>
 	<tags>
 		<tag>Sound</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Sound Source" id="sound_source" category_id="sounds">
 	<sdk_desc><![CDATA[Playing a sound source via code.]]></sdk_desc>
@@ -1068,7 +1082,7 @@
 	</desc>
 	<tags>
 		<tag>Sound</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="AsyncQueue" id="async_queue" category_id="systems">
 	<sdk_desc><![CDATA[Loading meshes and textures in a separate thread using the <i>AsyncQueue</i> class]]></sdk_desc>
@@ -1085,7 +1099,7 @@
 		<tag>Optimization</tag>
 		<tag>File System</tag>
 		<tag>Multithreading</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="AsyncQueue Stress" id="async_queue_stress" category_id="systems">
 	<sdk_desc><![CDATA[Asynchronous node loading via <i>AsyncQueue</i> with main-thread spatial integration.]]></sdk_desc>
@@ -1103,7 +1117,7 @@
 		<tag>Optimization</tag>
 		<tag>Multithreading</tag>
 		<tag>World Management</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="AsyncQueue Tasks" id="async_queue_tasks" category_id="systems">
 	<sdk_desc><![CDATA[Managing tasks via <i>AsyncQueue</i> class with dirrefent thread types, parallel execution and frame control.]]></sdk_desc>
@@ -1123,7 +1137,7 @@
 		<tag>Systems</tag>
 		<tag>Optimization</tag>
 		<tag>Multithreading</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Abstract Components" id="components_abstract" category_id="systems">
 	<sdk_desc><![CDATA[Demonstrating the use of abstract component classes for shared behavior via C# API.]]></sdk_desc>
@@ -1142,7 +1156,7 @@
 		<tag>Component System</tag>
 		<tag>Logic</tag>
 		<tag>Programming</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Component Parameters" id="components_parameters" category_id="systems">
 	<sdk_desc><![CDATA[Demonstrate possible variations of component parameters.]]></sdk_desc>
@@ -1158,7 +1172,7 @@
 		<tag>Component System</tag>
 		<tag>Programming</tag>
 		<tag>Logic</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Console" id="console" category_id="systems">
 	<sdk_desc>
@@ -1172,7 +1186,7 @@
 	<tags>
 		<tag>Systems</tag>
 		<tag>Logic</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Events Advanced" id="events_advanced" category_id="systems">
 	<sdk_desc><![CDATA[Advanced ways of subscribing to events in UNIGINE: using extra arguments, discarding parameters, and storing connection handles for disconnection.]]></sdk_desc>
@@ -1187,7 +1201,7 @@
 	<tags>
 		<tag>Systems</tag>
 		<tag>Logic</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="External Package" id="external_package" category_id="systems">
 	<sdk_desc><![CDATA[Demonstration of working with external package files via the <i>Package</i> class.]]></sdk_desc>
@@ -1204,7 +1218,7 @@
 		<tag>Systems</tag>
 		<tag>Logic</tag>
 		<tag>File System</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="FFP" id="ffp" category_id="systems">
 	<sdk_desc><![CDATA[Using FFP functionality to draw simple 2D shapes over the rendered image without any additional shaders]]></sdk_desc>
@@ -1216,7 +1230,7 @@
 	<tags>
 		<tag>Systems</tag>
 		<tag>Rendering</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Images" id="images" category_id="systems">
 	<sdk_desc><![CDATA[Procedurally generate <i>3D</i> image data and use it as a density texture for a volume-based material in real time.]]></sdk_desc>
@@ -1230,7 +1244,7 @@
 	<tags>
 		<tag>Render</tag>
 		<tag>Procedural</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Microprofiler" id="microprofiler" category_id="systems">
 	<sdk_desc><![CDATA[Using <i>Microprofile</i>, an advanced CPU/GPU profiler, to track performance and estimate the time spent on different sections of code.]]></sdk_desc>
@@ -1244,7 +1258,7 @@
 	<tags>
 		<tag>Systems</tag>
 		<tag>Optimization</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Procedural Mesh Apply" id="procedural_mesh_apply" category_id="systems">
 	<sdk_desc><![CDATA[A minimal example that shows how to generate and apply a procedural mesh at runtime using the correct update sequence.]]></sdk_desc>
@@ -1261,7 +1275,7 @@
 		<tag>Systems</tag>
 		<tag>Objects</tag>
 		<tag>Procedural</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Procedural Mesh Generation" id="procedural_mesh_generation" category_id="systems">
 	<sdk_desc><![CDATA[Demonstrating runtime procedural mesh generation, along with visualization of how different procedural modes impact memory usage during creation and rendering.]]></sdk_desc>
@@ -1282,7 +1296,7 @@
 		<tag>Systems</tag>
 		<tag>Objects</tag>
 		<tag>Procedural</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Procedural Mesh Modification" id="procedural_mesh_modification" category_id="systems">
 	<sdk_desc><![CDATA[Demonstrating runtime procedural mesh modification, along with visualization of how different procedural modes impact streamiing and memory usage during creation and rendering.]]></sdk_desc>
@@ -1304,7 +1318,7 @@
 		<tag>Systems</tag>
 		<tag>Objects</tag>
 		<tag>Procedural</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="USC Arrays" id="usc_arrays" category_id="systems">
 	<sdk_desc>
@@ -1317,7 +1331,7 @@
 	</desc>
 	<tags>
 		<tag>UnigineScript</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="USC Callbacks" id="usc_callbacks" category_id="systems">
 	<sdk_desc>
@@ -1334,7 +1348,7 @@
 	</desc>
 	<tags>
 		<tag>UnigineScript</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="USC Variables" id="usc_variables" category_id="systems">
 	<sdk_desc>
@@ -1347,7 +1361,7 @@
 	</desc>
 	<tags>
 		<tag>UnigineScript</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Visualizer Showcase" id="visualizer" category_id="systems">
 	<sdk_desc><![CDATA[Demonstration of the full range of features provided by the <i>Visualizer</i> class for visual debugging.]]></sdk_desc>
@@ -1365,7 +1379,7 @@
 	</controls>
 	<tags>
 		<tag>Visualizer (Visual Debug)</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="XML" id="xml" category_id="systems">
 	<sdk_desc>
@@ -1378,7 +1392,7 @@
 	</desc>
 	<tags>
 		<tag>File Formats</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Target Marker" id="target_marker" category_id="user_interface">
 	<sdk_desc>
@@ -1393,7 +1407,7 @@
 		<tag>Interface (GUI)</tag>
 		<tag>Game</tag>
 		<tag>Basic Recipes</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="User Interface" id="user_interface" category_id="user_interface">
 	<sdk_desc><![CDATA[On-the-fly generation of a user interface from a <b>.ui</b> file and setting event handlers for widgets.]]></sdk_desc>
@@ -1410,7 +1424,7 @@
 	<tags>
 		<tag>Interface (GUI)</tag>
 		<tag>Widgets</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Widgets" id="widgets" category_id="user_interface">
 	<sdk_desc><![CDATA[Implementation of various UI widgets in UNIGINE, such as sliders, scrolls, buttons, checkboxes, drop-down lists, etc.]]></sdk_desc>
@@ -1424,7 +1438,7 @@
 	<tags>
 		<tag>Widgets</tag>
 		<tag>Interface (GUI)</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Canvas Widget" id="widget_canvas" category_id="user_interface">
 	<sdk_desc><![CDATA[Using the <i>WidgetCanvas</i> class to draw vector-based shapes and text. The canvas supports adding lines, polygons, and text by defining their geometry through vertex positions. Elements are layered by draw order and colored individually.]]></sdk_desc>
@@ -1436,7 +1450,7 @@
 	<tags>
 		<tag>Widgets</tag>
 		<tag>Interface (GUI)</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Widget Containers" id="widget_containers" category_id="user_interface">
 	<sdk_desc>
@@ -1450,7 +1464,7 @@
 	<tags>
 		<tag>Widgets</tag>
 		<tag>Interface (GUI)</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Dialog Widgets" id="widget_dialog" category_id="user_interface">
 	<sdk_desc><![CDATA[Creating widget dialog windows and assigning handlers via the C# API]]></sdk_desc>
@@ -1463,7 +1477,7 @@
 		<tag>Widgets</tag>
 		<tag>Windows &amp; Viewports</tag>
 		<tag>Interface (GUI)</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="Widget Manipulators" id="widget_manipulators" category_id="user_interface">
 	<sdk_desc>
@@ -1488,7 +1502,7 @@
 	<tags>
 		<tag>Interface (GUI)</tag>
 		<tag>Widgets</tag>
-		</tags>
+	</tags>
 </sample>
 <sample title="WidgetWindow" id="widget_window" category_id="user_interface">
 	<sdk_desc><![CDATA[Creating a basic <i>WidgetWindow</i> using the C# API and handling user interactions (edit line and button press events) through handler function connections.]]></sdk_desc>
@@ -1501,7 +1515,7 @@
 		<tag>Widgets</tag>
 		<tag>Interface (GUI)</tag>
 		<tag>Windows &amp; Viewports</tag>
-		</tags>
+	</tags>
 </sample>
 </samples>
 </samples_pack>
